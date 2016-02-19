@@ -1,0 +1,114 @@
+\documentclass[oneside, 12pt]{book}
+\usepackage{icdthesisUTF}
+\usepackage{tabularx} 
+\usepackage{epsfig}
+%Τα παρακάτω είναι υποχρεωτικά:
+
+\renewcommand{\thesistitle}{Πρότυπο πτυχιακής εργασίας σε \LaTeX }
+\renewcommand{\thesisauthor}{Νικολάου Πεταλίδη (400)}
+\renewcommand{\thesisauthorabbrv}{Ν. Πεταλίδης}
+\renewcommand{\thesisauthorinitials}{ΝΠ}
+\renewcommand{\thesissupervisor}{Δρ. Ε. Καθηγητής, Επιστημονικός Συνεργάτης}
+\renewcommand{\thesismonth}{Απρίλιος}
+\renewcommand{\thesisyear}{2011}
+
+% Μόνο αν η συγγραφέας είναι γυναίκα 
+%\renewcommand{\thesisauthorsex}{female} %if author is female
+
+%Μόνο αν οι συγγραφείς είναι δύο:
+\renewcommand{\thesisSecondAuthor}{Κάποιου άλλου (200)}
+\renewcommand{\thesisSecondAuthorabbrv}{K. άλλος}
+\renewcommand{\thesisSecondAuthorInitials}{ΚΑ}
+% Η βιβλιογραφία
+\addbibresource{testUTF.bib}
+
+\begin{document}
+	% Υποχρεωτικά τα παρακάτω:
+	\Titlepage
+	\Declarationpage
+	\begin{Abstract}
+		Εδώ πρέπει να μπει μια περίληψη της πτυχιακής σας. Υπολογίστε 100--150 λέξεις.
+	\end{Abstract}
+	\tableofcontents
+	
+	%Μόνο εφόσον θέλετε χωριστό πίνακα για εικόνες και πίνακες
+	\listoftables
+	\listoffigures
+	
+	%Προαιρετικά
+	\begin{Preface}
+		Εδώ μπορεί να μπει πρόλογος. (Δεν είναι απαραίτητο).
+	\end{Preface}
+	
+	%Προαιρετικά
+	\begin{Acknowledgement}
+		Ευχαριστίες (στο μπαμπά, στη μαμά, κτλ)
+	\end{Acknowledgement}
+	
+	%Προαιρετικά
+	\begin{Definitions}
+		Ορισμοί εννοιών που μπορεί να είναι χρήσιμοι. Για παράδειγμα:
+		
+		\begin{description}
+			\item [\LaTeX] Σύστημα στοιχειοθεσίας κειμένων
+		\end{description}
+		
+	\end{Definitions}
+	
+	%Από εδώ αρχίζει το κείμενό σας
+	\chapter{Εισαγωγή}
+	\leftmark\rightmark
+	\section{Η τυπογραφία σήμερα}
+	Αυτή είναι η αναφορά σε ένα άρθρο περιοδικού:\citep{Schmidt98}.Αυτή
+	είναι η αναφορά σε ένα βιβλίο:\citep{goosens93}. Αυτή είναι η αναφορά
+	σε ένα ελληνικό βιβλίο:\citep{Chatzigeorgiou05}. Βιβλίο στα ελληνικά
+	με ξένο συγγραφέα:\citep{Sommerville09}. Άρθρο σε
+	συνέδριο~\citep{4343930}. 
+	
+	Τέλος αναφορά σε ιστοσελίδα:~\citep{Wikipedia_BibTeX}.
+	
+	Εδώ αναφερόμαστε στo σχήμα~\ref{fig:image1}:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=35mm]{lion.png}
+		\caption{Παράδειγμα εικόνας}
+		\label{fig:image1}
+	\end{figure}
+	
+	και εδώ στον πίνακα~\ref{tab:table1}:
+	\begin{table}[h]
+		\centering
+		\caption{Παράδειγμα πίνακα}
+		\begin{tabularx}{\linewidth}[h]{|XXX|}%
+			\hline
+			\hline
+			Κίνητρα & Παραδείγματα ευρημάτων & Αριθμός μελετών\\
+			\hline
+			Ταύτιση με το έργο & Ξεκάθαροι στόχοι &20\\
+			Καλό management & Ομαδικότητα &16\\
+			Συμμετοχή υπαλλήλων & Συμμετοχή στις αποφάσεις&16\\
+			Προοπτικές εξέλιξης & Προοπτικές προαγωγής&15\\
+			Ποικιλία στην εργασία & Καλή χρήση ικανοτήτων& 14\\
+			Αίσθηση του να ανήκεις κάπου& Υποστηρικτικές σχέσεις&14\\
+			Αμοιβές και κίνητρα & Αυξημένος μισθός& 14\\
+			\hline
+			\hline
+		\end{tabularx}
+		\label{tab:table1}
+	\end{table}
+	\appendix
+	\chapter{Συνοπτικός οδηγός χρήσης \LaTeX}
+	Εδώ βάζετε ότι θα έμπαινε σε παράρτημα.
+	\texttt{Δοκιμή σε mono-space}
+	%Προαιρετικά
+	\begin{Glossary}
+		Το γλωσσάρι μπορεί να είναι χρήσιμο αν χρησιμοποιείτε πολλά ακρώνυμα
+		και συντομογραφίες. Για παράδειγμα
+		\begin{description}
+			\item[TCP]Transmission Control Protocol
+		\end{description}
+	\end{Glossary}
+	
+	\printbibliography
+	\lastpageinfo
+\end{document}
