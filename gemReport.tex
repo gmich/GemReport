@@ -89,16 +89,31 @@
 		\end{table}
 		\appendix
 	
-
-
 		
 	\chapter{Μηχανές γραφικών}
 	
 	\chapter{Διαδικτύωση}
-		Abstract περιγραφή της διαδικτύωσης
+		Διαδικτύωση στα ηλεκτρονικά παιχνίδια, είναι η δυνατότητα περισσότερων από ένα φυσικό άτομο να μοιράζονται και να αλληλεπιδρούν στο ίδιο εικονικό περιβάλλον. 
 		
-		\section{Αρχιτεκτονική}
-		
+		\subsection{Τεχνικές}
+		Περιγραφή τεχνικών
+
+		\begin{itemize}	
+			\item Client-server model: στο οποίο ο client απλά κάνει render και το μεγαλύτερο κομμάτι της λογικής τρέχει στον server. Ο server στέλνει οδηγίες στον client για το τι να κάνει render και ο client απλά υπακούει.
+			\item Client on top of server model: ο client είναι και server, δηλαδή οι μηχανές που έχουν τον client έχουν και τον server.
+			\item Peer-to-peer: οι μηχανές συμπεριφέρονται μερικώς ως clients και μερικώς ως servers, δηλαδή έχουν και στοιχεία λογικής και επεξεργασίας.
+		\end{itemize}
+			
+		\section{Αρχιτεκτονική}		
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=165mm]{Images/network_architecture_packages}
+				\caption{Network Packages Module}
+				\label{network_packages}
+			\end{figure}
+			
+			
+			
 			\subsection{Ανταλλαγή μηνυμάτων}
 			
 			\subsection{Client}	

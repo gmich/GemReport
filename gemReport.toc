@@ -16,22 +16,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Η τυπογραφία σήμερα}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Μηχανές γραφικών}{13}
+\contentsline {chapter}{\numberline {1}Μηχανές γραφικών}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Διαδικτύωση}{15}
+\contentsline {chapter}{\numberline {2}Διαδικτύωση}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Αρχιτεκτονική}{15}
+\contentsline {section}{\numberline {2.1}Τεχνικές}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Ανταλλαγή μηνυμάτων}{15}
+\contentsline {section}{\numberline {2.2}Αρχιτεκτονική}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Client}{15}
+\contentsline {subsection}{\numberline {2.2.1}Ανταλλαγή μηνυμάτων}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Server}{15}
+\contentsline {subsection}{\numberline {2.2.2}Client}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Game Host}{16}
+\contentsline {subsection}{\numberline {2.2.3}Server}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Αρχιτεκτονική}{16}
+\contentsline {chapter}{\numberline {3}Game Host}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Περίληψη}{17}
+\contentsline {section}{\numberline {3.1}Αρχιτεκτονική}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Γλωσσάρι}{18}
+\contentsline {chapter}{\numberline {4}Περίληψη}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Γλωσσάρι}{17}
