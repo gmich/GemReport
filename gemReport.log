@@ -1,0 +1,1386 @@
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  28 FEB 2016 18:58
+entering extended mode
+**gemReport.tex
+(gemReport.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+Requested font "cmr12" at 12.0pt
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (icdthesisUTF.sty
+Package: icdthesisUTF 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\polyglossia\polyglossia.sty"
+Package: polyglossia 2014/05/21 v1.33.5 Babel replacement for XeLaTeX and LuaTe
+X
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/03/10 v2.1b e-TeX tools for LaTeX (JAW)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
+\et@xins=\count89
+)
+\etb@tempcnta=\count90
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\makecmds\makecmds.sty"
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
+\XKV@depth=\count91
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty"
+Package: fontspec 2014/06/21 v2.4a Font selection for XeLaTeX and LuaLaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+Package: expl3 2015/03/01 v5547 L3 programming layer (loader) 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+Package: expl3 2015/03/01 v5547 L3 programming layer (code) 
+L3 Module: l3bootstrap 2015/02/28 v5542 L3 Bootstrap code
+L3 Module: l3names 2015/02/24 v5535 L3 Namespace for primitives
+L3 Module: l3basics 2015/01/27 v5500 L3 Basic definitions
+L3 Module: l3expan 2014/11/27 v5472 L3 Argument expansion
+L3 Module: l3tl 2015/01/27 v5500 L3 Token lists
+L3 Module: l3str 2015/03/01 v5545 L3 Strings
+L3 Module: l3seq 2014/08/23 v5354 L3 Sequences and stacks
+L3 Module: l3int 2015/02/21 v5529 L3 Integers
+\c_max_int=\count92
+\l_tmpa_int=\count93
+\l_tmpb_int=\count94
+\g_tmpa_int=\count95
+\g_tmpb_int=\count96
+L3 Module: l3quark 2014/08/23 v5354 L3 Quarks
+L3 Module: l3prg 2014/08/23 v5354 L3 Control structures
+\g__prg_map_int=\count97
+L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
+L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
+L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
+L3 Module: l3msg 2015/02/26 v5537 L3 Messages
+L3 Module: l3file 2014/08/24 v5369 L3 File and I/O operations
+\l_iow_line_count_int=\count98
+\l__iow_target_count_int=\count99
+\l__iow_current_line_int=\count100
+\l__iow_current_word_int=\count101
+\l__iow_current_indentation_int=\count102
+L3 Module: l3skip 2014/08/23 v5354 L3 Dimensions and skips
+\c_zero_dim=\dimen103
+\c_max_dim=\dimen104
+\l_tmpa_dim=\dimen105
+\l_tmpb_dim=\dimen106
+\g_tmpa_dim=\dimen107
+\g_tmpb_dim=\dimen108
+\c_zero_skip=\skip43
+\c_max_skip=\skip44
+\l_tmpa_skip=\skip45
+\l_tmpb_skip=\skip46
+\g_tmpa_skip=\skip47
+\g_tmpb_skip=\skip48
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+L3 Module: l3keys 2015/01/27 v5500 L3 Key-value interfaces
+\g__keyval_level_int=\count103
+\l_keys_choice_int=\count104
+L3 Module: l3fp 2014/08/22 v5336 L3 Floating points
+\c__fp_leading_shift_int=\count105
+\c__fp_middle_shift_int=\count106
+\c__fp_trailing_shift_int=\count107
+\c__fp_big_leading_shift_int=\count108
+\c__fp_big_middle_shift_int=\count109
+\c__fp_big_trailing_shift_int=\count110
+\c__fp_Bigg_leading_shift_int=\count111
+\c__fp_Bigg_middle_shift_int=\count112
+\c__fp_Bigg_trailing_shift_int=\count113
+L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
+\c_empty_box=\box26
+\l_tmpa_box=\box27
+\l_tmpb_box=\box28
+\g_tmpa_box=\box29
+\g_tmpb_box=\box30
+L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
+\l__coffin_internal_box=\box31
+\l__coffin_internal_dim=\dimen109
+\l__coffin_offset_x_dim=\dimen110
+\l__coffin_offset_y_dim=\dimen111
+\l__coffin_x_dim=\dimen112
+\l__coffin_y_dim=\dimen113
+\l__coffin_x_prime_dim=\dimen114
+\l__coffin_y_prime_dim=\dimen115
+\c_empty_coffin=\box32
+\l__coffin_aligned_coffin=\box33
+\l__coffin_aligned_internal_coffin=\box34
+\l_tmpa_coffin=\box35
+\l_tmpb_coffin=\box36
+\l__coffin_display_coffin=\box37
+\l__coffin_display_coord_coffin=\box38
+\l__coffin_display_pole_coffin=\box39
+\l__coffin_display_offset_dim=\dimen116
+\l__coffin_display_x_dim=\dimen117
+\l__coffin_display_y_dim=\dimen118
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3candidates 2015/03/01 v5544 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen119
+\l__box_bottom_dim=\dimen120
+\l__box_left_dim=\dimen121
+\l__box_right_dim=\dimen122
+\l__box_top_new_dim=\dimen123
+\l__box_bottom_new_dim=\dimen124
+\l__box_left_new_dim=\dimen125
+\l__box_right_new_dim=\dimen126
+\l__box_internal_box=\box40
+\l__coffin_bounding_shift_dim=\dimen127
+\l__coffin_left_corner_dim=\dimen128
+\l__coffin_right_corner_dim=\dimen129
+\l__coffin_bottom_corner_dim=\dimen130
+\l__coffin_top_corner_dim=\dimen131
+\l__coffin_scaled_total_height_dim=\dimen132
+\l__coffin_scaled_width_dim=\dimen133
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3unicode-data.def"
+File: l3unicode-data.def 2015/03/01 v5544 L3 Unicode data
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3xdvipdfmx.def"
+File: l3xdvidpfmx.def 2015/03/01 v5544 L3 Experimental driver: xdvipdfmx
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+Package: xparse 2014/11/25 v5471 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count114
+\l__xparse_m_args_int=\count115
+\l__xparse_mandatory_args_int=\count116
+\l__xparse_processor_int=\count117
+\l__xparse_v_nesting_int=\count118
+)
+\l_fontspec_script_int=\count119
+\l_fontspec_language_int=\count120
+\l_fontspec_strnum_int=\count121
+\l__fontspec_tmpa_dim=\dimen134
+\l__fontspec_tmpb_dim=\dimen135
+\l__fontspec_tmpc_dim=\dimen136
+Variant \tl_gset:cV already defined; not changing it on line 71
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec-patches.sty"
+Package: fontspec-patches 2014/06/21 v2.4a Font selection for XeLaTeX and LuaLa
+TeX
+LaTeX Info: Redefining \em on input line 38.
+LaTeX Info: Redefining \emph on input line 46.
+LaTeX Info: Redefining \- on input line 49.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 144.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 148.
+.................................................
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec-xetex.sty"
+Package: fontspec-xetex 2014/06/21 v2.4a Font selection for XeLaTeX and LuaLaTe
+X
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1enc.def"
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmr.fd"
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Requested font "[lmroman10-regular]:mapping=tex-text" at 10.0pt
+ -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmroman10-regular.otf
+)
+("C:\Program Files\MiKTeX 2.9\tex\xelatex\xunicode\xunicode.sty"
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3enc.def"
+File: t3enc.def 2001/12/31 T3 encoding
+Requested font "[lmromanslant10-regular]:mapping=tex-text" at 10.0pt
+ -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmromanslant10-regular
+.otf
+Requested font "[lmroman10-italic]:mapping=tex-text" at 10.0pt
+ -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmroman10-italic.otf
+Requested font "[lmroman10-bold]:mapping=tex-text" at 10.0pt
+ -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmroman10-bold.otf
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmss.fd"
+File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Requested font "[lmsans10-regular]:mapping=tex-text" at 10.0pt
+ -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmsans10-regular.otf
+)
+\tipaTiiicode=\count122
+\tipasavetokens=\toks16
+\tipachecktokens=\toks17
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\xelatex\xetex-def\xetex.def"
+File: xetex.def 2014/07/25 v4.03 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+))
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'O{}mO{}' on line 41.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 47.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 53.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 59.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 68.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 72.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 76.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 80.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 99.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 103.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 112.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 170.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 181.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 189.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 197.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 226.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 228.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 233.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 259.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 279.
+.................................................
+Variant \prop_gput:cnV already defined; not changing it on line 662
+Variant \prop_gput:cnx already defined; not changing it on line 663
+\l__fontspec_tmp_int=\count123
+LaTeX Info: Redefining \itshape on input line 2193.
+LaTeX Info: Redefining \slshape on input line 2198.
+LaTeX Info: Redefining \scshape on input line 2203.
+LaTeX Info: Redefining \upshape on input line 2208.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg")))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\xpg@normalclass=\XeTeXintercharclass4
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xltxtra\xltxtra.sty"
+Package: xltxtra 2010/09/20 v0.5e Improvements for the "XeLaTeX" format
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\realscripts\realscripts.sty"
+Package: realscripts 2013/03/18 v0.3c Access OpenType subscripts and superscrip
+ts
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fakesubscript with sig. 'm' on line 19.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fakesuperscript with sig. 'm' on line 22.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \textsubscript with sig. 's' on line 25.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \textsuperscript with sig. 's' on line 28.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \realsubscript with sig. 'm' on line 45.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \realsuperscript with sig. 'm' on line 60.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \textsubsuperscript with sig. 'sO{l}mm' on line 138.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \textsupersubscript with sig. 'sO{l}mm' on line 143.
+.................................................
+\subsupersep=\dimen139
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\metalogo\metalogo.sty"
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks18
+\xl@@everylogo=\toks19
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\xxt@tempbox=\box41
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
+Package: biblatex 2014/06/25 v2.9a programmable bibliographies (PK/JW/AB)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex2.sty"
+Package: biblatex2 2014/06/25 v2.9a programmable bibliographies (biber) (PK/JW/
+AB)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count124
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count125
+\c@listtotal=\count126
+\c@listcount=\count127
+\c@liststart=\count128
+\c@liststop=\count129
+\c@citecount=\count130
+\c@citetotal=\count131
+\c@multicitecount=\count132
+\c@multicitetotal=\count133
+\c@instcount=\count134
+\c@maxnames=\count135
+\c@minnames=\count136
+\c@maxitems=\count137
+\c@minitems=\count138
+\c@citecounter=\count139
+\c@savedcitecounter=\count140
+\c@uniquelist=\count141
+\c@uniquename=\count142
+\c@refsection=\count143
+\c@refsegment=\count144
+\c@maxextratitle=\count145
+\c@maxextratitleyear=\count146
+\c@maxextrayear=\count147
+\c@maxextraalpha=\count148
+\c@abbrvpenalty=\count149
+\c@highnamepenalty=\count150
+\c@lownamepenalty=\count151
+\c@maxparens=\count152
+\c@parenlevel=\count153
+\blx@tempcnta=\count154
+\blx@tempcntb=\count155
+\blx@tempcntc=\count156
+\blx@maxsection=\count157
+\blx@maxsegment@0=\count158
+\blx@notetype=\count159
+\blx@parenlevel@text=\count160
+\blx@parenlevel@foot=\count161
+\blx@sectionciteorder@0=\count162
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
+\blx@bcfin=\read1
+\blx@bcfout=\write3
+\c@mincomprange=\count163
+\c@maxcomprange=\count164
+\c@mincompwidth=\count165
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count166
+\c@savedafterword=\count167
+\c@annotator=\count168
+\c@savedannotator=\count169
+\c@author=\count170
+\c@savedauthor=\count171
+\c@bookauthor=\count172
+\c@savedbookauthor=\count173
+\c@commentator=\count174
+\c@savedcommentator=\count175
+\c@editor=\count176
+\c@savededitor=\count177
+\c@editora=\count178
+\c@savededitora=\count179
+\c@editorb=\count180
+\c@savededitorb=\count181
+\c@editorc=\count182
+\c@savededitorc=\count183
+\c@foreword=\count184
+\c@savedforeword=\count185
+\c@holder=\count186
+\c@savedholder=\count187
+\c@introduction=\count188
+\c@savedintroduction=\count189
+\c@namea=\count190
+\c@savednamea=\count191
+\c@nameb=\count192
+\c@savednameb=\count193
+\c@namec=\count194
+\c@savednamec=\count195
+\c@translator=\count196
+\c@savedtranslator=\count197
+\c@shortauthor=\count198
+\c@savedshortauthor=\count199
+\c@shorteditor=\count200
+\c@savedshorteditor=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\c@labelname=\count277
+\c@savedlabelname=\count278
+\c@institution=\count279
+\c@savedinstitution=\count280
+\c@lista=\count281
+\c@savedlista=\count282
+\c@listb=\count283
+\c@savedlistb=\count284
+\c@listc=\count285
+\c@savedlistc=\count286
+\c@listd=\count287
+\c@savedlistd=\count288
+\c@liste=\count289
+\c@savedliste=\count290
+\c@listf=\count291
+\c@savedlistf=\count292
+\c@location=\count293
+\c@savedlocation=\count294
+\c@organization=\count295
+\c@savedorganization=\count296
+\c@origlocation=\count297
+\c@savedoriglocation=\count298
+\c@origpublisher=\count299
+\c@savedorigpublisher=\count300
+\c@publisher=\count301
+\c@savedpublisher=\count302
+\c@language=\count303
+\c@savedlanguage=\count304
+\c@pageref=\count305
+\c@savedpageref=\count306
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
+File: blx-compat.def 2014/06/25 v2.9a biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
+File: biblatex.def 
+\c@textcitecount=\count307
+\c@textcitetotal=\count308
+\c@textcitemaxnames=\count309
+\c@biburlnumpenalty=\count310
+\c@biburlucpenalty=\count311
+\c@biburllcpenalty=\count312
+\c@smartand=\count313
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\authoryear.bbx"
+File: authoryear.bbx 2014/06/25 v2.9a biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
+File: standard.bbx 2014/06/25 v2.9a biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count314
+\c@bbx:relatedtotal=\count315
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\authoryear.cbx"
+File: authoryear.cbx 2014/06/25 v2.9a biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+File: biblatex.cfg 
+)
+
+Package biblatex Warning: 'babel' option is deprecated, use 'autolang' instead.
+
+
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
+Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
+\csq@reset=\count316
+\csq@gtype=\count317
+\csq@glevel=\count318
+\csq@qlevel=\count319
+\csq@maxlvl=\count320
+\csq@tshold=\count321
+\csq@ltx@everypar=\toks20
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
+File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
+File: csquotes.cfg 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen140
+\captionmargin@=\dimen141
+\captionwidth=\dimen142
+\caption@tempdima=\dimen143
+\caption@indent=\dimen144
+\caption@parindent=\dimen145
+\caption@hangindent=\dimen146
+)
+\c@ContinuedFloat=\count322
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\polyglossia\gloss-greek.ldf"
+File: gloss-greek.ldf polyglossia: module for greek
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\polyglossia\xgreek-fixes.def")
+\@attic@num=\count323
+)
+Package polyglossia Info: Default language is greek.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\polyglossia\gloss-english.ldf"
+File: gloss-english.ldf polyglossia: module for english
+)
+\g__file_internal_ior=\read2
+Requested font "Times New Roman" at 10.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Times New Roman/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+\g__fontspec_family_TimesNewRoman_int=\count324
+Requested font "Times New Roman/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbi.ttf
+Requested font "Times New Roman/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesi.ttf
+Requested font "[lmroman12-regular]:mapping=tex-text" at 12.0pt
+ -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmroman12-regular.otf
+Requested font "Times New Roman/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesi.ttf
+Requested font "Times New Roman/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesi.ttf
+Requested font "Times New Roman/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbi.ttf
+Requested font "Times New Roman/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbi.ttf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'TimesNewRoman(0)' created for font 'Times New Roman' with
+. options [Ligatures=TeX,Mapping=tex-text].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Times New
+. Roman/OT:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Times New
+. Roman/OT:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"Times New
+. Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Times New
+. Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;+smcp;
+"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. <->"Times New
+. Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Times New
+. Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;+smcp;
+"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Times New
+. Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Times New
+. Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;mapping=tex-text;+smcp
+;"
+. and font adjustment code:
+. 
+.................................................
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
+apping=tex-text;" at 10.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Courier New" at 10.0pt
+ -> C:/WINDOWS/Fonts/cour.ttf
+Requested font "Courier New/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/cour.ttf
+\g__fontspec_family_CourierNew_int=\count325
+Requested font "Courier New/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbi.ttf
+Requested font "Courier New/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbd.ttf
+Requested font "Courier New/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/couri.ttf
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
+apping=tex-text;" at 12.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Courier New/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbd.ttf
+Requested font "Courier New/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbd.ttf
+Requested font "Courier New/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/couri.ttf
+Requested font "Courier New/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/couri.ttf
+Requested font "Courier New/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbi.ttf
+Requested font "Courier New/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbi.ttf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'CourierNew(0)' created for font 'Courier New' with options
+. [WordSpace={1,0,0},PunctuationSpace=WordSpace,Mapping=tex-text].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Courier New/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
+. 
+. * 'bold' with NFSS spec.:
+. <->"Courier New/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
+. 
+. * 'italic' with NFSS spec.:
+. <->"Courier New/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Courier New/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
+.................................................
+Requested font "Times New Roman/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbi.ttf
+Requested font "Times New Roman/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesi.ttf
+Requested font "Times New Roman/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesi.ttf
+Requested font "Times New Roman/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesi.ttf
+Requested font "Times New Roman/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbi.ttf
+Requested font "Times New Roman/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/timesbi.ttf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'TimesNewRoman(1)' created for font 'Times New Roman' with
+. options [Mapping=tex-text].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. <->"Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Times New Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Times New Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+Requested font "Courier New/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbi.ttf
+Requested font "Courier New/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbd.ttf
+Requested font "Courier New/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/couri.ttf
+Requested font "Courier New/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbd.ttf
+Requested font "Courier New/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbd.ttf
+Requested font "Courier New/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/couri.ttf
+Requested font "Courier New/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/couri.ttf
+Requested font "Courier New/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbi.ttf
+Requested font "Courier New/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/courbi.ttf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'CourierNew(1)' created for font 'Courier New' with options
+. [Mapping=tex-text].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Courier New/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"Courier New/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. <->"Courier New/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Courier New/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+Requested font "Arial" at 10.0pt
+ -> C:/WINDOWS/Fonts/arial.ttf
+Requested font "Arial/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/arial.ttf
+\g__fontspec_family_Arial_int=\count326
+Requested font "Arial/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/arialbi.ttf
+Requested font "Arial/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/arialbd.ttf
+Requested font "Arial/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/ariali.ttf
+Requested font "Arial/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/arialbd.ttf
+Requested font "Arial/B/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/arialbd.ttf
+Requested font "Arial/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/ariali.ttf
+Requested font "Arial/I/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/ariali.ttf
+Requested font "Arial/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/arialbi.ttf
+Requested font "Arial/BI/OT" at 10.0pt
+ -> C:/WINDOWS/Fonts/arialbi.ttf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Arial(0)' created for font 'Arial' with options
+. [Mapping=tex-text].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Arial/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Arial/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"Arial/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Arial/B/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. <->"Arial/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Arial/I/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Arial/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Arial/BI/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+
+----------------------------------------------------------------------
+- Τμήμα Μηχανικών Πληροφορικής ΤΕ 
+- ΤΕΙ Κεντρικής Μακεδονίας, version 0.4, 05/11/2013 
+- Nicholaos Petalidis, nikos <at> petalidis.gr 
+-----------------------------------------------------------------------
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen147
+\extrarowheight=\dimen148
+\NC@list=\toks21
+\extratabsurround=\skip63
+\backup@length=\skip64
+)
+\TX@col@width=\dimen149
+\TX@old@table=\dimen150
+\TX@old@col=\dimen151
+\TX@target=\dimen152
+\TX@delta=\dimen153
+\TX@cols=\count327
+\TX@ftn=\toks22
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen154
+\epsfysize=\dimen155
+)
+Package biblatex Info: Trying to load language 'greek'...
+Package biblatex Info: ... file 'greek.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\greek.lbx"
+File: greek.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'polyglossia' package.
+
+
+Package csquotes Warning: Using preliminary 'polyglossia' interface.
+(csquotes)                Some of the multilingual features may not
+(csquotes)                work as expected.
+
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'greek'.
+(gemReport.aux
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
+ at 10.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 17.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 17.
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 17.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 17.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 17.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 17.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 17.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 17.
+LaTeX Font Info:    Redeclaring math accent \check on input line 17.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 17.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 17.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 17.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> EU1/TimesNewRoman(0)/m/n on input line 
+17.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/m/n on input line
+ 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
+n input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> EU1/TimesNewRoman(0)/m/it on input lin
+e 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/bx/n on input lin
+e 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/m/n on input line 17
+.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
+on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> EU1/TimesNewRoman(0)/bx/it on input l
+ine 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/bx/n on input line 1
+7.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'gemReport.bbl' not found.
+
+No file gemReport.bbl.
+Package biblatex Info: Reference section=0 on input line 17.
+Package biblatex Info: Reference segment=0 on input line 17.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
+ at 12.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
+;" at 12.0pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
+ at 17.28pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
+;" at 17.28pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
+ at 14.4pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
+;" at 14.4pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+[1
+
+]
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
+ at 24.88pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
+;" at 24.88pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
+apping=tex-text;" at 8.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
+apping=tex-text;" at 6.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "cmmi12" at 12.0pt
+Requested font "cmmi8" at 8.0pt
+Requested font "cmmi6" at 6.0pt
+Requested font "cmsy10" at 12.0pt
+Requested font "cmsy8" at 8.0pt
+Requested font "cmsy6" at 6.0pt
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 20.
+Requested font "cmr8" at 8.0pt
+Requested font "cmr6" at 6.0pt
+ [2
+
+] [3
+
+] (gemReport.toc)
+\tf@toc=\write4
+ [4
+
+] (gemReport.lot)
+\tf@lot=\write5
+ [5
+
+] (gemReport.lof)
+\tf@lof=\write6
+ [6
+
+]
+[7
+
+] [8
+
+]
+Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
+;" at 8.0pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+ [9
+
+]
+Κεφάλαιο 1.
+
+LaTeX Warning: Citation 'Schmidt98' on page 10 undefined on input line 53.
+
+
+LaTeX Warning: Citation 'goosens93' on page 10 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'Chatzigeorgiou05' on page 10 undefined on input line 5
+5.
+
+
+LaTeX Warning: Citation 'Sommerville09' on page 10 undefined on input line 56.
+
+
+LaTeX Warning: Citation '4343930' on page 10 undefined on input line 57.
+
+
+Overfull \hbox (59.0255pt too wide) in paragraph at lines 53--58
+\EU1/TimesNewRoman(1)/m/n/12 φορά σε ένα βιβλίο:([] ). Αυτή είναι η αναφορά σε 
+ένα ελληνικό βιβλίο:([]
+ []
+
+
+Overfull \hbox (21.14279pt too wide) in paragraph at lines 53--58
+\EU1/TimesNewRoman(1)/m/n/12 ). Βιβλίο στα ελληνικά με ξένο συγγραφέα:([] ). Άρ
+θρο σε συνέδριο ([]
+ []
+
+
+LaTeX Warning: Citation 'Wikipedia_BibTeX' on page 10 undefined on input line 5
+9.
+
+File: lion.png Graphic file (type QTm)
+<use  "lion.png" >
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
+ at 10.95pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
+;" at 10.95pt
+ -> C:/WINDOWS/Fonts/timesbd.ttf
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]|\EU1/TimesNewRoman(1)/m/n/12 Παραδείγματα ευρημά-
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 87--87
+[]|\EU1/TimesNewRoman(1)/m/n/12 Συμμετοχή στις αποφά-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10
+
+] [11]
+Παράρτημα 1.
+[12
+
+]
+Παράρτημα 2.
+[13
+
+]
+File: Images/gameloop_network_sequence.png Graphic file (type QTm)
+ <use  "Images/gameloop_network_sequence.png" >
+File: Images/network_architecture_packages.png Graphic file (type QTm)
+
+<use  "Images/network_architecture_packages.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 132--133
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15] [16]
+Παράρτημα 3.
+[17
+
+]
+Παράρτημα 4.
+[18
+
+]
+
+LaTeX Warning: Empty bibliography on input line 158.
+
+[19
+
+] (gemReport.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                gemReport
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'gemReport.run.xml'.
+ ) 
+Here is how much of TeX's memory you used:
+ 21344 strings out of 428790
+ 418828 string characters out of 3164815
+ 795861 words of memory out of 3000000
+ 24444 multiletter control sequences out of 15000+200000
+ 6672 words of font info for 60 fonts, out of 3000000 for 9000
+ 1096 hyphenation exceptions out of 8191
+ 60i,10n,94p,10472b,934s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on gemReport.pdf (19 pages).
