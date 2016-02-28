@@ -20,15 +20,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Διαδικτύωση}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Τεχνικές}{13}
+\contentsline {subsection}{\numberline {2.0.1}Τεχνικές}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Αρχιτεκτονική}{13}
+\contentsline {section}{\numberline {2.1}Αρχιτεκτονική}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Ανταλλαγή μηνυμάτων}{13}
+\contentsline {subsection}{\numberline {2.1.1}Ανταλλαγή μηνυμάτων}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Client}{13}
+\contentsline {subsection}{\numberline {2.1.2}Client}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Server}{13}
+\contentsline {subsection}{\numberline {2.1.3}Server}{13}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Game Host}{15}
 \defcounter {refsection}{0}\relax 
