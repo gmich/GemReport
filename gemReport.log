@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  28 FEB 2016 18:58
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  29 FEB 2016 18:48
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1077,6 +1077,47 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen154
 \epsfysize=\dimen155
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count328
+\lst@gtempboxa=\box42
+\lst@token=\toks23
+\lst@length=\count329
+\lst@currlwidth=\dimen156
+\lst@column=\count330
+\lst@pos=\count331
+\lst@lostspace=\dimen157
+\lst@width=\dimen158
+\lst@newlines=\count332
+\lst@lineno=\count333
+\lst@maxwidth=\dimen159
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count334
+\lst@skipnumbers=\count335
+\lst@framebox=\box43
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
 Package biblatex Info: Trying to load language 'greek'...
 Package biblatex Info: ... file 'greek.lbx' found.
 
@@ -1098,26 +1139,26 @@ Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
  at 10.0pt
  -> C:/WINDOWS/Fonts/times.ttf
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 17.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 20.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    ... okay on input line 20.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1125,66 +1166,66 @@ LaTeX Font Info:    ... okay on input line 17.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 17.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 17.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 17.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 17.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 17.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 17.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 17.
-LaTeX Font Info:    Redeclaring math accent \check on input line 17.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 17.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 17.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 17.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 17.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 20.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 20.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 20.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 20.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 20.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 20.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 20.
+LaTeX Font Info:    Redeclaring math accent \check on input line 20.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 20.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 20.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 20.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 20.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 17.
+(Font)              `operators' in the math version `normal' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/TimesNewRoman(0)/m/n on input line 
-17.
+20.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 17.
+(Font)              `operators' in the math version `bold' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/m/n on input line
- 17.
+ 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 17.
+n input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/TimesNewRoman(0)/m/it on input lin
-e 17.
+e 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/bx/n on input lin
-e 17.
+e 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 17.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/m/n on input line 17
+(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/m/n on input line 20
 .
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 17.
+on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/TimesNewRoman(0)/bx/it on input l
-ine 17.
+ine 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 17.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/bx/n on input line 1
-7.
+(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/bx/n on input line 2
+0.
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Data encoding 'utf8' specified.
@@ -1193,13 +1234,15 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'gemReport.bbl' not found.
 
 No file gemReport.bbl.
-Package biblatex Info: Reference section=0 on input line 17.
-Package biblatex Info: Reference segment=0 on input line 17.
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
  at 12.0pt
  -> C:/WINDOWS/Fonts/times.ttf
+\c@lstlisting=\count336
 Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 12.0pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
@@ -1237,11 +1280,11 @@ Requested font "cmsy10" at 12.0pt
 Requested font "cmsy8" at 8.0pt
 Requested font "cmsy6" at 6.0pt
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 20.
+(Font)              <12> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 20.
+(Font)              <6> on input line 23.
 Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
  [2
@@ -1274,36 +1317,36 @@ Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ]
 Κεφάλαιο 1.
 
-LaTeX Warning: Citation 'Schmidt98' on page 10 undefined on input line 53.
+LaTeX Warning: Citation 'Schmidt98' on page 10 undefined on input line 56.
 
 
-LaTeX Warning: Citation 'goosens93' on page 10 undefined on input line 54.
+LaTeX Warning: Citation 'goosens93' on page 10 undefined on input line 57.
 
 
 LaTeX Warning: Citation 'Chatzigeorgiou05' on page 10 undefined on input line 5
-5.
+8.
 
 
-LaTeX Warning: Citation 'Sommerville09' on page 10 undefined on input line 56.
+LaTeX Warning: Citation 'Sommerville09' on page 10 undefined on input line 59.
 
 
-LaTeX Warning: Citation '4343930' on page 10 undefined on input line 57.
+LaTeX Warning: Citation '4343930' on page 10 undefined on input line 60.
 
 
-Overfull \hbox (59.0255pt too wide) in paragraph at lines 53--58
+Overfull \hbox (59.0255pt too wide) in paragraph at lines 56--61
 \EU1/TimesNewRoman(1)/m/n/12 φορά σε ένα βιβλίο:([] ). Αυτή είναι η αναφορά σε 
 ένα ελληνικό βιβλίο:([]
  []
 
 
-Overfull \hbox (21.14279pt too wide) in paragraph at lines 53--58
+Overfull \hbox (21.14279pt too wide) in paragraph at lines 56--61
 \EU1/TimesNewRoman(1)/m/n/12 ). Βιβλίο στα ελληνικά με ξένο συγγραφέα:([] ). Άρ
 θρο σε συνέδριο ([]
  []
 
 
-LaTeX Warning: Citation 'Wikipedia_BibTeX' on page 10 undefined on input line 5
-9.
+LaTeX Warning: Citation 'Wikipedia_BibTeX' on page 10 undefined on input line 6
+2.
 
 File: lion.png Graphic file (type QTm)
 <use  "lion.png" >
@@ -1314,12 +1357,12 @@ Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 []|\EU1/TimesNewRoman(1)/m/n/12 Παραδείγματα ευρημά-
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 87--87
+Underfull \hbox (badness 5359) in paragraph at lines 90--90
 []|\EU1/TimesNewRoman(1)/m/n/12 Συμμετοχή στις αποφά-
  []
 
@@ -1337,31 +1380,156 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [13
 
 ]
-File: Images/gameloop_network_sequence.png Graphic file (type QTm)
- <use  "Images/gameloop_network_sequence.png" >
-File: Images/network_architecture_packages.png Graphic file (type QTm)
+Overfull \hbox (6.50586pt too wide) in paragraph at lines 114--115
+ \EU1/TimesNewRoman(1)/bx/n/12 Εξαγωγή απαιτήσεων[] \EU1/TimesNewRoman(1)/m/n/1
+2 Με βάση το πρόβλημα καταλήγουμε στο παρακάτω διάγραμμα
+ []
 
-<use  "Images/network_architecture_packages.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 132--133
- [][] 
+File: Images/gameloop_network_sequence.png Graphic file (type QTm)
+<use  "Images/gameloop_network_sequence.png" > [14] [15] [16]
+Overfull \hbox (10.19823pt too wide) in paragraph at lines 176--177
+ \EU1/TimesNewRoman(1)/bx/n/12 NetworkManager[] \EU1/TimesNewRoman(1)/m/n/12 Ο 
+network manager είναι υπεύθυνος για την διαχείριση των sockets,
+ []
+
+File: Images/network_usage_diagram.png Graphic file (type QTm)
+<use  "Images/network_usage_diagram.png" >
+Overfull \hbox (0.42548pt too wide) in paragraph at lines 195--196
+\EU1/TimesNewRoman(1)/m/n/12 τιμών, και το ParallelBufferBlock το οποίο εκτελεί
+ κώδικα σε buffer άλλου thread
+ []
+
+[17] [18]
+Overfull \hbox (10.52539pt too wide) in paragraph at lines 199--200
+\EU1/TimesNewRoman(1)/m/n/12 τητα να συμπεριλάβει τον δικό του serializer με το
+ implementation του IPackageSerializer
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (14.30273pt too wide) in paragraph at lines 199--200
+\EU1/TimesNewRoman(1)/m/n/12 interface και την χωρήγηση του σημειώνοντας την κλ
+άση με το PackageSerializerAttribute
+ []
 
-[14] [15] [16]
+
+Overfull \hbox (8.86914pt too wide) in paragraph at lines 205--206
+\EU1/TimesNewRoman(1)/m/n/12 function o οποίος εκτελείται ασύγχρονα κατά την πα
+ραλαβή κάποιου μηνύματος-κλάσης,
+ []
+
+File: Images/network_architecture_packages.png Graphic file (type QTm)
+<use  "Images/network_architecture_packages.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 209--210
+ [][] 
+ []
+
+File: Images/network_architecture_networking.png Graphic file (type QTm)
+<use  "Images/network_architecture_networking.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 221--222
+ [][] 
+ []
+
+[19] [20] [21] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
+;" at 12.0pt
+ -> C:/WINDOWS/Fonts/timesi.ttf
+
+Overfull \hbox (33.97894pt too wide) in paragraph at lines 233--234
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (206.7807pt too wide) in paragraph at lines 246--247
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (379.58246pt too wide) in paragraph at lines 256--257
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 268
+.
+("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Requested font "[lmmono12-regular]" at 12.0pt
+ -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmmono12-regular.otf
+ [22]
+Overfull \hbox (357.98224pt too wide) in paragraph at lines 269--270
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.97894pt too wide) in paragraph at lines 275--276
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (134.77997pt too wide) in paragraph at lines 277--278
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (314.7818pt too wide) in paragraph at lines 284--285
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (177.98041pt too wide) in paragraph at lines 287--288
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (105.97968pt too wide) in paragraph at lines 288--289
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.37872pt too wide) in paragraph at lines 290--291
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (105.97968pt too wide) in paragraph at lines 291--292
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (228.38092pt too wide) in paragraph at lines 304--305
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[23]
+Overfull \hbox (228.38092pt too wide) in paragraph at lines 311--312
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (91.57953pt too wide) in paragraph at lines 317--319
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (19.5788pt too wide) in paragraph at lines 319--320
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[24]
 Παράρτημα 3.
-[17
+[25
 
 ]
 Παράρτημα 4.
-[18
+[26
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 158.
+LaTeX Warning: Empty bibliography on input line 336.
 
-[19
+[27
 
 ] (gemReport.aux)
 
@@ -1375,12 +1543,12 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 21344 strings out of 428790
- 418828 string characters out of 3164815
- 795861 words of memory out of 3000000
- 24444 multiletter control sequences out of 15000+200000
- 6672 words of font info for 60 fonts, out of 3000000 for 9000
+ 23205 strings out of 428790
+ 444457 string characters out of 3164815
+ 839101 words of memory out of 3000000
+ 26277 multiletter control sequences out of 15000+200000
+ 6688 words of font info for 62 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 60i,10n,94p,10472b,934s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,11n,95p,10472b,1598s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on gemReport.pdf (19 pages).
+Output written on gemReport.pdf (27 pages).
