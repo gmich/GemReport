@@ -4,7 +4,11 @@
 \usepackage{epsfig}
 \usepackage{listings}
 \usepackage{xcolor}
-\lstdefinestyle{sharpc}{language=[Sharp]C, rulecolor=\color{blue!80!black}}
+\lstdefinestyle{sharpc}{
+	language=[Sharp]C,
+	basicstyle=\small,
+	breaklines=true,
+	rulecolor=\color{blue!80!black}}
 
 \renewcommand{\thesistitle}{Ανάπτυξη eργαλείου για την σχεδίαση παιχνιδιών με την βοήθεια υπο-λογιστή }
 \renewcommand{\thesisauthor}{Γιώργου Μιχαηλίδη}
@@ -215,6 +219,7 @@
 	
 	\chapter{Core}
 	
+	
 	\chapter{Διαδικτύωση}
 		Διαδικτύωση στα ηλεκτρονικά παιχνίδια έχουμε όταν περισσότεροι από ένας παίχτες σε διαφορετικές πλατφόρμες ή υπολογιστές, μοιράζονται και αλληλεπιδρούν στο ίδιο εικονικό περιβάλλον. 
 		
@@ -251,8 +256,8 @@
 		
 		\paragraph{Επιλογή πρωτοκόλου}
 		\begin{itemize}	
-			\item[TCP] Το TCP (transmission control protocol), είναι το πιο συχνά χρησιμοποιημένο πρωτόκολλο. Η διασύνδεση με TCP είναι αξιόπιστη και τα μηνύματα παραλαμβάνονται στη σειρά αποστολής. Η αξιοπιστία όμως έρχεται με ένα μικρό κόστος απόδοσης.
-			\item[UDP] Το UDP (user diagram protocol) δεν περιλαμβάνει την αξιοπιστία και την εγγύηση της αλληλουχίας μηνυμάτων. Η απουσία λειτουργιών όμως, το κάνει το πιο γρήγορο σε αποστολή μηνυμάτων πρωτόκολλο.
+			\item TCP (transmission control protocol), είναι το πιο συχνά χρησιμοποιημένο πρωτόκολλο. Η διασύνδεση με TCP είναι αξιόπιστη και τα μηνύματα παραλαμβάνονται στη σειρά αποστολής. Η αξιοπιστία όμως έρχεται με ένα μικρό κόστος απόδοσης.
+			\item UDP Το UDP (user diagram protocol) δεν περιλαμβάνει την αξιοπιστία και την εγγύηση της αλληλουχίας μηνυμάτων. Η απουσία λειτουργιών όμως, το κάνει το πιο γρήγορο σε αποστολή μηνυμάτων πρωτόκολλο.
 			
 			Η επιλογή πρωτοκόλλου γίνεται ανάλογα με το γενικότερο πλαίσιο και τη συγκεκριμένη χρήση του πακέτου αποστολής. Στην αποστολή της τοποθεσίας, το οποίο γίνεται 20φορές / δευτερόλεπτο, η αξιοπιστία δεν είναι το βασικότερο, αλλά η απόδοση. Στην αποστολή των στοιχειών του χρήστη κατά την έναρξη, ή ενώς γραπτού μηνύματος πρέπει να είναι αξιόπιστη.
 		\end{itemize}
@@ -260,9 +265,9 @@
 		\paragraph{Επιλογή αρχιτεκτονικής δικτύου}
 			Οι αρχιτεκτονικές δικτύου χωρίζονται ανάλογα με το που γίνεται η επίλυση και επεξεργασία της προσομοίωσης.  
 		\begin{itemize}	
-			\item[Client-server model] στο οποίο ο client απλά κάνει render και το μεγαλύτερο κομμάτι της λογικής και της προσωμοίωσης τρέχει στον server. Ο server στέλνει οδηγίες στον client για το τι να κάνει render και ο client απλά υπακούει.
-			\item[Client on top of server model] ο client είναι και server, δηλαδή οι μηχανές που έχουν τον client έχουν και τον server.
-			\item[Peer-to-peer] οι μηχανές συμπεριφέρονται μερικώς ως clients και μερικώς ως servers, δηλαδή έχουν και στοιχεία λογικής και επεξεργασίας.
+			\item Client-server model: στο οποίο ο client απλά κάνει render και το μεγαλύτερο κομμάτι της λογικής και της προσωμοίωσης τρέχει στον server. Ο server στέλνει οδηγίες στον client για το τι να κάνει render και ο client απλά υπακούει.
+			\item Client on top of server model: ο client είναι και server, δηλαδή οι μηχανές που έχουν τον client έχουν και τον server.
+			\item Peer-to-peer: οι μηχανές συμπεριφέρονται μερικώς ως clients και μερικώς ως servers, δηλαδή έχουν και στοιχεία λογικής και επεξεργασίας.
 		\end{itemize}
 			Η client-server αρχιτεκτονική εφαρμόζεται σε παιχνίδια τα οποία περιλαμβάνουν πολύ μεγάλους κόσμους και η προσομοίωση περιλαμβάνει αλληλεπιδράσεις μεταξύ πολλών οντοτήτων. Οι προσωμοιώσεις αυτές γίνονται σε εξειδικευμένες μηχανές και όχι στον προσωπικό υπολογιστή του κάθε χρήστη γιατί χρειάζονται μεγάλους υπολογιστικούς πόρους. Επίσης ο server μπορεί να λύσει race conditions και να λειτουργήσει ως "διαιτητής" μεταξύ δύο οντοτήτων οι οποίες ζητούν πρόσβαση στο ίδιο σύστημα κατά το ίδιο χρονικό διάστημα. Οι αρχιτεκτονικές στις οποίες ο client περιλαμβάνει στοιχεία επεξεργασίας του κοινόχρηστου κόσμου, είναι πιο δύσκολες στην ανάπτυξη συντήρηση γιατί δημιουργούνται race conditions στο χρονικό διάστημα αποστολής-παραλαβής μηνυμάτων που προορίζονται σε αλληλοεξαρτώμενες λειτουργίες.
 			
@@ -275,20 +280,20 @@
 		\paragraph{Message Types}
 		Οι διάφοροι τύποι μηνυμάτων χρησιμοποιούνται για να ξεχωρίσουν την κατάσταση στην οποία βρίσκεται ο client ή ο server.
 			\begin{itemize}
-				\item[Αλλαγή κατάστασης] info
+				\item Αλλαγή κατάστασης
 				\begin{itemize}
-					\item [Connecting] info
-					\item [Connected] info
-					\item [Disconnecting] info
-					\item [Disconnected] info
+					\item Connecting
+					\item Connected
+					\item Disconnecting
+					\item Disconnected
 				\end{itemize}
-				\item [Data] info
-				\item [ErrorMessage] info
-				\item [WarningMessage]
-				\item [VerboseMessage]
-				\item [ConnectionApproval]
-				\item [DiscoveryRequest]
-				\item [DiscoveryResponse]
+				\item Data
+				\item ErrorMessage
+				\item WarningMessage
+				\item VerboseMessage
+				\item ConnectionApproval
+				\item DiscoveryRequest
+				\item DiscoveryResponse
 			\end{itemize}
 		Οι τύποι μηνυμάτων μπορούν να μοντελοποιηθούν ως ένα enum και να προστεθεί η πληροφορία τους στο πρώτο byte του serialized μηνύματος. Το πρώτο byte του παραληφθέντα μηνύματος περιλαμβάνει τον τύπο του μηνύματος.
 		
@@ -349,7 +354,8 @@
 		\lstset{style=sharpc}
 		\begin{lstlisting}
 [GinetPackage]
-[PackageSerializer(typeof(MyCustomSerializer))] //optional
+ //optional
+[PackageSerializer(typeof(MyCustomSerializer))]
 public class MyPackage
 {
     public string Message { get; set; }
@@ -359,20 +365,23 @@ public class MyPackage
 		\lstset{style=sharpc}
 		\begin{lstlisting}     
 var server = new NetworkServer("MyServer",
-	builder =>
-	{
-		//via reflection
-		builder.RegisterPackages(Assembly.Load("Packages.Assembly.Name"));
-	    //or manually
-		builder.RegisterPackage<MyPackage>();
-	}
-	cfg =>
-	{
-		cfg.Port = 1234;
-		cfg.ConnectionTimeout = 5.0f;
-		//Additional configuration
-	}
-	out: new ActionAppender(Console.WriteLine) //optional, logging output, default is the one supplied			 
+builder =>
+{
+	//via reflection
+	builder.RegisterPackages(
+		Assembly.Load("Packages.Assembly.Name"));
+	//or manually
+	builder.RegisterPackage<MyPackage>();
+}
+cfg =>
+{
+	cfg.Port = 1234;
+	cfg.ConnectionTimeout = 5.0f;
+	cfg.MaxConnections = 10;
+	//Additional configuration
+}
+//optional, logging output, default is the one supplied			 
+out: new ActionAppender(Console.WriteLine) 
 		\end{lstlisting}
 		\item Καταγραφή κινήσεων		
 		\lstset{style=sharpc}
@@ -400,14 +409,19 @@ server.BroadcastExceptSender<ChatMessage>((sender, msg) =>
 		\item Κώδικας ο οποίος εκτελείται κατά την παραλαβή συγκεκριμένου τύπου μηνύματος
 		\lstset{style=sharpc}
 		\begin{lstlisting}
-server.IncomingMessageHandler.OnMessage(NetIncomingMessageType.ConnectionApproval, incomingMsg =>
+server.IncomingMessageHandler.OnMessage(
+	NetIncomingMessageType.ConnectionApproval, 
+	incomingMsg =>
 {
 	//Configure connection approval
-	var parsedMsg = server.ReadAs<ConnectionApprovalMessage>(incomingMsg);
-	if(parsedMsg.Password == "my secret and encrypted password")
+	var parsedMsg = server
+		.ReadAs<ConnectionApprovalMessage>(incomingMsg);
+	if(parsedMsg.Password ==
+		 "my secret and encrypted password")
 	{
 		incomingMsg.SenderConnection.Approve();
-		incomingMsg.SenderConnection.Tag = parsedMsg.Sender;
+		incomingMsg.SenderConnection.Tag = 
+			parsedMsg.Sender;
 	}
 	else
 	{
@@ -420,30 +434,34 @@ server.IncomingMessageHandler.OnMessage(NetIncomingMessageType.ConnectionApprova
 		\begin{lstlisting}
 server.IncomingMessageHandler
 .OnPackage<MyPackage>((msg, sender) => 
-	Console.WriteLine($"Received {msg.Message} from {sender.SenderConnection}"));
+	Console.WriteLine(
+	$"{msg.Message} from {sender.SenderConnection}"));
 		\end{lstlisting}	
 		\item Αποστολή μηνύματος-κλάσης
 		\lstset{style=sharpc}
 		\begin{lstlisting}
-server.Send(new MyPackage { Message = "Hello" },
-	(outgoingMessage,peer) => 
-		peer.SendMessage(outgoingMessage,NetDeliveryMethod.ReliableOrdered));
+server.Send(
+	new MyPackage { Message = "Hello" },
+(outgoingMessage,peer) => 
+	peer.SendMessage(outgoingMessage,
+		NetDeliveryMethod.ReliableOrdered);
 		\end{lstlisting}		
 		\item Lift αποστολής μηνύματος
 		\lstset{style=sharpc}
 		\begin{lstlisting}
-		var packageSender = client.LiftSender((msg, peer) =>
-		peer.SendMessage(msg, NetDeliveryMethod.ReliableOrdered));
+var packageSender = client.LiftSender((msg, peer) =>
+	peer.SendMessage(msg, 
+		NetDeliveryMethod.ReliableOrdered));
 		
-		packageSender.Send(new MyPackage { Message = "Hello" });	
+packageSender.Send(new MyPackage { Message = "Hello" });	
 		\end{lstlisting}	
 		\item Διαγραφή handler
 		\lstset{style=sharpc}
 		\begin{lstlisting}	
-		var handlerDisposable = server.IncomingMessageHandler
-		.OnPackage<MyPackage>((msg, sender) => {}));
+var handlerDisposable = server.IncomingMessageHandler
+	.OnPackage<MyPackage>((msg, sender) => {}));
 		
-		handlerDisposable.Dispose();	
+handlerDisposable.Dispose();	
 		\end{lstlisting}		
 		\item Η ρύθμιση και το API του client είναι πανομοιότυπo με του server. Στη θέση του \textit{NetworkServer} χρησιμοποιείται ο \textit{NetworkClient} όπου και τα δύο υλοποιούν τον \textit{NetworkManager<TPeer> where TPeer:NetPeer}		
 	\end{itemize}
@@ -463,7 +481,8 @@ public void Incoming_Package_GetsHandled()
 			builder.Register<MyPackage>(),
 		cfg=> {});
 		
-	var mockedHandler = new MockFunc<MyPackage,NetIncomingMessage>();
+	var mockedHandler = 
+		new Mock<Func<MyPackage,NetIncomingMessage>>();
 	mockedHandler.Setup( x => 
 		x(It.IsAny<MyPackage>()));
 	
@@ -472,7 +491,8 @@ public void Incoming_Package_GetsHandled()
 	.OnPackage<MyPackage>(mockedHandler);	
 	
 	//Act	
-	client.IncomingMessageHandler.SimulateReceive(new MyPackage());	
+	client.IncomingMessageHandler.SimulateReceive(
+		new MyPackage());	
 	client.ProcessMessages().RunSynchronously();
 	
 	//Assert
