@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  29 FEB 2016 18:48
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  2 MAR 2016 16:41
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1291,62 +1291,62 @@ Requested font "cmr6" at 6.0pt
 
 ] [3
 
-] (gemReport.toc)
-\tf@toc=\write4
- [4
+] (gemReport.toc [4
 
-] (gemReport.lot)
+])
+\tf@toc=\write4
+ [5] (gemReport.lot)
 \tf@lot=\write5
- [5
+ [6
 
 ] (gemReport.lof)
 \tf@lof=\write6
- [6
 
-]
 [7
 
 ] [8
+
+] [9
 
 ]
 Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 8.0pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
- [9
+ [10
 
 ]
 Κεφάλαιο 1.
 
-LaTeX Warning: Citation 'Schmidt98' on page 10 undefined on input line 56.
+LaTeX Warning: Citation 'Schmidt98' on page 11 undefined on input line 69.
 
 
-LaTeX Warning: Citation 'goosens93' on page 10 undefined on input line 57.
+LaTeX Warning: Citation 'goosens93' on page 11 undefined on input line 70.
 
 
-LaTeX Warning: Citation 'Chatzigeorgiou05' on page 10 undefined on input line 5
-8.
+LaTeX Warning: Citation 'Chatzigeorgiou05' on page 11 undefined on input line 7
+1.
 
 
-LaTeX Warning: Citation 'Sommerville09' on page 10 undefined on input line 59.
+LaTeX Warning: Citation 'Sommerville09' on page 11 undefined on input line 72.
 
 
-LaTeX Warning: Citation '4343930' on page 10 undefined on input line 60.
+LaTeX Warning: Citation '4343930' on page 11 undefined on input line 73.
 
 
-Overfull \hbox (59.0255pt too wide) in paragraph at lines 56--61
+Overfull \hbox (59.0255pt too wide) in paragraph at lines 69--74
 \EU1/TimesNewRoman(1)/m/n/12 φορά σε ένα βιβλίο:([] ). Αυτή είναι η αναφορά σε 
 ένα ελληνικό βιβλίο:([]
  []
 
 
-Overfull \hbox (21.14279pt too wide) in paragraph at lines 56--61
+Overfull \hbox (21.14279pt too wide) in paragraph at lines 69--74
 \EU1/TimesNewRoman(1)/m/n/12 ). Βιβλίο στα ελληνικά με ξένο συγγραφέα:([] ). Άρ
 θρο σε συνέδριο ([]
  []
 
 
-LaTeX Warning: Citation 'Wikipedia_BibTeX' on page 10 undefined on input line 6
-2.
+LaTeX Warning: Citation 'Wikipedia_BibTeX' on page 11 undefined on input line 7
+5.
 
 File: lion.png Graphic file (type QTm)
 <use  "lion.png" >
@@ -1357,179 +1357,226 @@ Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 []|\EU1/TimesNewRoman(1)/m/n/12 Παραδείγματα ευρημά-
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 90--90
+Underfull \hbox (badness 5359) in paragraph at lines 103--103
 []|\EU1/TimesNewRoman(1)/m/n/12 Συμμετοχή στις αποφά-
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10
+[11
 
-] [11]
+] [12]
 Παράρτημα 1.
-[12
-
-]
-Παράρτημα 2.
 [13
 
 ]
-Overfull \hbox (6.50586pt too wide) in paragraph at lines 114--115
+Overfull \hbox (16.79852pt too wide) in paragraph at lines 147--148
+[]\EU1/TimesNewRoman(1)/m/n/12 Τυποποιημένη μεθοδολογία χρησιμοποιώντας τεχνικέ
+ς μοντελοποίησης όπως UML. 
+ []
+
+[14]
+Παράρτημα 2.
+[15
+
+] [16] [17]
+File: Images/game_engine_architecture.png Graphic file (type QTm)
+ <use  "Images/game_engine_architecture.png" >
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 211--212
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18] [19]
+Παράρτημα 3.
+[20
+
+]
+Παράρτημα 4.
+[21
+
+]
+Overfull \hbox (6.50586pt too wide) in paragraph at lines 234--235
  \EU1/TimesNewRoman(1)/bx/n/12 Εξαγωγή απαιτήσεων[] \EU1/TimesNewRoman(1)/m/n/1
 2 Με βάση το πρόβλημα καταλήγουμε στο παρακάτω διάγραμμα
  []
 
 File: Images/gameloop_network_sequence.png Graphic file (type QTm)
-<use  "Images/gameloop_network_sequence.png" > [14] [15] [16]
-Overfull \hbox (10.19823pt too wide) in paragraph at lines 176--177
+<use  "Images/gameloop_network_sequence.png" > [22] [23] [24]
+Overfull \hbox (10.19823pt too wide) in paragraph at lines 296--297
  \EU1/TimesNewRoman(1)/bx/n/12 NetworkManager[] \EU1/TimesNewRoman(1)/m/n/12 Ο 
 network manager είναι υπεύθυνος για την διαχείριση των sockets,
  []
 
 File: Images/network_usage_diagram.png Graphic file (type QTm)
-<use  "Images/network_usage_diagram.png" >
-Overfull \hbox (0.42548pt too wide) in paragraph at lines 195--196
+<use  "Images/network_usage_diagram.png" > [25] [26]
+Overfull \hbox (0.42548pt too wide) in paragraph at lines 314--315
 \EU1/TimesNewRoman(1)/m/n/12 τιμών, και το ParallelBufferBlock το οποίο εκτελεί
  κώδικα σε buffer άλλου thread
  []
 
-[17] [18]
-Overfull \hbox (10.52539pt too wide) in paragraph at lines 199--200
+
+Overfull \hbox (10.52539pt too wide) in paragraph at lines 318--319
 \EU1/TimesNewRoman(1)/m/n/12 τητα να συμπεριλάβει τον δικό του serializer με το
  implementation του IPackageSerializer
  []
 
 
-Overfull \hbox (14.30273pt too wide) in paragraph at lines 199--200
+Overfull \hbox (14.30273pt too wide) in paragraph at lines 318--319
 \EU1/TimesNewRoman(1)/m/n/12 interface και την χωρήγηση του σημειώνοντας την κλ
 άση με το PackageSerializerAttribute
  []
 
 
-Overfull \hbox (8.86914pt too wide) in paragraph at lines 205--206
+Overfull \hbox (8.86914pt too wide) in paragraph at lines 324--325
 \EU1/TimesNewRoman(1)/m/n/12 function o οποίος εκτελείται ασύγχρονα κατά την πα
 ραλαβή κάποιου μηνύματος-κλάσης,
  []
 
 File: Images/network_architecture_packages.png Graphic file (type QTm)
 <use  "Images/network_architecture_packages.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 209--210
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 328--329
  [][] 
  []
 
+[27] [28]
 File: Images/network_architecture_networking.png Graphic file (type QTm)
-<use  "Images/network_architecture_networking.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 221--222
+ <use  "Images/network_architecture_networking.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 340--341
  [][] 
  []
 
-[19] [20] [21] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 12.0pt
  -> C:/WINDOWS/Fonts/timesi.ttf
 
-Overfull \hbox (33.97894pt too wide) in paragraph at lines 233--234
+Overfull \hbox (33.97894pt too wide) in paragraph at lines 352--353
 [][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (206.7807pt too wide) in paragraph at lines 246--247
+Overfull \hbox (206.7807pt too wide) in paragraph at lines 365--366
 [][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (379.58246pt too wide) in paragraph at lines 256--257
+Overfull \hbox (379.58246pt too wide) in paragraph at lines 375--376
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 268
+[29] [30]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 387
 .
-("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Requested font "[lmmono12-regular]" at 12.0pt
  -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmmono12-regular.otf
- [22]
-Overfull \hbox (357.98224pt too wide) in paragraph at lines 269--270
+
+Overfull \hbox (357.98224pt too wide) in paragraph at lines 388--389
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (33.97894pt too wide) in paragraph at lines 275--276
+Overfull \hbox (33.97894pt too wide) in paragraph at lines 394--395
 [][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (134.77997pt too wide) in paragraph at lines 277--278
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (192.38055pt too wide) in paragraph at lines 396--397
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (314.7818pt too wide) in paragraph at lines 284--285
+Overfull \hbox (314.7818pt too wide) in paragraph at lines 403--404
 [][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (177.98041pt too wide) in paragraph at lines 287--288
+Overfull \hbox (177.98041pt too wide) in paragraph at lines 406--407
 [][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (105.97968pt too wide) in paragraph at lines 288--289
+Overfull \hbox (105.97968pt too wide) in paragraph at lines 407--408
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (12.37872pt too wide) in paragraph at lines 290--291
+Overfull \hbox (12.37872pt too wide) in paragraph at lines 409--410
 [][][][][][][][][] 
  []
 
 
-Overfull \hbox (105.97968pt too wide) in paragraph at lines 291--292
+Overfull \hbox (105.97968pt too wide) in paragraph at lines 410--411
 [][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \hbox (228.38092pt too wide) in paragraph at lines 304--305
+[31]
+Overfull \hbox (228.38092pt too wide) in paragraph at lines 423--424
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[23]
-Overfull \hbox (228.38092pt too wide) in paragraph at lines 311--312
+
+Overfull \hbox (228.38092pt too wide) in paragraph at lines 430--431
 [][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (91.57953pt too wide) in paragraph at lines 317--319
+Overfull \hbox (105.97968pt too wide) in paragraph at lines 435--436
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (149.18011pt too wide) in paragraph at lines 436--438
 [][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (19.5788pt too wide) in paragraph at lines 319--320
-[][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (134.77997pt too wide) in paragraph at lines 438--439
+[][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[24]
-Παράρτημα 3.
-[25
+
+Overfull \hbox (113.17975pt too wide) in paragraph at lines 443--444
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (48.37909pt too wide) in paragraph at lines 444--446
+[][][][][][][][][][][][][][][][][] 
+ []
+
+[32]
+Overfull \hbox (112.60535pt too wide) in paragraph at lines 466--467
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (98.2052pt too wide) in paragraph at lines 475--476
+[][][][][][][][][][][][][] 
+ []
+
+[33] [34]
+Παράρτημα 5.
+[35
 
 ]
-Παράρτημα 4.
-[26
 
-]
+LaTeX Warning: Empty bibliography on input line 506.
 
-LaTeX Warning: Empty bibliography on input line 336.
-
-[27
+[36
 
 ] (gemReport.aux)
 
@@ -1543,12 +1590,12 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 23205 strings out of 428790
- 444457 string characters out of 3164815
- 839101 words of memory out of 3000000
- 26277 multiletter control sequences out of 15000+200000
+ 23227 strings out of 428790
+ 444842 string characters out of 3164815
+ 837112 words of memory out of 3000000
+ 26298 multiletter control sequences out of 15000+200000
  6688 words of font info for 62 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 60i,11n,95p,10472b,1598s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,11n,95p,10472b,1600s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on gemReport.pdf (27 pages).
+Output written on gemReport.pdf (36 pages).
