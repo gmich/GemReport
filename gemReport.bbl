@@ -1,0 +1,43 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{jaroslav08}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tulach}{T.}%
+     {Jaroslav}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Apress}%
+  }
+  \strng{namehash}{TJ1}
+  \strng{fullhash}{TJ1}
+  \field{labelyear}{2008}
+  \field{sortinit}{T}
+  \field{title}{Practical API Design: Confessions of a Java Framework
+  Architect}
+  \field{langid}{english}
+  \field{year}{2008}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

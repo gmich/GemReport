@@ -41,16 +41,16 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>gemReport.bcf</file>
+      <file>gemReport.aux</file>
+      <file>gemReport-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>gemReport.bbl</file>
     </requires>
     <requires type="static">
-      <file>blx-dm.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>authoryear.bbx</file>
@@ -60,14 +60,15 @@
       <file>greek.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
-    <generic>biber</generic>
+  <external package="biblatex" priority="5" active="0">
+    <generic>bibtex</generic>
     <cmdline>
-      <binary>biber</binary>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
       <infile>gemReport</infile>
     </cmdline>
     <input>
-      <file>gemReport.bcf</file>
+      <file>gemReport.aux</file>
     </input>
     <output>
       <file>gemReport.bbl</file>
@@ -76,10 +77,14 @@
       <file>gemReport.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>gemReport.bcf</file>
+      <file>gemReport.aux</file>
+      <file>gemReport-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>testUTF.bib</file>
+      <file>references.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
     </requires>
   </external>
 </requests>

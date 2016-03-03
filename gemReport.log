@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  3 MAR 2016 14:24
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  3 MAR 2016 17:05
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -448,29 +448,10 @@ LaTeX Info: Redefining \LaTeXe on input line 219.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
 Package: biblatex 2014/06/25 v2.9a programmable bibliographies (PK/JW/AB)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex2.sty"
-Package: biblatex2 2014/06/25 v2.9a programmable bibliographies (biber) (PK/JW/
-AB)
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex1.sty"
+Package: biblatex1 2014/06/25 v2.9a programmable bibliographies (bibtex) (PK/JW
+/AB)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count124
@@ -505,118 +486,102 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@uniquename=\count142
 \c@refsection=\count143
 \c@refsegment=\count144
-\c@maxextratitle=\count145
-\c@maxextratitleyear=\count146
-\c@maxextrayear=\count147
-\c@maxextraalpha=\count148
-\c@abbrvpenalty=\count149
-\c@highnamepenalty=\count150
-\c@lownamepenalty=\count151
-\c@maxparens=\count152
-\c@parenlevel=\count153
-\blx@tempcnta=\count154
-\blx@tempcntb=\count155
-\blx@tempcntc=\count156
-\blx@maxsection=\count157
-\blx@maxsegment@0=\count158
-\blx@notetype=\count159
-\blx@parenlevel@text=\count160
-\blx@parenlevel@foot=\count161
-\blx@sectionciteorder@0=\count162
+\c@maxextrayear=\count145
+\c@maxextraalpha=\count146
+\c@abbrvpenalty=\count147
+\c@highnamepenalty=\count148
+\c@lownamepenalty=\count149
+\c@maxparens=\count150
+\c@parenlevel=\count151
+\blx@tempcnta=\count152
+\blx@tempcntb=\count153
+\blx@tempcntc=\count154
+\blx@maxsection=\count155
+\blx@maxsegment=\count156
+\blx@notetype=\count157
+\blx@parenlevel@text=\count158
+\blx@parenlevel@foot=\count159
 \labelnumberwidth=\skip49
 \labelalphawidth=\skip50
-\biblabelsep=\skip51
-\bibitemsep=\skip52
-\bibnamesep=\skip53
-\bibinitsep=\skip54
-\bibparsep=\skip55
-\bibhang=\skip56
-\blx@bcfin=\read1
-\blx@bcfout=\write3
-\c@mincomprange=\count163
-\c@maxcomprange=\count164
-\c@mincompwidth=\count165
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
-Package biblatex Info: Trying to load biblatex citestyle data model...
-Package biblatex Info: ... file 'authoryear.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count166
-\c@savedafterword=\count167
-\c@annotator=\count168
-\c@savedannotator=\count169
-\c@author=\count170
-\c@savedauthor=\count171
-\c@bookauthor=\count172
-\c@savedbookauthor=\count173
-\c@commentator=\count174
-\c@savedcommentator=\count175
-\c@editor=\count176
-\c@savededitor=\count177
-\c@editora=\count178
-\c@savededitora=\count179
-\c@editorb=\count180
-\c@savededitorb=\count181
-\c@editorc=\count182
-\c@savededitorc=\count183
-\c@foreword=\count184
-\c@savedforeword=\count185
-\c@holder=\count186
-\c@savedholder=\count187
-\c@introduction=\count188
-\c@savedintroduction=\count189
-\c@namea=\count190
-\c@savednamea=\count191
-\c@nameb=\count192
-\c@savednameb=\count193
-\c@namec=\count194
-\c@savednamec=\count195
-\c@translator=\count196
-\c@savedtranslator=\count197
-\c@shortauthor=\count198
-\c@savedshortauthor=\count199
-\c@shorteditor=\count200
-\c@savedshorteditor=\count201
+\shorthandwidth=\skip51
+\biblabelsep=\skip52
+\bibitemsep=\skip53
+\bibnamesep=\skip54
+\bibinitsep=\skip55
+\bibparsep=\skip56
+\bibhang=\skip57
+\blx@auxin=\read1
+\blx@auxout=\write3
+\c@mincomprange=\count160
+\c@maxcomprange=\count161
+\c@mincompwidth=\count162
+\c@labelname=\count163
+\c@savedlabelname=\count164
+\c@author=\count165
+\c@savedauthor=\count166
+\c@shortauthor=\count167
+\c@savedshortauthor=\count168
+\c@editor=\count169
+\c@savededitor=\count170
+\c@editora=\count171
+\c@savededitora=\count172
+\c@editorb=\count173
+\c@savededitorb=\count174
+\c@editorc=\count175
+\c@savededitorc=\count176
+\c@shorteditor=\count177
+\c@savedshorteditor=\count178
+\c@bookauthor=\count179
+\c@savedbookauthor=\count180
+\c@translator=\count181
+\c@savedtranslator=\count182
+\c@annotator=\count183
+\c@savedannotator=\count184
+\c@commentator=\count185
+\c@savedcommentator=\count186
+\c@introduction=\count187
+\c@savedintroduction=\count188
+\c@foreword=\count189
+\c@savedforeword=\count190
+\c@afterword=\count191
+\c@savedafterword=\count192
+\c@holder=\count193
+\c@savedholder=\count194
+\c@namea=\count195
+\c@savednamea=\count196
+\c@nameb=\count197
+\c@savednameb=\count198
+\c@namec=\count199
+\c@savednamec=\count200
+\c@institution=\count201
 Normal \count register pool exhausted, switching to extended pool.
-\c@labelname=\count277
-\c@savedlabelname=\count278
-\c@institution=\count279
-\c@savedinstitution=\count280
-\c@lista=\count281
-\c@savedlista=\count282
-\c@listb=\count283
-\c@savedlistb=\count284
-\c@listc=\count285
-\c@savedlistc=\count286
-\c@listd=\count287
-\c@savedlistd=\count288
-\c@liste=\count289
-\c@savedliste=\count290
-\c@listf=\count291
-\c@savedlistf=\count292
-\c@location=\count293
-\c@savedlocation=\count294
-\c@organization=\count295
-\c@savedorganization=\count296
-\c@origlocation=\count297
-\c@savedoriglocation=\count298
-\c@origpublisher=\count299
-\c@savedorigpublisher=\count300
-\c@publisher=\count301
-\c@savedpublisher=\count302
-\c@language=\count303
-\c@savedlanguage=\count304
-\c@pageref=\count305
-\c@savedpageref=\count306
-\shorthandwidth=\skip57
-\shortjournalwidth=\skip58
-\shortserieswidth=\skip59
-\shorttitlewidth=\skip60
-\shortauthorwidth=\skip61
-\shorteditorwidth=\skip62
+\c@savedinstitution=\count277
+\c@language=\count278
+\c@savedlanguage=\count279
+\c@location=\count280
+\c@savedlocation=\count281
+\c@organization=\count282
+\c@savedorganization=\count283
+\c@origlocation=\count284
+\c@savedoriglocation=\count285
+\c@origpublisher=\count286
+\c@savedorigpublisher=\count287
+\c@pageref=\count288
+\c@savedpageref=\count289
+\c@publisher=\count290
+\c@savedpublisher=\count291
+\c@lista=\count292
+\c@savedlista=\count293
+\c@listb=\count294
+\c@savedlistb=\count295
+\c@listc=\count296
+\c@savedlistc=\count297
+\c@listd=\count298
+\c@savedlistd=\count299
+\c@liste=\count300
+\c@savedliste=\count301
+\c@listf=\count302
+\c@savedlistf=\count303
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -628,13 +593,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 
-\c@textcitecount=\count307
-\c@textcitetotal=\count308
-\c@textcitemaxnames=\count309
-\c@biburlnumpenalty=\count310
-\c@biburlucpenalty=\count311
-\c@biburllcpenalty=\count312
-\c@smartand=\count313
+\c@textcitecount=\count304
+\c@textcitetotal=\count305
+\c@textcitemaxnames=\count306
+\c@biburlnumpenalty=\count307
+\c@biburlucpenalty=\count308
+\c@biburllcpenalty=\count309
+\c@smartand=\count310
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -646,8 +611,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2014/06/25 v2.9a biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count314
-\c@bbx:relatedtotal=\count315
+\c@bbx:relatedcount=\count311
+\c@bbx:relatedtotal=\count312
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -674,12 +639,12 @@ Package biblatex Warning: 'babel' option is deprecated, use 'autolang' instead.
 
 )) ("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
-\csq@reset=\count316
-\csq@gtype=\count317
-\csq@glevel=\count318
-\csq@qlevel=\count319
-\csq@maxlvl=\count320
-\csq@tshold=\count321
+\csq@reset=\count313
+\csq@gtype=\count314
+\csq@glevel=\count315
+\csq@qlevel=\count316
+\csq@maxlvl=\count317
+\csq@tshold=\count318
 \csq@ltx@everypar=\toks20
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
@@ -705,13 +670,13 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen145
 \caption@hangindent=\dimen146
 )
-\c@ContinuedFloat=\count322
+\c@ContinuedFloat=\count319
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polyglossia\gloss-greek.ldf"
 File: gloss-greek.ldf polyglossia: module for greek
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polyglossia\xgreek-fixes.def")
-\@attic@num=\count323
+\@attic@num=\count320
 )
 Package polyglossia Info: Default language is greek.
 
@@ -723,7 +688,7 @@ Requested font "Times New Roman" at 10.0pt
  -> C:/WINDOWS/Fonts/times.ttf
 Requested font "Times New Roman/OT" at 10.0pt
  -> C:/WINDOWS/Fonts/times.ttf
-\g__fontspec_family_TimesNewRoman_int=\count324
+\g__fontspec_family_TimesNewRoman_int=\count321
 Requested font "Times New Roman/BI/OT" at 10.0pt
  -> C:/WINDOWS/Fonts/timesbi.ttf
 Requested font "Times New Roman/B/OT" at 10.0pt
@@ -802,7 +767,7 @@ Requested font "Courier New" at 10.0pt
  -> C:/WINDOWS/Fonts/cour.ttf
 Requested font "Courier New/OT" at 10.0pt
  -> C:/WINDOWS/Fonts/cour.ttf
-\g__fontspec_family_CourierNew_int=\count325
+\g__fontspec_family_CourierNew_int=\count322
 Requested font "Courier New/BI/OT" at 10.0pt
  -> C:/WINDOWS/Fonts/courbi.ttf
 Requested font "Courier New/B/OT" at 10.0pt
@@ -988,7 +953,7 @@ Requested font "Arial" at 10.0pt
  -> C:/WINDOWS/Fonts/arial.ttf
 Requested font "Arial/OT" at 10.0pt
  -> C:/WINDOWS/Fonts/arial.ttf
-\g__fontspec_family_Arial_int=\count326
+\g__fontspec_family_Arial_int=\count323
 Requested font "Arial/BI/OT" at 10.0pt
  -> C:/WINDOWS/Fonts/arialbi.ttf
 Requested font "Arial/B/OT" at 10.0pt
@@ -1061,15 +1026,15 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen147
 \extrarowheight=\dimen148
 \NC@list=\toks21
-\extratabsurround=\skip63
-\backup@length=\skip64
+\extratabsurround=\skip58
+\backup@length=\skip59
 )
 \TX@col@width=\dimen149
 \TX@old@table=\dimen150
 \TX@old@col=\dimen151
 \TX@target=\dimen152
 \TX@delta=\dimen153
-\TX@cols=\count327
+\TX@cols=\count324
 \TX@ftn=\toks22
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
@@ -1078,23 +1043,23 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfysize=\dimen155
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count328
+\lst@mode=\count325
 \lst@gtempboxa=\box42
 \lst@token=\toks23
-\lst@length=\count329
+\lst@length=\count326
 \lst@currlwidth=\dimen156
-\lst@column=\count330
-\lst@pos=\count331
+\lst@column=\count327
+\lst@pos=\count328
 \lst@lostspace=\dimen157
 \lst@width=\dimen158
-\lst@newlines=\count332
-\lst@lineno=\count333
+\lst@newlines=\count329
+\lst@lineno=\count330
 \lst@maxwidth=\dimen159
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count334
-\lst@skipnumbers=\count335
+\c@lstnumber=\count331
+\lst@skipnumbers=\count332
 \lst@framebox=\box43
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
@@ -1102,6 +1067,288 @@ File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip60
+\thm@postskip=\skip61
+\thm@headsep=\skip62
+\dth@everypar=\toks29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\thmtools\thmtools.sty"
+Package: thmtools 2014/04/21 v66
+\thmt@toks=\toks30
+\c@thmt@dummyctr=\count333
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\thmtools\thm-patch.sty"
+Package: thm-patch 2014/04/21 v66
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\thmtools\parseargs.sty"
+Package: parseargs 2014/04/21 v66
+\@parsespec=\toks31
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\thmtools\thm-kv.sty"
+Package: thm-kv 2014/04/21 v66
+Package thm-kv Info: Theorem names will be uppercased on input line 40.
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 156.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\thmtools\thm-autoref.sty"
+Package: thm-autoref 2014/04/21 v66
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\thmtools\aliasctr.sty"
+Package: aliasctr 2014/04/21 v66
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\remreset.sty")))
+("C:\Program Files\MiKTeX 2.9\tex\latex\thmtools\thm-listof.sty"
+Package: thm-listof 2014/04/21 v66
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\thmtools\thm-restate.sty"
+Package: thm-restate 2014/04/21 v66
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\thmtools\thm-amsthm.sty"
+Package: thm-amsthm 2014/04/21 v66
+\thmt@style@headstyle=\toks32
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty"
+Package: glossaries 2015/02/28 v4.14 (NLCT)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\mfirstuc.sty"
+Package: mfirstuc 2015/02/03 v1.10 (NLCT)
+\@glsmfirst=\toks33
+\@glsmrest=\toks34
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xfor\xfor.sty"
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty"
+Package: datatool-base 2014/06/10 v2.22 (NLCT)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks35
+\ex@=\dimen160
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen161
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count334
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count335
+\leftroot@=\count336
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count337
+\DOTSCASE@=\count338
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box44
+\strutbox@=\box45
+\big@size=\dimen162
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count339
+\c@MaxMatrixCols=\count340
+\dotsspace@=\muskip17
+\c@parentequation=\count341
+\dspbrk@lvl=\count342
+\tag@help=\toks36
+\row@=\count343
+\column@=\count344
+\maxfields@=\count345
+\andhelp@=\toks37
+\eqnshift@=\dimen163
+\alignsep@=\dimen164
+\tagshift@=\dimen165
+\tagwidth@=\dimen166
+\totwidth@=\dimen167
+\lineht@=\dimen168
+\@envbody=\toks38
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\substr\substr.sty"
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count346
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty"
+Package: datatool-fp 2013/08/29 v2.17 (NLCT)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp.sty"
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
+Package: defpattern 1994/10/12
+\actioncount=\count347
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
+Package: fp-basic 1996/05/13
+\FP@xs=\count348
+\FP@xia=\count349
+\FP@xib=\count350
+\FP@xfa=\count351
+\FP@xfb=\count352
+\FP@rega=\count353
+\FP@regb=\count354
+\FP@regs=\count355
+\FP@times=\count356
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
+Package: fp-addons 1995/03/15
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-snap.sty"
+Package: fp-snap 1995/04/05
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-exp.sty"
+Package: fp-exp 1995/04/03
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty"
+Package: fp-trigo 1995/04/14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-pas.sty"
+Package: fp-pas 1994/08/29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
+Package: fp-random 1995/02/23
+\FPseed=\count357
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
+Package: fp-eqn 1995/04/03
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-upn.sty"
+Package: fp-upn 1996/10/21
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks40
+\@dtl@tmpcount=\count358
+\dtl@tmplength=\skip66
+\dtl@sortresult=\count359
+\@dtl@numgrpsepcount=\count360
+\@dtl@datatype=\count361
+\dtl@codeA=\count362
+\dtl@codeB=\count363
+\@dtl@foreach@level=\count364
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-3
+07.sty"
+Package: glossaries-compatible-307 2013/11/14 v4.0 (NLCT)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tracklang\tracklang.sty"
+Package: tracklang 2014/11/21 v1.1 (NLCT) Track Languages
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tracklang\tracklang.tex"))
+
+Package glossaries Warning: No language module detected for `english'.
+(glossaries)                Language modules need to be installed separately.
+(glossaries)                Please check on CTAN for a bundle called
+(glossaries)                `glossaries-english' or similar.
+
+
+Package glossaries Warning: No language module detected for `greek'.
+(glossaries)                Language modules need to be installed separately.
+(glossaries)                Please check on CTAN for a bundle called
+(glossaries)                `glossaries-greek' or similar.
+
+\gls@level=\count365
+\@gls@tmpb=\toks41
+\gls@tmplen=\skip67
+\glskeylisttok=\toks42
+\glslabeltok=\toks43
+\glsshorttok=\toks44
+\glslongtok=\toks45
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
+"
+Package: glossary-hypernav 2013/11/14 v4.0 (NLCT)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty"
+Package: glossary-list 2015/02/03 v4.13 (NLCT)
+\glslistdottedwidth=\skip68
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty"
+Package: glossary-long 2013/11/14 v4.0 (NLCT)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count366
+\LTcapwidth=\dimen169
+\LT@head=\box46
+\LT@firsthead=\box47
+\LT@foot=\box48
+\LT@lastfoot=\box49
+\LT@cols=\count367
+\LT@rows=\count368
+\c@LT@tables=\count369
+\c@LT@chunks=\count370
+\LT@p@ftn=\toks46
+)
+\glsdescwidth=\skip73
+\glspagelistwidth=\skip74
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty"
+Package: glossary-super 2013/11/14 v4.0 (NLCT)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count371
+\ST@wd=\dimen170
+\ST@rightskip=\skip75
+\ST@leftskip=\skip76
+\ST@parfillskip=\skip77
+\ST@pageleft=\dimen171
+\ST@headht=\dimen172
+\ST@tailht=\dimen173
+\ST@pagesofar=\dimen174
+\ST@pboxht=\dimen175
+\ST@lineht=\dimen176
+\ST@stretchht=\dimen177
+\ST@prevht=\dimen178
+\ST@toadd=\dimen179
+\ST@dimen=\dimen180
+\ST@pbox=\box50
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty"
+Package: glossary-tree 2015/02/03 v4.13 (NLCT)
+\glstreeindent=\skip78
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
@@ -1118,6 +1365,16 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
+Package thmtools Info: Key `qed' (with value `')
+(thmtools)             is not a known style key.
+(thmtools)             Will pass this to every \declaretheorem
+(thmtools)             that uses `style=theorem' on input line 59.
+Package thmtools Info: Key `postheadhook' (with value `\ifx \@empty \thmt@short
+optarg \renewcommand \addcontentsline [3]{} \fi ')
+(thmtools)             is not a known style key.
+(thmtools)             Will pass this to every \declaretheorem
+(thmtools)             that uses `style=theorem' on input line 59.
+\c@theorem=\count372
 Package biblatex Info: Trying to load language 'greek'...
 Package biblatex Info: ... file 'greek.lbx' found.
 
@@ -1139,26 +1396,26 @@ Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
  at 10.0pt
  -> C:/WINDOWS/Fonts/times.ttf
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 24.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 78.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 78.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    ... okay on input line 78.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1166,83 +1423,92 @@ LaTeX Font Info:    ... okay on input line 24.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 24.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 24.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 24.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 24.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 24.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 24.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 24.
-LaTeX Font Info:    Redeclaring math accent \check on input line 24.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 24.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 24.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 24.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 24.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 78.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 78.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 78.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 78.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 78.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 78.
+LaTeX Font Info:    Redeclaring math accent \check on input line 78.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 78.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 78.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 78.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 24.
+(Font)              `operators' in the math version `normal' on input line 78.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/TimesNewRoman(0)/m/n on input line 
-24.
+78.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 24.
+(Font)              `operators' in the math version `bold' on input line 78.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/m/n on input line
- 24.
+ 78.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 24.
+n input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/TimesNewRoman(0)/m/it on input lin
-e 24.
+e 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/bx/n on input lin
-e 24.
+e 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 24.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/m/n on input line 24
+(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/m/n on input line 78
 .
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 24.
+on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/TimesNewRoman(0)/bx/it on input l
-ine 24.
+ine 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 24.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/bx/n on input line 2
-4.
+(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/bx/n on input line 7
+8.
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'gemReport.bbl' not found.
 
-No file gemReport.bbl.
-Package biblatex Info: Reference section=0 on input line 24.
-Package biblatex Info: Reference segment=0 on input line 24.
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'gemReport.bbl' found.
+(gemReport.bbl)
+Package biblatex Info: Reference section=0 on input line 78.
+Package biblatex Info: Reference segment=0 on input line 78.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
  at 12.0pt
  -> C:/WINDOWS/Fonts/times.ttf
-\c@lstlisting=\count336
+\c@lstlisting=\count373
+(gemReport.glsdefs)
 Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 12.0pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
@@ -1258,7 +1524,7 @@ Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
 Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 14.4pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
-[1
+ [1
 
 ]
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
@@ -1279,12 +1545,9 @@ Requested font "cmmi6" at 6.0pt
 Requested font "cmsy10" at 12.0pt
 Requested font "cmsy8" at 8.0pt
 Requested font "cmsy6" at 6.0pt
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 27.
+Requested font "cmex10" at 12.0pt
+Requested font "cmex8" at 8.0pt
+Requested font "cmex7" at 6.0pt
 Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
  [2
@@ -1297,160 +1560,111 @@ Requested font "cmr6" at 6.0pt
 \tf@toc=\write4
  [5] (gemReport.lot)
 \tf@lot=\write5
- [6
+
+[6
 
 ] (gemReport.lof)
 \tf@lof=\write6
+ [7
 
-[7
-
-] [8
+] (gemReport.loe) [8
 
 ] [9
 
-]
-Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
-;" at 8.0pt
- -> C:/WINDOWS/Fonts/timesbd.ttf
- [10
+] [10
 
 ]
 Κεφάλαιο 1.
+[11
 
-LaTeX Warning: Citation 'Schmidt98' on page 11 undefined on input line 73.
-
-
-LaTeX Warning: Citation 'goosens93' on page 11 undefined on input line 74.
-
-
-LaTeX Warning: Citation 'Chatzigeorgiou05' on page 11 undefined on input line 7
-5.
-
-
-LaTeX Warning: Citation 'Sommerville09' on page 11 undefined on input line 76.
-
-
-LaTeX Warning: Citation '4343930' on page 11 undefined on input line 77.
-
-
-Overfull \hbox (59.0255pt too wide) in paragraph at lines 73--78
-\EU1/TimesNewRoman(1)/m/n/12 φορά σε ένα βιβλίο:([] ). Αυτή είναι η αναφορά σε 
-ένα ελληνικό βιβλίο:([]
+]
+Overfull \hbox (16.79852pt too wide) in paragraph at lines 156--157
+[]\EU1/TimesNewRoman(1)/m/n/12 Τυποποιημένη μεθοδολογία χρησιμοποιώντας τεχνικέ
+ς μοντελοποίησης όπως UML. 
  []
 
+[12] [13]
+Κεφάλαιο 2.
+[14
 
-Overfull \hbox (21.14279pt too wide) in paragraph at lines 73--78
-\EU1/TimesNewRoman(1)/m/n/12 ). Βιβλίο στα ελληνικά με ξένο συγγραφέα:([] ). Άρ
-θρο σε συνέδριο ([]
+] [15] [16] [17]
+File: Images/game_engine_architecture.png Graphic file (type QTm)
+ <use  "Images/game_engine_architecture.png" >
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 219--220
+ [][] 
  []
 
-
-LaTeX Warning: Citation 'Wikipedia_BibTeX' on page 11 undefined on input line 7
-9.
-
-File: lion.png Graphic file (type QTm)
-<use  "lion.png" >
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
  at 10.95pt
  -> C:/WINDOWS/Fonts/times.ttf
 Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
+[18] [19]
+Κεφάλαιο 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-[]|\EU1/TimesNewRoman(1)/m/n/12 Παραδείγματα ευρημά-
+Overfull \hbox (11.79268pt too wide) in paragraph at lines 226--227
+[]\EU1/TimesNewRoman(1)/m/n/12 Όταν ένα framework επεκτείνεται και διακλαδώνετα
+ι και σε πολλές υπο-βιβλιοθήκες,
  []
 
-
-Underfull \hbox (badness 5359) in paragraph at lines 107--107
-[]|\EU1/TimesNewRoman(1)/m/n/12 Συμμετοχή στις αποφά-
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11
-
-] [12]
-Παράρτημα 1.
-[13
-
-]
-Overfull \hbox (16.79852pt too wide) in paragraph at lines 151--152
-[]\EU1/TimesNewRoman(1)/m/n/12 Τυποποιημένη μεθοδολογία χρησιμοποιώντας τεχνικέ
-ς μοντελοποίησης όπως UML. 
- []
-
-[14] [15]
-Παράρτημα 2.
-[16
-
-] [17] [18] [19]
-File: Images/game_engine_architecture.png Graphic file (type QTm)
- <use  "Images/game_engine_architecture.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 214--215
- [][] 
- []
-
-[20] [21]
-Παράρτημα 3.
 File: Images/game_coding_complete_chapter7_gameloops.png Graphic file (type QTm
 )
 <use  "Images/game_coding_complete_chapter7_gameloops.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 225--226
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 235--236
  [][] 
  []
 
 File: Images/core_screensystem.png Graphic file (type QTm)
 <use  "Images/core_screensystem.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 233--234
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 243--244
  [][] 
  []
 
 File: Images/core_input.png Graphic file (type QTm)
 <use  "Images/core_input.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 241--242
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 251--252
  [][] 
  []
 
-[22
+[20
 
-] [23] [24] [25]
-Παράρτημα 4.
-[26
+] [21] [22] [23]
+Κεφάλαιο 4.
+[24
 
 ]
 File: Images/gameloop_network_sequence.png Graphic file (type QTm)
- <use  "Images/gameloop_network_sequence.png" > [27] [28] [29]
+ <use  "Images/gameloop_network_sequence.png" > [25] [26] [27]
 File: Images/network_usage_diagram.png Graphic file (type QTm)
 
-<use  "Images/network_usage_diagram.png" > [30]
-Overfull \hbox (0.42548pt too wide) in paragraph at lines 342--343
+<use  "Images/network_usage_diagram.png" > [28]
+Overfull \hbox (0.42648pt too wide) in paragraph at lines 352--353
 \EU1/TimesNewRoman(1)/m/n/12 τιμών, και το ParallelBufferBlock το οποίο εκτελεί
  κώδικα σε buffer άλλου thread
  []
 
 
-Overfull \hbox (14.30273pt too wide) in paragraph at lines 346--347
+Overfull \hbox (14.30273pt too wide) in paragraph at lines 356--357
 \EU1/TimesNewRoman(1)/m/n/12 interface και την χωρήγηση του σημειώνοντας την κλ
 άση με το PackageSerializerAttribute
  []
 
-[31] [32]
-Overfull \hbox (8.86914pt too wide) in paragraph at lines 352--353
+[29] [30]
+Overfull \hbox (8.86914pt too wide) in paragraph at lines 362--363
 \EU1/TimesNewRoman(1)/m/n/12 function o οποίος εκτελείται ασύγχρονα κατά την πα
 ραλαβή κάποιου μηνύματος-κλάσης,
  []
 
 File: Images/network_architecture_packages.png Graphic file (type QTm)
 <use  "Images/network_architecture_packages.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 356--357
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 366--367
  [][] 
  []
 
 File: Images/network_architecture_networking.png Graphic file (type QTm)
 <use  "Images/network_architecture_networking.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 368--369
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 378--379
  [][] 
  []
 
@@ -1460,48 +1674,72 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesi.ttf
- [33] [34]
-[35]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 419
+ [31] [32]
+[33]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 429
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Requested font "[lmmono10-regular]" at 10.95pt
  -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmmono10-regular.otf
- [36] [37]
+ [34] [35]
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 12.0pt
  -> C:/WINDOWS/Fonts/timesi.ttf
 
-[38] [39] [40]
-Παράρτημα 5.
-[41
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
+[]|\EU1/TimesNewRoman(1)/m/n/12 Παραδείγματα ευρημά-
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 558--558
+[]|\EU1/TimesNewRoman(1)/m/n/12 Συμμετοχή στις αποφά-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37] [38]
+Κεφάλαιο 5.
+[39
 
 ]
+Overfull \hbox (33.47562pt too wide) in paragraph at lines 568--568
+[]\EU1/TimesNewRoman(1)/m/n/12 H Διεπαφή Προγραμματισμού Εφαρμογών (αγγλ. API, 
+από το Application Programming
+ []
 
-LaTeX Warning: Empty bibliography on input line 545.
+[40
 
-[42
+] [41
 
-] (gemReport.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                gemReport
-(biblatex)                and rerun LaTeX afterwards.
-
+]
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
+ at 8.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
+apping=tex-text;" at 5.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "cmex7" at 5.0pt
+Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
+ at 6.0pt
+ -> C:/WINDOWS/Fonts/times.ttf
+Requested font "Courier New/OT:script=latn;language=DFLT;mapping=tex-text;" at 
+8.0pt
+ -> C:/WINDOWS/Fonts/cour.ttf
+\tf@loe=\write7
+ [42] (gemReport.aux)
 Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 23240 strings out of 428790
- 445200 string characters out of 3164815
- 872177 words of memory out of 3000000
- 26307 multiletter control sequences out of 15000+200000
- 6696 words of font info for 63 fonts, out of 3000000 for 9000
+ 27661 strings out of 428790
+ 508941 string characters out of 3164815
+ 875810 words of memory out of 3000000
+ 30583 multiletter control sequences out of 15000+200000
+ 7621 words of font info for 70 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 60i,11n,95p,10472b,1660s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,11n,95p,10472b,1900s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on gemReport.pdf (42 pages).
