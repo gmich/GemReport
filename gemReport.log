@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  2 MAR 2016 17:49
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  3 MAR 2016 14:24
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1381,92 +1381,76 @@ Overfull \hbox (16.79852pt too wide) in paragraph at lines 151--152
 ς μοντελοποίησης όπως UML. 
  []
 
-[14]
+[14] [15]
 Παράρτημα 2.
-[15
+[16
 
-] [16] [17]
+] [17] [18] [19]
 File: Images/game_engine_architecture.png Graphic file (type QTm)
  <use  "Images/game_engine_architecture.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 215--216
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 214--215
  [][] 
  []
 
-[18] [19]
+[20] [21]
 Παράρτημα 3.
 File: Images/game_coding_complete_chapter7_gameloops.png Graphic file (type QTm
 )
 <use  "Images/game_coding_complete_chapter7_gameloops.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 226--227
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 225--226
  [][] 
  []
 
 File: Images/core_screensystem.png Graphic file (type QTm)
 <use  "Images/core_screensystem.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 234--235
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 233--234
  [][] 
  []
 
 File: Images/core_input.png Graphic file (type QTm)
 <use  "Images/core_input.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 242--243
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 241--242
  [][] 
  []
 
-[20
+[22
 
-] [21] [22] [23]
+] [23] [24] [25]
 Παράρτημα 4.
-[24
+[26
 
 ]
-Overfull \hbox (6.50586pt too wide) in paragraph at lines 263--264
- \EU1/TimesNewRoman(1)/bx/n/12 Εξαγωγή απαιτήσεων[] \EU1/TimesNewRoman(1)/m/n/1
-2 Με βάση το πρόβλημα καταλήγουμε στο παρακάτω διάγραμμα
- []
-
 File: Images/gameloop_network_sequence.png Graphic file (type QTm)
-<use  "Images/gameloop_network_sequence.png" > [25] [26] [27]
-Overfull \hbox (10.19823pt too wide) in paragraph at lines 325--326
- \EU1/TimesNewRoman(1)/bx/n/12 NetworkManager[] \EU1/TimesNewRoman(1)/m/n/12 Ο 
-network manager είναι υπεύθυνος για την διαχείριση των sockets,
- []
-
+ <use  "Images/gameloop_network_sequence.png" > [27] [28] [29]
 File: Images/network_usage_diagram.png Graphic file (type QTm)
-<use  "Images/network_usage_diagram.png" > [28] [29]
-Overfull \hbox (0.42548pt too wide) in paragraph at lines 343--344
+
+<use  "Images/network_usage_diagram.png" > [30]
+Overfull \hbox (0.42548pt too wide) in paragraph at lines 342--343
 \EU1/TimesNewRoman(1)/m/n/12 τιμών, και το ParallelBufferBlock το οποίο εκτελεί
  κώδικα σε buffer άλλου thread
  []
 
 
-Overfull \hbox (10.52539pt too wide) in paragraph at lines 347--348
-\EU1/TimesNewRoman(1)/m/n/12 τητα να συμπεριλάβει τον δικό του serializer με το
- implementation του IPackageSerializer
- []
-
-
-Overfull \hbox (14.30273pt too wide) in paragraph at lines 347--348
+Overfull \hbox (14.30273pt too wide) in paragraph at lines 346--347
 \EU1/TimesNewRoman(1)/m/n/12 interface και την χωρήγηση του σημειώνοντας την κλ
 άση με το PackageSerializerAttribute
  []
 
-
-Overfull \hbox (8.86914pt too wide) in paragraph at lines 353--354
+[31] [32]
+Overfull \hbox (8.86914pt too wide) in paragraph at lines 352--353
 \EU1/TimesNewRoman(1)/m/n/12 function o οποίος εκτελείται ασύγχρονα κατά την πα
 ραλαβή κάποιου μηνύματος-κλάσης,
  []
 
 File: Images/network_architecture_packages.png Graphic file (type QTm)
 <use  "Images/network_architecture_packages.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 357--358
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 356--357
  [][] 
  []
 
-[30] [31]
 File: Images/network_architecture_networking.png Graphic file (type QTm)
- <use  "Images/network_architecture_networking.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 369--370
+<use  "Images/network_architecture_networking.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 368--369
  [][] 
  []
 
@@ -1476,29 +1460,29 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesi.ttf
- [32] [33]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 420
+ [33] [34]
+[35]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 419
 .
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Requested font "[lmmono10-regular]" at 10.95pt
  -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmmono10-regular.otf
- [34]
+ [36] [37]
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 12.0pt
  -> C:/WINDOWS/Fonts/timesi.ttf
- [35] [36]
-[37]
+
+[38] [39] [40]
 Παράρτημα 5.
-[38
+[41
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 550.
+LaTeX Warning: Empty bibliography on input line 545.
 
-[39
+[42
 
 ] (gemReport.aux)
 
@@ -1514,10 +1498,10 @@ Package logreq Info: Writing requests to 'gemReport.run.xml'.
 Here is how much of TeX's memory you used:
  23240 strings out of 428790
  445200 string characters out of 3164815
- 871177 words of memory out of 3000000
+ 872177 words of memory out of 3000000
  26307 multiletter control sequences out of 15000+200000
  6696 words of font info for 63 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  60i,11n,95p,10472b,1660s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on gemReport.pdf (39 pages).
+Output written on gemReport.pdf (42 pages).
