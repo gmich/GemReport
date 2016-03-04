@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  3 MAR 2016 17:05
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.12.15)  4 MAR 2016 02:44
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1368,13 +1368,16 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 Package thmtools Info: Key `qed' (with value `')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=theorem' on input line 59.
+(thmtools)             that uses `style=theorem' on input line 41.
 Package thmtools Info: Key `postheadhook' (with value `\ifx \@empty \thmt@short
 optarg \renewcommand \addcontentsline [3]{} \fi ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=theorem' on input line 59.
+(thmtools)             that uses `style=theorem' on input line 41.
+
+(Content/theorems.tex
 \c@theorem=\count372
+) (Content/glossary.tex)
 Package biblatex Info: Trying to load language 'greek'...
 Package biblatex Info: ... file 'greek.lbx' found.
 
@@ -1396,26 +1399,26 @@ Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
  at 10.0pt
  -> C:/WINDOWS/Fonts/times.ttf
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 78.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 58.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 58.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    ... okay on input line 58.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1423,64 +1426,64 @@ LaTeX Font Info:    ... okay on input line 78.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 78.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 78.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 78.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 78.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 78.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 78.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 78.
-LaTeX Font Info:    Redeclaring math accent \check on input line 78.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 78.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 78.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 78.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 78.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 58.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 58.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 58.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 58.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 58.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 58.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 58.
+LaTeX Font Info:    Redeclaring math accent \check on input line 58.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 58.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 58.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 58.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 58.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 78.
+(Font)              `operators' in the math version `normal' on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/TimesNewRoman(0)/m/n on input line 
-78.
+58.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 78.
+(Font)              `operators' in the math version `bold' on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/m/n on input line
- 78.
+ 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/m/n o
-n input line 78.
+n input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/TimesNewRoman(0)/m/it on input lin
-e 78.
+e 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/TimesNewRoman(0)/bx/n on input lin
-e 78.
+e 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 78.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/m/n on input line 78
+(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/m/n on input line 58
 .
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/TimesNewRoman(0)/m/n --> EU1/TimesNewRoman(0)/bx/n 
-on input line 78.
+on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/TimesNewRoman(0)/bx/it on input l
-ine 78.
+ine 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 78.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/bx/n on input line 7
+(Font)                  OT1/cmtt/m/n --> EU1/CourierNew(0)/bx/n on input line 5
 8.
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -1494,8 +1497,8 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'gemReport.bbl' found.
 (gemReport.bbl)
-Package biblatex Info: Reference section=0 on input line 78.
-Package biblatex Info: Reference segment=0 on input line 78.
+Package biblatex Info: Reference section=0 on input line 58.
+Package biblatex Info: Reference segment=0 on input line 58.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1550,47 +1553,48 @@ Requested font "cmex8" at 8.0pt
 Requested font "cmex7" at 6.0pt
 Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
- [2
+ (Chapters/abstract.tex [2
 
-] [3
+]) [3
 
 ] (gemReport.toc [4
 
 ])
 \tf@toc=\write4
- [5] (gemReport.lot)
-\tf@lot=\write5
 
-[6
+[5] (gemReport.lot)
+\tf@lot=\write5
+ [6
 
 ] (gemReport.lof)
 \tf@lof=\write6
  [7
 
-] (gemReport.loe) [8
+] (gemReport.loe)
+(Chapters/preface.tex [8
 
 ] [9
 
-] [10
+]) (Chapters/case_tools.tex [10
 
 ]
 Κεφάλαιο 1.
 [11
 
 ]
-Overfull \hbox (16.79852pt too wide) in paragraph at lines 156--157
+Overfull \hbox (16.79852pt too wide) in paragraph at lines 40--41
 []\EU1/TimesNewRoman(1)/m/n/12 Τυποποιημένη μεθοδολογία χρησιμοποιώντας τεχνικέ
 ς μοντελοποίησης όπως UML. 
  []
 
-[12] [13]
+[12]) (Chapters/game_engineering.tex [13]
 Κεφάλαιο 2.
 [14
 
 ] [15] [16] [17]
 File: Images/game_engine_architecture.png Graphic file (type QTm)
  <use  "Images/game_engine_architecture.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 219--220
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
@@ -1600,10 +1604,10 @@ Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
 Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
-[18] [19]
+) (Chapters/core.tex [18] [19]
 Κεφάλαιο 3.
 
-Overfull \hbox (11.79268pt too wide) in paragraph at lines 226--227
+Overfull \hbox (11.79268pt too wide) in paragraph at lines 3--4
 []\EU1/TimesNewRoman(1)/m/n/12 Όταν ένα framework επεκτείνεται και διακλαδώνετα
 ι και σε πολλές υπο-βιβλιοθήκες,
  []
@@ -1611,23 +1615,23 @@ Overfull \hbox (11.79268pt too wide) in paragraph at lines 226--227
 File: Images/game_coding_complete_chapter7_gameloops.png Graphic file (type QTm
 )
 <use  "Images/game_coding_complete_chapter7_gameloops.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 235--236
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 12--13
  [][] 
  []
 
 File: Images/core_screensystem.png Graphic file (type QTm)
 <use  "Images/core_screensystem.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 243--244
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 20--21
  [][] 
  []
 
 File: Images/core_input.png Graphic file (type QTm)
 <use  "Images/core_input.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 251--252
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
-[20
+) (Chapters/networking.tex [20
 
 ] [21] [22] [23]
 Κεφάλαιο 4.
@@ -1639,32 +1643,32 @@ File: Images/gameloop_network_sequence.png Graphic file (type QTm)
 File: Images/network_usage_diagram.png Graphic file (type QTm)
 
 <use  "Images/network_usage_diagram.png" > [28]
-Overfull \hbox (0.42648pt too wide) in paragraph at lines 352--353
+Overfull \hbox (0.42648pt too wide) in paragraph at lines 97--98
 \EU1/TimesNewRoman(1)/m/n/12 τιμών, και το ParallelBufferBlock το οποίο εκτελεί
  κώδικα σε buffer άλλου thread
  []
 
 
-Overfull \hbox (14.30273pt too wide) in paragraph at lines 356--357
+Overfull \hbox (14.30273pt too wide) in paragraph at lines 101--102
 \EU1/TimesNewRoman(1)/m/n/12 interface και την χωρήγηση του σημειώνοντας την κλ
 άση με το PackageSerializerAttribute
  []
 
 [29] [30]
-Overfull \hbox (8.86914pt too wide) in paragraph at lines 362--363
+Overfull \hbox (8.86914pt too wide) in paragraph at lines 107--108
 \EU1/TimesNewRoman(1)/m/n/12 function o οποίος εκτελείται ασύγχρονα κατά την πα
 ραλαβή κάποιου μηνύματος-κλάσης,
  []
 
 File: Images/network_architecture_packages.png Graphic file (type QTm)
 <use  "Images/network_architecture_packages.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 366--367
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 111--112
  [][] 
  []
 
 File: Images/network_architecture_networking.png Graphic file (type QTm)
 <use  "Images/network_architecture_networking.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 378--379
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 123--124
  [][] 
  []
 
@@ -1676,7 +1680,7 @@ Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
  -> C:/WINDOWS/Fonts/timesi.ttf
  [31] [32]
 [33]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 429
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 174
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1689,31 +1693,27 @@ Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
  -> C:/WINDOWS/Fonts/timesi.ttf
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 558--558
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
 []|\EU1/TimesNewRoman(1)/m/n/12 Παραδείγματα ευρημά-
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 558--558
+Underfull \hbox (badness 5359) in paragraph at lines 303--303
 []|\EU1/TimesNewRoman(1)/m/n/12 Συμμετοχή στις αποφά-
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37] [38]
-Κεφάλαιο 5.
-[39
-
-]
-Overfull \hbox (33.47562pt too wide) in paragraph at lines 568--568
+) [37] [38]
+Overfull \hbox (33.47562pt too wide) in paragraph at lines 77--77
 []\EU1/TimesNewRoman(1)/m/n/12 H Διεπαφή Προγραμματισμού Εφαρμογών (αγγλ. API, 
 από το Application Programming
  []
 
-[40
+[39
 
-] [41
+] [40
 
 ]
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
@@ -1730,16 +1730,16 @@ Requested font "Courier New/OT:script=latn;language=DFLT;mapping=tex-text;" at
 8.0pt
  -> C:/WINDOWS/Fonts/cour.ttf
 \tf@loe=\write7
- [42] (gemReport.aux)
+ [41] (gemReport.aux)
 Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27661 strings out of 428790
- 508941 string characters out of 3164815
- 875810 words of memory out of 3000000
+ 27686 strings out of 428790
+ 509391 string characters out of 3164814
+ 875873 words of memory out of 3000000
  30583 multiletter control sequences out of 15000+200000
  7621 words of font info for 70 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  60i,11n,95p,10472b,1900s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on gemReport.pdf (42 pages).
+Output written on gemReport.pdf (41 pages).

@@ -81,7 +81,7 @@
       <file>gemReport-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>references.bib</file>
+      <file>Content/references.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

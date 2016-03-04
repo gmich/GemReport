@@ -95,5 +95,3 @@
 \contentsline {section}{\numberline {4.6}Ανάλυση των επιδόσεων}{37}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.7}Επεκτασιμότητα}{38}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Περίληψη}{39}
