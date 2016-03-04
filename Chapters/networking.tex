@@ -247,7 +247,11 @@ handlerDisposable.Dispose();
 	\section{Testing}
 	Μια καλή αρχιτεκονική υποστηρίζεται από την ευκολία της δοκιμαστικότητας ανά μονάδα (unit testability). Το framework χρησιμοποιεί functional τεχνικές, οι οποίες εύκολα μπορούν να αντικατασταθούν με mocks. Ο χρήστης μπορεί να απομιμήσει την παραλαβή ή αποστολή πακέτων και να ενημερώνει την μονάδα επεξεργασίας μηνυμάτων από το τρέχων thread.
 	
-	\lstset{style=sharpc}
+	\lstset
+	{
+		style=sharpc, 
+		caption={Incoming Package Handler}
+	}
 	\begin{lstlisting}
 	
 [TestMethod]

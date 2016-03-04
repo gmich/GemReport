@@ -10,18 +10,20 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces game loops\relax }}{21}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Core Lifecycle\relax }}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces core screensystem\relax }}{22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces game loops\relax }}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces core input\relax }}{23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces core screensystem\relax }}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces core input architecture\relax }}{28}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Network Sequence\relax }}{25}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Network Sequence\relax }}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Network Usage Diagram\relax }}{30}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Network Usage Diagram\relax }}{35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Network Packages Module\relax }}{32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Network Packages Module\relax }}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Networking Module\relax }}{33}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Networking Module\relax }}{38}
