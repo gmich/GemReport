@@ -1,4 +1,7 @@
 \documentclass[oneside, 12pt]{book}
+
+%packages
+
 \usepackage{icdthesisUTF}
 \usepackage{tabularx} 
 \usepackage{epsfig}
@@ -6,17 +9,12 @@
 \usepackage{amsthm}
 \usepackage{thmtools}
 \usepackage{glossaries}
-
 \usepackage{xcolor}
 
-\lstdefinestyle{sharpc}{
-	language=[Sharp]C,
-	basicstyle=\small,
-	breaklines=true,
-	rulecolor=\color{blue!80!black}}
+%------------------------------------------
 
-\addbibresource{Content/references.bib} 
-		
+%commands
+	
 \renewcommand{\thesistitle}{Ανάπτυξη eργαλείου για την σχεδίαση παιχνιδιών με την βοήθεια υπο-λογιστή }
 \renewcommand{\thesisauthor}{Γιώργου Μιχαηλίδη}
 \renewcommand{\thesisauthorabbrv}{Γ. Μιχαηλίδης}
@@ -25,7 +23,16 @@
 \renewcommand{\thesismonth}{Φεβρουάριος}
 \renewcommand{\thesisyear}{2016}
 \renewcommand{\listtheoremname}{Κατάλογος ορισμών}
-\makeatletter
+
+%------------------------------------------
+
+%styles
+
+\lstdefinestyle{sharpc}{
+	language=[Sharp]C,
+	basicstyle=\small,
+	breaklines=true,
+	rulecolor=\color{blue!80!black}}
 
 \declaretheoremstyle[
 spaceabove=6pt, spacebelow=6pt,
@@ -39,8 +46,7 @@ postheadhook={%
 	\renewcommand\addcontentsline[3]{}
 	\fi}
 ]{theorem}
-\makeatother
-\makeatletter
+
 \def\ll@theorem{%
 	\protect\numberline{\csname the\thmt@envname\endcsname}%
 	\ifx\@empty\thmt@shortoptarg
@@ -49,11 +55,27 @@ postheadhook={%
 	\thmt@shortoptarg
 	\fi}
 \def\l@thmt@theorem{} 
+
+%------------------------------------------
+
+%makes
+
 \makeatother
 \makenoidxglossaries
+\makeatletter
+\makeatother
 
+%------------------------------------------
+
+%content
+
+\addbibresource{Content/references.bib} 
 \input{Content/theorems.tex}	
 \input{Content/glossary.tex}	
+
+%------------------------------------------
+
+%body
 
 \begin{document}
 	
