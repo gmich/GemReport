@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  4 MAR 2016 19:03
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  5 MAR 2016 16:29
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1562,24 +1562,24 @@ Requested font "cmr6" at 6.0pt
 ])
 \tf@toc=\write4
 
-[5] (gemReport.lot)
+[5] [6] (gemReport.lot)
 \tf@lot=\write5
- [6
+ [7
 
 ] (gemReport.lof)
 \tf@lof=\write6
- [7
+ [8
 
 ] (gemReport.loe)
-(Chapters/preface.tex [8
+(Chapters/preface.tex [9
 
-] [9
+] [10
 
-]) (Chapters/case_tools.tex [10
+]) (Chapters/case_tools.tex [11
 
 ]
 Κεφάλαιο 1.
-[11
+[12
 
 ]
 Overfull \hbox (16.79852pt too wide) in paragraph at lines 40--41
@@ -1587,11 +1587,11 @@ Overfull \hbox (16.79852pt too wide) in paragraph at lines 40--41
 ς μοντελοποίησης όπως UML. 
  []
 
-[12]) (Chapters/game_engineering.tex [13]
+[13]) (Chapters/game_engineering.tex [14]
 Κεφάλαιο 2.
-[14
+[15
 
-] [15] [16] [17]
+] [16] [17] [18]
 File: Images/game_engine_architecture.png Graphic file (type QTm)
  <use  "Images/game_engine_architecture.png" >
 Overfull \hbox (42.24408pt too wide) in paragraph at lines 57--58
@@ -1604,7 +1604,7 @@ Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
 Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
-) (Chapters/core.tex [18] [19]
+) (Chapters/core.tex [19] [20]
 Κεφάλαιο 3.
 
 Overfull \hbox (12.53096pt too wide) in paragraph at lines 3--4
@@ -1613,9 +1613,9 @@ Overfull \hbox (12.53096pt too wide) in paragraph at lines 3--4
  []
 
 File: Images/core_lifecycle.png Graphic file (type QTm)
-<use  "Images/core_lifecycle.png" > [20
+<use  "Images/core_lifecycle.png" > [21
 
-] [21] [22]
+] [22] [23]
 Overfull \hbox (1.25761pt too wide) in paragraph at lines 48--49
 \EU1/TimesNewRoman(1)/m/n/12 τα συστήματα ενημερώνονται όταν εξυπηρετείται το μ
 ήνυμα. Παραμένουν άεργα
@@ -1628,44 +1628,50 @@ Overfull \hbox (42.24408pt too wide) in paragraph at lines 54--55
  [][] 
  []
 
-File: Images/core_screensystem.png Graphic file (type QTm)
-<use  "Images/core_screensystem.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 63--64
+[24]
+File: Images/screensystem_sequence.png Graphic file (type QTm)
+ <use  "Images/screensystem_sequence.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
-[23] [24]
-Overfull \hbox (5.1307pt too wide) in paragraph at lines 79--80
+File: Images/core_screensystem.png Graphic file (type QTm)
+<use  "Images/core_screensystem.png" >
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 76--77
+ [][] 
+ []
+
+
+Overfull \hbox (5.1307pt too wide) in paragraph at lines 92--93
 []\EU1/TimesNewRoman(1)/m/n/12 Digital Buttons: τα ψηφιακά κουμπιά έχουν δύο κα
 ταστάσεις: pressed / not pressed 
  []
 
-
-Overfull \hbox (12.47958pt too wide) in paragraph at lines 87--88
+[25]
+Overfull \hbox (12.47958pt too wide) in paragraph at lines 100--101
 \EU1/TimesNewRoman(1)/m/n/12 από συσκευή ανθρώπινης διεπαφής. Ο κώδικας αυτός ε
 κτελείται αντίστοιχα για keyboard-
  []
 
-[25]
 File: Images/core_input.png Graphic file (type QTm)
- <use  "Images/core_input.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 96--97
+<use  "Images/core_input.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+[26] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-) [26])
-(Chapters/networking.tex [27] [28]
+))
+(Chapters/networking.tex [27] [28] [29] [30]
 Κεφάλαιο 4.
-[29
+[31
 
 ]
 File: Images/gameloop_network_sequence.png Graphic file (type QTm)
- <use  "Images/gameloop_network_sequence.png" > [30] [31] [32]
+ <use  "Images/gameloop_network_sequence.png" > [32] [33] [34]
 File: Images/network_usage_diagram.png Graphic file (type QTm)
 
-<use  "Images/network_usage_diagram.png" > [33]
+<use  "Images/network_usage_diagram.png" > [35]
 Overfull \hbox (0.42648pt too wide) in paragraph at lines 97--98
 \EU1/TimesNewRoman(1)/m/n/12 τιμών, και το ParallelBufferBlock το οποίο εκτελεί
  κώδικα σε buffer άλλου thread
@@ -1677,7 +1683,7 @@ Overfull \hbox (14.30273pt too wide) in paragraph at lines 101--102
 άση με το PackageSerializerAttribute
  []
 
-[34] [35]
+[36] [37]
 Overfull \hbox (8.86914pt too wide) in paragraph at lines 107--108
 \EU1/TimesNewRoman(1)/m/n/12 function o οποίος εκτελείται ασύγχρονα κατά την πα
 ραλαβή κάποιου μηνύματος-κλάσης,
@@ -1698,7 +1704,7 @@ Overfull \hbox (56.47046pt too wide) in paragraph at lines 123--124
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesi.ttf
-[36] [37] [38]
+[38] [39] [40]
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 174
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
@@ -1707,11 +1713,11 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Requested font "[lmmono10-regular]" at 10.95pt
  -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmmono10-regular.otf
 
-[39] [40] [41]
+[41] [42] [43]
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 12.0pt
  -> C:/WINDOWS/Fonts/timesi.ttf
- [42]
+ [44]
 Underfull \hbox (badness 10000) in paragraph at lines 307--307
 []|\EU1/TimesNewRoman(1)/m/n/12 Παραδείγματα ευρημά-
  []
@@ -1721,7 +1727,7 @@ Underfull \hbox (badness 5359) in paragraph at lines 307--307
 []|\EU1/TimesNewRoman(1)/m/n/12 Συμμετοχή στις αποφά-
  []
 
-) [43] [44]
+) [45] [46]
 Overfull \hbox (33.47562pt too wide) in paragraph at lines 100--100
 []\EU1/TimesNewRoman(1)/m/n/12 H Διεπαφή Προγραμματισμού Εφαρμογών (αγγλ. API, 
 από το Application Programming
@@ -1739,9 +1745,9 @@ Overfull \hbox (1.27135pt too wide) in paragraph at lines 100--100
 motion capture systems. Frame
  []
 
-[45
+[47
 
-] [46
+] [48
 
 ]
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
@@ -1758,16 +1764,16 @@ Requested font "Courier New/OT:script=latn;language=DFLT;mapping=tex-text;" at
 8.0pt
  -> C:/WINDOWS/Fonts/cour.ttf
 \tf@loe=\write7
- [47] (gemReport.aux)
+ [49] (gemReport.aux)
 Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27741 strings out of 428790
- 510203 string characters out of 3164815
- 881361 words of memory out of 3000000
- 30637 multiletter control sequences out of 15000+200000
+ 27775 strings out of 428790
+ 510724 string characters out of 3164815
+ 883698 words of memory out of 3000000
+ 30670 multiletter control sequences out of 15000+200000
  7621 words of font info for 70 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  60i,11n,95p,10472b,1900s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on gemReport.pdf (47 pages).
+Output written on gemReport.pdf (49 pages).

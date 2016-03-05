@@ -57,8 +57,21 @@
 	\end{figure}
 		
 	\section{ScreenSystem}
+	Σε ένα τυπικό χρόνο εκτέλεσης ενός παιχνιδιού, το παιχνίδι περνά από διάφορες καταστάσεις. Οι καταστάσεις αυτές μπορεί να είναι η προσωρινή παύση, ένα μενού ρυθμίσεων ένα \gls{GUI} επιλογών το οποίο επικαλύπτει το τρέχον παιχνίδι ή απoδίδεται στον ίδιο render buffer. Το παιχνίδι χωρίζεται σε σκηνές, σε επίπεδα και σε χάρτες οι οποίες έχουν ξεχωριστό τρόπο απόδοσης στην οθόνη. Μία σκηνή μπορεί να αποδίδεται από διάφορες υποσκηνές οι οποίες δίνουν την ψευδαίσθηση του βάθους στο φόντο. Η σειρά απόδοσης των σκηνών πρέπει να είναι ρυθμιζόμενη και ελεγχόμενη. Η κάθε σκηνή μπορεί να παρομοιαστεί ως μια οθόνη.
 	
-	\begin{figure}
+	\subsection{Απαιτήσεις}
+	Ο χρήστης του συστήματος πρέπει να έχει πλήρη έλεγχο της κάθε οθόνης -σκηνής και να μπορεί να προσαρμόζει τη λογική και την φωτοαπόδοση ανάλογα. Εκτός από την ατομική λειτουργικότητα, η διαχείριση και εναλλαγή των οθονών-σκηνών πρέπει να γίνεται αυτόματα.
+	
+	\subsection{Καταστάσεις}
+	Definition of screen states
+	\begin{figure}[hb]
+		\centering
+		\includegraphics[width=165mm]{Images/screensystem_sequence}
+		\caption{screensystem sequence }
+		\label{fig:screensystem_sequence}
+	\end{figure}	
+	
+	\begin{figure}	
 		\centering
 		\includegraphics[width=160mm]{Images/core_screensystem}
 		\caption{core screensystem}
@@ -104,7 +117,7 @@
 		caption={Παράδειγμα listener στο initialization}
 	}
 	\begin{lstlisting}
-inputManager.AddListener(new MouseListener
+inputManager.AddListener(factory => factory.GamepadListener
 {
 	Settings = MouseSettings
 		    .DoubleClickDelta(Timespan.FromSeconds(0.2))
@@ -114,7 +127,7 @@ inputManager.AddListener(new MouseListener
 	        .OnLeftDoubleClick(sender,args) => this.Roll())      	
 });
 
-inputManager.AddListener(new GamepadListener
+inputManager.AddListener(factory => factory.GamepadListener
 {
 	Settings = GamepadSettings.Default,
 	Events   = GamepadEvents
