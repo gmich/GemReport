@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  6 MAR 2016 17:02
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  6 MAR 2016 17:56
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1587,14 +1587,14 @@ Overfull \hbox (16.79852pt too wide) in paragraph at lines 40--41
 ς μοντελοποίησης όπως UML. 
  []
 
-[13]) (Chapters/game_engineering.tex [14]
+[13]) (Chapters/game_design.tex [14]
 Κεφάλαιο 2.
 [15
 
-] [16] [17] [18]
+] [16]
 File: Images/game_engine_architecture.png Graphic file (type QTm)
  <use  "Images/game_engine_architecture.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 57--58
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
@@ -1604,7 +1604,10 @@ Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
 Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
-) (Chapters/core.tex [19] [20]
+
+LaTeX Warning: Citation 'mda04' on page 17 undefined on input line 33.
+
+[17] [18] [19]) (Chapters/core.tex [20]
 Κεφάλαιο 3.
 
 Overfull \hbox (12.53096pt too wide) in paragraph at lines 3--4
@@ -1650,9 +1653,9 @@ Overfull \hbox (42.24408pt too wide) in paragraph at lines 106--107
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26]
+[26] [27]
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
 apping=tex-text;" at 10.95pt
  -> C:/WINDOWS/Fonts/times.ttf
@@ -1666,7 +1669,7 @@ Overfull \hbox (5.1307pt too wide) in paragraph at lines 150--151
 ταστάσεις: pressed / not pressed 
  []
 
-[27]
+[28]
 Overfull \hbox (12.47958pt too wide) in paragraph at lines 158--159
 \EU1/TimesNewRoman(1)/m/n/12 από συσκευή ανθρώπινης διεπαφής. Ο κώδικας αυτός ε
 κτελείται αντίστοιχα για keyboard-
@@ -1681,27 +1684,23 @@ Overfull \hbox (56.47046pt too wide) in paragraph at lines 167--168
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28]
+[29] [30]
 File: Images/physics_overview.png Graphic file (type QTm)
  <use  "Images/physics_overview.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 201--202
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 202--203
  [][] 
  []
 
-) (Chapters/networking.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[29] [30] [31] [32]
+) (Chapters/networking.tex [31]
 Κεφάλαιο 4.
-[33
+[32
 
 ]
 File: Images/gameloop_network_sequence.png Graphic file (type QTm)
- <use  "Images/gameloop_network_sequence.png" > [34] [35] [36]
+ <use  "Images/gameloop_network_sequence.png" > [33] [34] [35]
 File: Images/network_usage_diagram.png Graphic file (type QTm)
 
-<use  "Images/network_usage_diagram.png" > [37]
+<use  "Images/network_usage_diagram.png" > [36]
 Overfull \hbox (0.42648pt too wide) in paragraph at lines 97--98
 \EU1/TimesNewRoman(1)/m/n/12 τιμών, και το ParallelBufferBlock το οποίο εκτελεί
  κώδικα σε buffer άλλου thread
@@ -1713,7 +1712,7 @@ Overfull \hbox (14.30273pt too wide) in paragraph at lines 101--102
 άση με το PackageSerializerAttribute
  []
 
-[38] [39]
+[37] [38]
 Overfull \hbox (8.86914pt too wide) in paragraph at lines 107--108
 \EU1/TimesNewRoman(1)/m/n/12 function o οποίος εκτελείται ασύγχρονα κατά την πα
 ραλαβή κάποιου μηνύματος-κλάσης,
@@ -1734,7 +1733,7 @@ Overfull \hbox (56.47046pt too wide) in paragraph at lines 123--124
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesi.ttf
-[40] [41] [42]
+[39] [40] [41]
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 174
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
@@ -1743,11 +1742,11 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Requested font "[lmmono10-regular]" at 10.95pt
  -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmmono10-regular.otf
 
-[43] [44] [45]
+[42] [43] [44]
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 12.0pt
  -> C:/WINDOWS/Fonts/timesi.ttf
- [46]
+ [45]
 Underfull \hbox (badness 10000) in paragraph at lines 307--307
 []|\EU1/TimesNewRoman(1)/m/n/12 Παραδείγματα ευρημά-
  []
@@ -1757,9 +1756,9 @@ Underfull \hbox (badness 5359) in paragraph at lines 307--307
 []|\EU1/TimesNewRoman(1)/m/n/12 Συμμετοχή στις αποφά-
  []
 
-) (Chapters/diagnostics.tex [47] [48]
+) (Chapters/diagnostics.tex [46] [47]
 Κεφάλαιο 5.
-) [49
+) [48
 
 ]
 Overfull \hbox (33.47562pt too wide) in paragraph at lines 102--102
@@ -1779,9 +1778,21 @@ Overfull \hbox (1.27135pt too wide) in paragraph at lines 102--102
 motion capture systems. Frame
  []
 
-[50
 
-] [51
+Overfull \hbox (12.22827pt too wide) in paragraph at lines 102--102
+\EU1/TimesNewRoman(1)/m/n/12 bridge the gap between game design and development
+, game criticism, and technical
+ []
+
+
+Overfull \hbox (9.60136pt too wide) in paragraph at lines 102--102
+\EU1/TimesNewRoman(1)/m/n/12 game research. We believe this methodology will cl
+arify and strengthen the iterative
+ []
+
+[49
+
+] [50] [51
 
 ]
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
@@ -1799,13 +1810,21 @@ Requested font "Courier New/OT:script=latn;language=DFLT;mapping=tex-text;" at
  -> C:/WINDOWS/Fonts/cour.ttf
 \tf@loe=\write7
  [52] (gemReport.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                gemReport
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27812 strings out of 428790
- 511361 string characters out of 3164815
- 884712 words of memory out of 3000000
- 30702 multiletter control sequences out of 15000+200000
+ 27843 strings out of 428790
+ 511789 string characters out of 3164815
+ 885064 words of memory out of 3000000
+ 30733 multiletter control sequences out of 15000+200000
  8769 words of font info for 75 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  60i,11n,95p,10472b,1900s stack positions out of 5000i,500n,10000p,200000b,50000s
