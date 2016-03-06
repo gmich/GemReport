@@ -15,7 +15,7 @@
 		\item Disposing εκτελείται κατά την καταστροφή
 	\end{itemize}
 	
-	\begin{figure}
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=80mm]{Images/core_lifecycle}
 		\caption{Core Lifecycle}
@@ -49,7 +49,7 @@
 	\item Call-back driven: τα υποσυστήματα παρέχουν call-back λειτουργικότητα. Δηλαδή τη δυνατότητα να θέσεις τι κώδικας θα εκτελεστεί κατά κάποιο συμβάν. Ένα συμβάν μπορεί να είναι η σύγκρουση μεταξύ δύο αντικειμένων. Ο χρήστης μπορεί να πει ότι όταν συμβεί σύγκρουση μεταξύ του παίχτη και του εχθρού, ο παίχτης θα χάσει ζωή.
 	\end{itemize}
 	
-	\begin{figure}
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=160mm]{Images/game_coding_complete_chapter7_gameloops}
 		\caption{game loops}
@@ -58,26 +58,84 @@
 		
 	\section{ScreenSystem}
 	Σε ένα τυπικό χρόνο εκτέλεσης ενός παιχνιδιού, το παιχνίδι περνά από διάφορες καταστάσεις. Οι καταστάσεις αυτές μπορεί να είναι η προσωρινή παύση, ένα μενού ρυθμίσεων ένα \gls{GUI} επιλογών το οποίο επικαλύπτει το τρέχον παιχνίδι ή απoδίδεται στον ίδιο render buffer. Το παιχνίδι χωρίζεται σε σκηνές, σε επίπεδα και σε χάρτες οι οποίες έχουν ξεχωριστό τρόπο απόδοσης στην οθόνη. Μία σκηνή μπορεί να αποδίδεται από διάφορες υποσκηνές οι οποίες δίνουν την ψευδαίσθηση του βάθους στο φόντο. Η σειρά απόδοσης των σκηνών πρέπει να είναι ρυθμιζόμενη και ελεγχόμενη. Η κάθε σκηνή μπορεί να παρομοιαστεί ως μια οθόνη.
-	
+
 	\subsection{Απαιτήσεις}
-	Ο χρήστης του συστήματος πρέπει να έχει πλήρη έλεγχο της κάθε οθόνης -σκηνής και να μπορεί να προσαρμόζει τη λογική και την φωτοαπόδοση ανάλογα. Εκτός από την ατομική λειτουργικότητα, η διαχείριση και εναλλαγή των οθονών-σκηνών πρέπει να γίνεται αυτόματα.
-	
-	\subsection{Καταστάσεις}
-	Definition of screen states
-	\begin{figure}[hb]
+	Ο χρήστης του συστήματος έχει πλήρη έλεγχο της κάθε οθόνης-σκηνής και προσαρμόζει τη λογική και την απόδοση ανάλογα. Το κεντρικό σύστημα διαχείρισης προσφέρει τη δυνατότητα προετοιμασίας οθονών, αναζήτησης μέσω κλειδιών, αυτόματη διαχείριση και εναλλαγή και εξατομίκευση τους. Για τη διατήρηση της συνοχή κατά την εναλλαγή οθόνων, προσφέρεται η δυνατότητα εξατομίκευσης της απόδοσης κατά τις μεταβάσεις.
+
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=165mm]{Images/screensystem_sequence}
-		\caption{screensystem sequence }
+		\caption{screensystem sequence}
 		\label{fig:screensystem_sequence}
 	\end{figure}	
 	
-	\begin{figure}	
+	\subsection{Συστατικά του συστήματος}		
+	\paragraph{Κεντρικό σύστημα διαχείρισης}
+	Οι λειτουργίες του συστήματος.
+	\begin{itemize}
+	\item Απόδοση και ενημέρωσης 1-N σκηνών με δυναμικά εναλλασσόμενη σειρά στο πλαίσιο του κύκλου ζωής του πηρύνα.
+	\item Προετοιμασία των οθονών και δυνατότητα εύρεσης χρησιμοποιώντας κλειδιά.
+	\item Εύκολη προβολή, απόκριψη, εναλλαγή οθονών χρησιμοποιώντας κλειδιά.
+	\item Δυνατότητα εξατομίκευσης της απόδοσης κατά τις διάφορες μεταβάσεις των σκηνών.
+	\end{itemize}
+
+	\paragraph{Screen host}
+	\begin{itemize}
+		\item Παραμετροποίηση συμβάντων κατά τις αλλαγές κατάστασης
+		\item Προσαρμοσμένη λογική και απόδοση 
+		\item Εντολές αλλαγής κατάστασης
+		\item Εξατομίκευση απόδοσης κατά την εναλλαγή κατάστασης
+	\end{itemize}
+	
+	\paragraph{Εναλλαγή οθονών}
+	Η εξατομίκευση και παραμετροποίηση της εναλλαγής οθονών λαμβάνει μέρος μέσα στο γενικό πλαίσιο απόδοσης οθονών. Ο εξατομικευτής αναλαμβανει την απόδοση του screen buffer στον οποίο αποδόθηκε η οθόνη, την κατάσταση στην οποία βρίσκεται η οθόνη, την κατεύθυνση και το ποσοστό εξέλιξης της εναλλαγής. 
+			
+	\lstset
+	{
+		style=sharpc, 
+		caption={Transition Delegate}
+	}
+	\begin{lstlisting}	
+delegate void TransitionRenderAction(ScreenState state, float progress, RenderTarget2D renderTarget, SpriteBatch batch);
+	\end{lstlisting}
+	
+	
+	\section{Αρχιτεκτονική}
+	\begin{figure}[h!]	
 		\centering
 		\includegraphics[width=160mm]{Images/core_screensystem}
 		\caption{core screensystem}
 		\label{fig:core_screensystem}
-	\end{figure}	
+	\end{figure}		
 	
+	\section{Sample API}
+
+	\lstset
+	{
+		style=sharpc, 
+		caption={Transition Delegate}
+	}
+	\begin{lstlisting}
+screenHost
+.AddScreen(
+	"FirstScreen",
+	() => new MyFirstScreen());
+		
+screenHost["FirstScreen"]
+.Show()
+.Transition(
+	Transition.WithTime(
+         TimeSpan.FromSeconds(0.5),
+         (state, progress, target, context) =>
+         context.Batch.Draw(target, 
+         (float)Math.Pow(progress - 1.0f, 2) * context.ScreenWidth, 
+         Color.White * progress
+    )
+);
+     
+screenHost["FirstScreen"]
+.Hide();   
+	\end{lstlisting}
 	\section{Input System}
 	\subsection{Human Interface devices}
 	Η μηχανή πρέπει να είναι σε θέση να διαβάζει, να επεξεργάζεται και να χρησιμοποιεί συσκευές ανθρώπινης διεπαφής. Η διαδικασία ανάγνωσης χωρίζεται στις παρακάτω κατηγορίες:
@@ -104,7 +162,7 @@
 	Ο χρήστης μπορεί να προσκολήσει κώδικα ο οποίος να εκτελείται ανά συμβαν π.χ. στη μετακίνηση του ποντικιού. Οι listeners ανάλογα με τις συνθήκες επιστολής, όπως το δέλτα του χρόνου επιστολής συμβάντος διπλού click ειναι 200ms, αποστέλλουν τα συμβάντα στoυς καταχωρημένους εκτελεστές. Το κεντρικό σύστημα διαχείρισης εισόδου ενημερώνει όλες τις συνδεδεμένες συσκευές εισόδου. 
 	Ο εκτελέσιμος κώδικας μπορεί να γραφτεί μια φορά, ανεξαρτήτως συμβάντος, και να προσκοληθεί στο initialization του lifecycle σε υποσυστήματα διεπαφών.
 	
-	\begin{figure}[hb]
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=165mm]{Images/core_input}
 		\caption{core input architecture}
@@ -135,4 +193,13 @@ inputManager.AddListener(factory => factory.GamepadListener
 			.OnYButtonPress(sender,args) => this.Roll())      	
 });
 \end{lstlisting}
-		
+
+	\section{Physics}
+	
+	Describe soft simulations
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=165mm]{Images/physics_overview}
+		\caption{Physics Architecture Abstract}
+		\label{fig:physics abstract}
+	\end{figure}		
