@@ -10,27 +10,33 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Core Lifecycle\relax }}{19}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Core Lifecycle\relax }}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces game loops\relax }}{21}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces game loops\relax }}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces screensystem sequence\relax }}{22}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces screensystem sequence\relax }}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces core screensystem\relax }}{24}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces core screensystem\relax }}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces core input architecture\relax }}{27}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces core input architecture\relax }}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Physics Architecture Abstract\relax }}{28}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Physics Architecture Abstract\relax }}{36}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Gui Usage Diagram\relax }}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Gui Structure Diagram\relax }}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Gui System Diagram\relax }}{39}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Network Sequence\relax }}{30}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Network Sequence\relax }}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Network Usage Diagram\relax }}{35}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Network Usage Diagram\relax }}{46}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Network Packages Module\relax }}{37}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Network Packages Module\relax }}{48}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Networking Module\relax }}{38}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Networking Module\relax }}{49}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

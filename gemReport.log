@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.12.15)  7 MAR 2016 00:00
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  7 MAR 2016 18:28
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1583,7 +1583,7 @@ Overfull \hbox (16.79852pt too wide) in paragraph at lines 48--49
 ] [13]
 File: Images/game_engine_architecture.png Graphic file (type QTm)
  <use  "Images/game_engine_architecture.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 24--25
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
@@ -1593,10 +1593,26 @@ Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
 Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesbd.ttf
+[14] [15]
+Overfull \hbox (9.52509pt too wide) in paragraph at lines 48--50
+[]\EU1/TimesNewRoman(1)/m/n/12 Collision and Physics Εντοπισμός συγκρούσεων και
+ rigid-body dynamics (physics)
+ []
 
-LaTeX Warning: Citation 'mda04' on page 14 undefined on input line 33.
+[16] [17]
+Overfull \hbox (6.45288pt too wide) in paragraph at lines 91--93
+[]\EU1/TimesNewRoman(1)/m/n/12 Artificial Intelligence Τυπικά patterns νοημοσύν
+ης, όπως navigation , path finding,
+ []
 
-[14] [15] [16]) (Chapters/core.tex [17]
+
+LaTeX Warning: Citation 'mda04' on page 18 undefined on input line 105.
+
+[18] [19] [20]
+
+LaTeX Warning: Citation 'koster04' on page 21 undefined on input line 149.
+
+) (Chapters/core.tex [21]
 Κεφάλαιο 3.
 
 Overfull \hbox (12.53096pt too wide) in paragraph at lines 3--4
@@ -1609,15 +1625,15 @@ File: Images/core_lifecycle.png Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18
+[22
 
-] [19]
+] [23]
 Overfull \hbox (1.25761pt too wide) in paragraph at lines 48--49
 \EU1/TimesNewRoman(1)/m/n/12 τα συστήματα ενημερώνονται όταν εξυπηρετείται το μ
 ήνυμα. Παραμένουν άεργα
  []
 
-[20]
+[24]
 File: Images/game_coding_complete_chapter7_gameloops.png Graphic file (type QTm
 )
  <use  "Images/game_coding_complete_chapter7_gameloops.png" >
@@ -1631,7 +1647,7 @@ Overfull \hbox (56.47046pt too wide) in paragraph at lines 67--68
  [][] 
  []
 
-[21] [22] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+[25] [26] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 File: Images/core_screensystem.png Graphic file (type QTm)
@@ -1644,7 +1660,7 @@ Overfull \hbox (42.24408pt too wide) in paragraph at lines 106--107
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23] [24]
+[27] [28]
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;m
 apping=tex-text;" at 10.95pt
  -> C:/WINDOWS/Fonts/times.ttf
@@ -1658,7 +1674,7 @@ Overfull \hbox (5.1307pt too wide) in paragraph at lines 150--151
 ταστάσεις: pressed / not pressed 
  []
 
-[25]
+[29]
 Overfull \hbox (12.47958pt too wide) in paragraph at lines 158--159
 \EU1/TimesNewRoman(1)/m/n/12 από συσκευή ανθρώπινης διεπαφής. Ο κώδικας αυτός ε
 κτελείται αντίστοιχα για keyboard-
@@ -1673,23 +1689,76 @@ Overfull \hbox (56.47046pt too wide) in paragraph at lines 167--168
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26] [27]
+[30] [31]
+Overfull \hbox (16.60909pt too wide) in paragraph at lines 201--206
+[]\EU1/TimesNewRoman(1)/m/n/12 Οι επιστήμονες αποκαλούν τα παιχνίδια soft real-
+time interative agent-based computer
+ []
+
+[32]
+Overfull \hbox (6.27525pt too wide) in paragraph at lines 218--219
+[]\EU1/TimesNewRoman(1)/m/n/12 Density: The density, or more precisely, the vol
+umetric mass density, of a substance
+ []
+
+[33]
+Overfull \hbox (3.30846pt too wide) in paragraph at lines 228--229
+\EU1/TimesNewRoman(1)/m/n/12 of reducing, restricting or preventing its oscilla
+tions. In physical systems, damping
+ []
+
+
+Overfull \hbox (11.73027pt too wide) in paragraph at lines 228--229
+\EU1/TimesNewRoman(1)/m/n/12 is produced by processes that dissipate the energy
+ stored in the oscillation. Examples
+ []
+
+[34]
 File: Images/physics_overview.png Graphic file (type QTm)
  <use  "Images/physics_overview.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 202--203
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
-) (Chapters/networking.tex [28]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: Images/gui_usage.png Graphic file (type QTm)
+<use  "Images/gui_usage.png" >
+
+LaTeX Warning: Float too large for page by 37.48772pt on input line 286.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: Images/gui_structure.png Graphic file (type QTm)
+<use  "Images/gui_structure.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 290--291
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: Images/gui_system.png Graphic file (type QTm)
+<use  "Images/gui_system.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 297--298
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (Chapters/networking.tex [35] [36] [37] [38] [39]
 Κεφάλαιο 4.
-[29
+[40
 
 ]
 File: Images/gameloop_network_sequence.png Graphic file (type QTm)
- <use  "Images/gameloop_network_sequence.png" > [30] [31] [32]
+ <use  "Images/gameloop_network_sequence.png" > [41] [42] [43]
 File: Images/network_usage_diagram.png Graphic file (type QTm)
 
-<use  "Images/network_usage_diagram.png" > [33]
+<use  "Images/network_usage_diagram.png" > [44]
 Overfull \hbox (0.42648pt too wide) in paragraph at lines 97--98
 \EU1/TimesNewRoman(1)/m/n/12 τιμών, και το ParallelBufferBlock το οποίο εκτελεί
  κώδικα σε buffer άλλου thread
@@ -1701,7 +1770,7 @@ Overfull \hbox (14.30273pt too wide) in paragraph at lines 101--102
 άση με το PackageSerializerAttribute
  []
 
-[34] [35]
+[45] [46]
 Overfull \hbox (8.86914pt too wide) in paragraph at lines 107--108
 \EU1/TimesNewRoman(1)/m/n/12 function o οποίος εκτελείται ασύγχρονα κατά την πα
 ραλαβή κάποιου μηνύματος-κλάσης,
@@ -1722,7 +1791,7 @@ Overfull \hbox (56.47046pt too wide) in paragraph at lines 123--124
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesi.ttf
-[36] [37] [38]
+[47] [48] [49]
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 174
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
@@ -1731,11 +1800,11 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Requested font "[lmmono10-regular]" at 10.95pt
  -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmmono10-regular.otf
 
-[39] [40] [41]
+[50] [51] [52]
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 12.0pt
  -> C:/WINDOWS/Fonts/timesi.ttf
- [42]
+ [53]
 Underfull \hbox (badness 10000) in paragraph at lines 307--307
 []|\EU1/TimesNewRoman(1)/m/n/12 Παραδείγματα ευρημά-
  []
@@ -1745,15 +1814,15 @@ Underfull \hbox (badness 5359) in paragraph at lines 307--307
 []|\EU1/TimesNewRoman(1)/m/n/12 Συμμετοχή στις αποφά-
  []
 
-) (Chapters/diagnostics.tex [43] [44]
+) (Chapters/diagnostics.tex [54] [55]
 Κεφάλαιο 5.
-) (Chapters/epilogue.tex [45
+) (Chapters/epilogue.tex [56
 
 ]
 Κεφάλαιο 6.
-) [46
+) [57
 
-] [47
+] [58
 
 ]
 Overfull \hbox (33.47562pt too wide) in paragraph at lines 100--100
@@ -1785,17 +1854,17 @@ Overfull \hbox (9.60136pt too wide) in paragraph at lines 100--100
 arify and strengthen the iterative
  []
 
-[48
+[59
 
-] [49] (gemReport.lot)
+] [60] (gemReport.lot)
 \tf@lot=\write5
- [50
+ [61
 
 ] (gemReport.lof)
 \tf@lof=\write6
- [51
+ [62
 
-] (gemReport.loe) [52
+] (gemReport.loe) [63
 
 ]
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
@@ -1813,7 +1882,7 @@ Requested font "Courier New/OT:script=latn;language=DFLT;mapping=tex-text;" at
  -> C:/WINDOWS/Fonts/cour.ttf
 \tf@loe=\write7
 
-[53] (gemReport.aux)
+[64] (gemReport.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1825,12 +1894,12 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27846 strings out of 428790
- 511860 string characters out of 3164814
+ 27855 strings out of 428790
+ 512019 string characters out of 3164815
  885064 words of memory out of 3000000
- 30733 multiletter control sequences out of 15000+200000
+ 30739 multiletter control sequences out of 15000+200000
  8769 words of font info for 75 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  60i,11n,95p,10472b,1900s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on gemReport.pdf (53 pages).
+Output written on gemReport.pdf (64 pages).

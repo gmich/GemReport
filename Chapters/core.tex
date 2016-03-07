@@ -108,7 +108,7 @@ delegate void TransitionRenderAction(ScreenState state, float progress, RenderTa
 		\label{fig:core_screensystem}
 	\end{figure}		
 	
-	\subsection{Sample API}
+	\subsection{Παράδειγματα χρήσης API}
 
 	\lstset
 	{
@@ -194,12 +194,107 @@ inputManager.AddListener(factory => factory.GamepadListener
 });
 \end{lstlisting}
 
-	\section{Physics}
-	
-	Describe soft simulations
+\section{Physics}
+Η φυσική στα παιχνίδια έχουν ως βάση τα μαθηματικά. Η ανάλυση του συστήματος της φυσικής επικεντρώνεται σε μοντελοποίηση υψηλού επιπέδου. Η υλοποίησή τους βασίζεται υλοποίηση μαθηματικών λειτουργιών γεωμετρίας, γραμμικής άλγεβρας και κινηματικής.
+
+\subsection{Τα παιχνίδια ως soft real-time simulations}
+Οι επιστήμονες αποκαλούν τα παιχνίδια soft real-time interative agent-based computer simulations.
+Στα περισσότερα παιχνίδια ένα υποσύστημα του πραγματικού κόσμου μοντελοποιείται μαθηματικά, ώστε να μπορεί να αναπαραχθεί και να χειριστεί από τον υπολογιστή. 
+Ενα agent-based simulation είναι μια προσομοίωση η οποία περιγράφει πως αλληλεπιδρούν τα διάφορα αντικείμενα και χαρακτήρες μέσα στον κόσμο.
+Όλα τα αλληλεπιδραστηκά παιχνίδια είναι temporal simulations δηλαδή ο το μοντέλο του εικονικού κόσμου είναι δυναμικό, αλλάζει με την πάροδο του χρόνου, με βάση τα διάφορα συμβάντα και την εξέλιξη της ιστορίας.
+Όλα simulations και η επικοινωνία του παιχνιδιού με τον χρήστη γίνεται σε πραγματικό χρόνο (interactive real-time simulations. 
+
+Στον πυρήνα όλων τον συστημάτων πραγματικού χρόνου υπάρχει το at least 24 fps deadline δηλαδή για να δημιουργείται η ψευδαίσθηση της κίνησης, η οθόνη θα πρέπει να ανανεώνεται τουλάχιστον 24 φορές το δευτερόλεπτο. Φυσικά υπάρχουν και άλλα είδη deadlines. Για να θεωρείται η προσομοίωση φυσικής σταθερή, πρέπει να ενημερώνεται τουλάχιστον 120 φορές το δευτερόλεπτο, ο μηχανισμός τεχνητής νοημοσύνης θα πρέπει να καλείται τουλάχιστον κάθε δευτερόλεπτο, οι audio buffers 60 φορές το δευτερόλεπτο για να αποτρέπονται δυσλειτουργίες του συστήματος διαχείρησης ήχου.
+
+Ένα soft real time system είναι ένα σύστημα στο οποίο χαμένες ενημερώσεις δεν είναι καταστροφικές.
+Τα μαθηματικά μοντέλα τα οποία απαρτίζουν το σύστημα μπορεί να είναι είτε αριθμητικά είτε αναλυτικά. Τα αριθμητικά μοντέλα μπορούν να αξιολογηθούν για κάθε τιμή της ανεξάρτητης μεταβλητής ενώ οι τιμές του αναλυτικού μοντέλου καθορίζονται διακρίτα κατά τη διάρκεια της προσομείωσης και είναι πιο συχνά γιατί η επόμενη κατάσταση της προσομείωσης καθορίζεται από την εισαγωγή δεδομένων σε πραγματικό χρόνο από το χρήστη.
+
+\subsection{Βασικές έννοιες φυσικής του συστήματος}
+Στο δημόσιο API θα χρησιμοποιηθούν οι παρακάτω έννοιες φυσικής.
+
+\begin{itemize}
+\item Mass: In physics, mass is a property of a physical body which determines the strength of its mutual gravitational attraction to other bodies, its resistance to being accelerated by a force, and in the theory of relativity gives the mass–energy content of a system.
+
+\item Density: The density, or more precisely, the volumetric mass density, of a substance is its mass per unit volume.
+
+\item Force: In physics, a force is any interaction which tends to change the motion of an object. In other words, a force can cause an object with mass to change its velocity (which includes to begin moving from a state of rest), i.e., to accelerate. Force can also be described by intuitive concepts such as a push or a pull. A force has both magnitude and direction, making it a vector quantity. It is measured in the SI unit of newtons and represented by the symbol F.
+
+\item Torque: Torque, moment, or moment of force is the tendency of a force to rotate an object about an axis, fulcrum, or pivot. Just as a force is a push or a pull, a torque can be thought of as a twist to an object. Mathematically, torque is defined as the cross product of the lever-arm distance vector and the force vector, which tends to produce rotation.
+
+\item Impulse: In classical mechanics, impulse (symbolized by J or Imp) is the integral of a force, F, over the time interval, t, for which it acts. Since force is a vector quantity, impulse is also a vector in the same direction. Impulse applied to an object produces an equivalent vector change in its linear momentum, also in the same direction. The SI unit of impulse is the newton second (N·s), and the dimensionally equivalent unit of momentum is the kilogram meter per second (kg·m/s). The corresponding English engineering units are the pound-second (lbf·s) and the slug-foot per second (slug·ft/s).
+
+\item Restitution: The law of restitution is the law of gains-based recovery. It is to be contrasted with the law of compensation, which is the law of loss-based recovery. Obligations to make restitution and obligations to pay compensation are each a type of legal response to events in the real world. When a court orders restitution it orders the defendant to give up his/her gains to the claimant. When a court orders compensation it orders the defendant to pay the claimant for his or her loss.
+
+\item Damping: is an influence within or upon an oscillatory system that has the effect of reducing, restricting or preventing its oscillations. In physical systems, damping is produced by processes that dissipate the energy stored in the oscillation. Examples include viscous drag in mechanical systems, resistance in electronic oscillators, and absorption and scattering of light in optical oscillators. Damping not based on energy loss can be important in other oscillating systems such as those that occur in biological systems.
+\end{itemize}
+
+\subsection{Οντότητες του συστήματος}
+\begin{itemize}
+\item Shape
+Ένα αντικείμενο το οποίο αντιπροσωπεύει ένα γεωμετρικό σχήμα όπως κύκλο, πολύγωνο κλπ
+\item World
+Η συλλογή των bodies, fixtures και constraints και η λογική της αλληλεπίδρασής τους.
+\item World Solver
+Ο solver αναλύει την προσομοίωση και εκτελείται ανεξάρτητα από το χρόνο εκτέλεσης του προγράμματος.
+\item Fixture 
+To fixture δένει ένα body με ένα shape και προσθέτει επιπλέον ιδιότητες όπως πυκνότητα, τριβή και αποκατάσταση. Το fixture εντάσσει ένα σχήμα στο σύστημα συγκρούσεων ώστε να αλληλεπιδρά με τα υπόλοιπα σχήματα στον κόσμο.
+\item Body 
+To body περιέχει της πληροφορίες ένος αντικειμένου του οποίου δεν βλέπεις ούτε συγκρούεσαι. Έχουν τις παρακάτω ιδιότητες
+	\begin{itemize}
+		\item mass To βάρος
+		\item velocity η ταχύτητα και η κατεύθυνση της κίνησης υπό μορφή διανύσματος.
+		\item rotation inertia πόσος κόπος χρειάζεται για να ξεκίνησει η περιστροφή ή η κίνηση
+		\item angular velocity πόσο γρήγορα και σε ποια κατεύθυνση περιστρέφεται
+		\item που βρίσκεται στο σύστημα καρτεσιανών συντεταγμένων
+		\item angle υπό ποια γωνία βρίσκεται
+	\end{itemize}
+Οι τύποι των bodies είναι:
+	\begin{itemize}
+		\item Static
+		Στατικά στο σύστημα συντεταγμένων. Δεν ανταποκρίνεται σε εξωτερικές δυνάμεις.
+		\item Dynamic
+		Είναι μέρος του συστήματος συγκρούσεων. Ανταποκρίνεται σε εξωτερικές δυνάμεις και κανονικά σε όλες τα μέρη της προσωμοίωσης.
+		\item Kinematic 
+		Κινείται ανάλογα με το προκαθορισμένο script ταχύτητας. Δεν ανταποκρίνεται σε εξωτερικές δυνάμεις.
+	\end{itemize}
+\item Constraint
+Περιορισμός κατά την προσωμοίωση του body.
+\item Joint 
+Το joint συνδέει δύο ή περισσότερα bodies μεταξύ τους.
+\item Joint Motor
+Ο οδηγός της κίνησης των συνδεδεμένων με joint bodies. 
+\item Joint Limit
+Περιορίζει το εύρος κίνησης του joint motor.
+\end{itemize}
+
+\subsection{Τεχνικές υλοποίησης}
+
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=165mm]{Images/physics_overview}
 		\caption{Physics Architecture Abstract}
 		\label{fig:physics abstract}
-	\end{figure}		
+	\end{figure}
+	
+\section{GUI}
+
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=80mm]{Images/gui_usage}
+		\caption{Gui Usage Diagram}
+		\label{fig:gui_usage}
+	\end{figure}
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=165mm]{Images/gui_structure}
+		\caption{Gui Structure Diagram}
+		\label{fig:gui_structure}
+	\end{figure}
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=165mm]{Images/gui_system}
+		\caption{Gui System Diagram}
+		\label{fig:gui_system}
+	\end{figure}			
