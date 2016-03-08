@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  7 MAR 2016 18:28
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.12.15)  9 MAR 2016 00:28
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1895,7 +1895,7 @@ Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  27855 strings out of 428790
- 512019 string characters out of 3164815
+ 512019 string characters out of 3164814
  885064 words of memory out of 3000000
  30739 multiletter control sequences out of 15000+200000
  8769 words of font info for 75 fonts, out of 3000000 for 9000
