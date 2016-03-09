@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  9 MAR 2016 18:35
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  9 MAR 2016 18:45
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1828,13 +1828,19 @@ Underfull \hbox (badness 5359) in paragraph at lines 307--307
 
 ) (Chapters/diagnostics.tex [60] [61]
 Κεφάλαιο 5.
-) (Chapters/epilogue.tex [62
+) (Chapters/epilogue.tex
+Overfull \hbox (8.84871pt too wide) in paragraph at lines 30--1
+\EU1/TimesNewRoman(1)/m/n/12 screen captures >Ingame profiler: profiling blocks
+ με αναγνώσιμα ονόματα >Hierarchical
+ []
 
-]
+[62
+
+] [63]
 Κεφάλαιο 6.
-) [63
+) [64
 
-] [64
+] [65
 
 ]
 Overfull \hbox (33.47562pt too wide) in paragraph at lines 100--100
@@ -1854,7 +1860,7 @@ Overfull \hbox (1.27135pt too wide) in paragraph at lines 100--100
 motion capture systems. Frame
  []
 
-[65
+[66
 
 ]
 Overfull \hbox (12.22827pt too wide) in paragraph at lines 100--100
@@ -1868,15 +1874,15 @@ Overfull \hbox (9.60136pt too wide) in paragraph at lines 100--100
 arify and strengthen the iterative
  []
 
-[66] (gemReport.lot)
+[67] (gemReport.lot)
 \tf@lot=\write5
- [67
+ [68
 
 ] (gemReport.lof)
 \tf@lof=\write6
- [68
+ [69
 
-] (gemReport.loe) [69
+] (gemReport.loe) [70
 
 ]
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
@@ -1893,7 +1899,7 @@ Requested font "Courier New/OT:script=latn;language=DFLT;mapping=tex-text;" at
 8.0pt
  -> C:/WINDOWS/Fonts/cour.ttf
 \tf@loe=\write7
- [70]
+ [71]
 (gemReport.aux)
 
 LaTeX Warning: There were undefined references.
@@ -1914,4 +1920,4 @@ Here is how much of TeX's memory you used:
  1096 hyphenation exceptions out of 8191
  60i,11n,95p,10472b,1900s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on gemReport.pdf (70 pages).
+Output written on gemReport.pdf (71 pages).

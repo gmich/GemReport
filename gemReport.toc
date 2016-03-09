@@ -186,16 +186,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Time Ruler}{62}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Physics Debug View}{62}
+\contentsline {section}{\numberline {5.2}Debug Drawing API}{62}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Console}{62}
+\contentsline {section}{\numberline {5.3}FPS Counter}{63}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}FPS Counter}{62}
+\contentsline {section}{\numberline {5.4}Υποσυστήματα αποσφαλμάτωσης}{63}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Επίλoγος}{63}
+\contentsline {chapter}{\numberline {6}Επίλoγος}{64}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Extensibility}{63}
+\contentsline {section}{\numberline {6.1}Extensibility}{64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Plugins}{63}
+\contentsline {subsection}{\numberline {6.1.1}Plugins}{64}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Συμπεράματα}{63}
+\contentsline {section}{\numberline {6.2}Συμπεράματα}{64}
