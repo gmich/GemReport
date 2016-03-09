@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.12.15)  9 MAR 2016 00:28
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  9 MAR 2016 18:35
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1716,7 +1716,27 @@ Overfull \hbox (11.73027pt too wide) in paragraph at lines 228--229
 [34]
 File: Images/physics_overview.png Graphic file (type QTm)
  <use  "Images/physics_overview.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 274--275
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 273--274
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35] [36]
+File: Images/ui_btree.png Graphic file (type QTm)
+ <use  "Images/ui_btree.png" > [37]
+File: Images/gui_structure.png Graphic file (type QTm)
+
+<use  "Images/gui_structure.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 306--307
+ [][] 
+ []
+
+[38]
+File: Images/gui_system.png Graphic file (type QTm)
+ <use  "Images/gui_system.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 322--323
  [][] 
  []
 
@@ -1726,39 +1746,31 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Images/gui_usage.png Graphic file (type QTm)
 <use  "Images/gui_usage.png" >
 
-LaTeX Warning: Float too large for page by 37.48772pt on input line 286.
+LaTeX Warning: Float too large for page by 37.48772pt on input line 334.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: Images/gui_structure.png Graphic file (type QTm)
-<use  "Images/gui_structure.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 290--291
+[39] [40] [41] [42]
+File: Images/runtime_resource_manager.png Graphic file (type QTm)
+ <use  "Images/runtime_resource_manager.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 393--394
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: Images/gui_system.png Graphic file (type QTm)
-<use  "Images/gui_system.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 297--298
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (Chapters/networking.tex [35] [36] [37] [38] [39]
+) (Chapters/networking.tex [43] [44] [45]
 Κεφάλαιο 4.
-[40
+[46
 
 ]
 File: Images/gameloop_network_sequence.png Graphic file (type QTm)
- <use  "Images/gameloop_network_sequence.png" > [41] [42] [43]
+ <use  "Images/gameloop_network_sequence.png" > [47] [48] [49]
 File: Images/network_usage_diagram.png Graphic file (type QTm)
 
-<use  "Images/network_usage_diagram.png" > [44]
+<use  "Images/network_usage_diagram.png" > [50]
 Overfull \hbox (0.42648pt too wide) in paragraph at lines 97--98
 \EU1/TimesNewRoman(1)/m/n/12 τιμών, και το ParallelBufferBlock το οποίο εκτελεί
  κώδικα σε buffer άλλου thread
@@ -1770,7 +1782,7 @@ Overfull \hbox (14.30273pt too wide) in paragraph at lines 101--102
 άση με το PackageSerializerAttribute
  []
 
-[45] [46]
+[51] [52]
 Overfull \hbox (8.86914pt too wide) in paragraph at lines 107--108
 \EU1/TimesNewRoman(1)/m/n/12 function o οποίος εκτελείται ασύγχρονα κατά την πα
 ραλαβή κάποιου μηνύματος-κλάσης,
@@ -1791,7 +1803,7 @@ Overfull \hbox (56.47046pt too wide) in paragraph at lines 123--124
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.95pt
  -> C:/WINDOWS/Fonts/timesi.ttf
-[47] [48] [49]
+[53] [54] [55]
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 174
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
@@ -1800,11 +1812,11 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Requested font "[lmmono10-regular]" at 10.95pt
  -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmmono10-regular.otf
 
-[50] [51] [52]
+[56] [57] [58]
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 12.0pt
  -> C:/WINDOWS/Fonts/timesi.ttf
- [53]
+ [59]
 Underfull \hbox (badness 10000) in paragraph at lines 307--307
 []|\EU1/TimesNewRoman(1)/m/n/12 Παραδείγματα ευρημά-
  []
@@ -1814,15 +1826,15 @@ Underfull \hbox (badness 5359) in paragraph at lines 307--307
 []|\EU1/TimesNewRoman(1)/m/n/12 Συμμετοχή στις αποφά-
  []
 
-) (Chapters/diagnostics.tex [54] [55]
+) (Chapters/diagnostics.tex [60] [61]
 Κεφάλαιο 5.
-) (Chapters/epilogue.tex [56
+) (Chapters/epilogue.tex [62
 
 ]
 Κεφάλαιο 6.
-) [57
+) [63
 
-] [58
+] [64
 
 ]
 Overfull \hbox (33.47562pt too wide) in paragraph at lines 100--100
@@ -1842,7 +1854,9 @@ Overfull \hbox (1.27135pt too wide) in paragraph at lines 100--100
 motion capture systems. Frame
  []
 
+[65
 
+]
 Overfull \hbox (12.22827pt too wide) in paragraph at lines 100--100
 \EU1/TimesNewRoman(1)/m/n/12 bridge the gap between game design and development
 , game criticism, and technical
@@ -1854,17 +1868,15 @@ Overfull \hbox (9.60136pt too wide) in paragraph at lines 100--100
 arify and strengthen the iterative
  []
 
-[59
-
-] [60] (gemReport.lot)
+[66] (gemReport.lot)
 \tf@lot=\write5
- [61
+ [67
 
 ] (gemReport.lof)
 \tf@lof=\write6
- [62
+ [68
 
-] (gemReport.loe) [63
+] (gemReport.loe) [69
 
 ]
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
@@ -1881,8 +1893,8 @@ Requested font "Courier New/OT:script=latn;language=DFLT;mapping=tex-text;" at
 8.0pt
  -> C:/WINDOWS/Fonts/cour.ttf
 \tf@loe=\write7
-
-[64] (gemReport.aux)
+ [70]
+(gemReport.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1894,12 +1906,12 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27855 strings out of 428790
- 512019 string characters out of 3164814
- 885064 words of memory out of 3000000
- 30739 multiletter control sequences out of 15000+200000
+ 27923 strings out of 428790
+ 513137 string characters out of 3164815
+ 885445 words of memory out of 3000000
+ 30805 multiletter control sequences out of 15000+200000
  8769 words of font info for 75 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  60i,11n,95p,10472b,1900s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on gemReport.pdf (64 pages).
+Output written on gemReport.pdf (70 pages).
