@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  11 MAR 2016 16:14
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  11 MAR 2016 16:55
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1555,28 +1555,35 @@ Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
  (Chapters/abstract.tex [2
 
-]) [3
+] [3
 
-] (gemReport.toc [4
+]) [4
 
-]
-[5])
+] (gemReport.toc
+[5
+
+] [6])
 \tf@toc=\write4
- (Chapters/preface.tex [6] [7
-
-]) (Chapters/introduction.tex [8
-
-]
+ (Chapters/introduction.tex [7]
 Κεφάλαιο 1.
-[9
 
-]
-Overfull \hbox (16.79852pt too wide) in paragraph at lines 48--49
+LaTeX Warning: Citation 'gem' on page 8 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'ginet' on page 8 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'gemDocs' on page 8 undefined on input line 4.
+
+[8
+
+] [9] [10]
+Overfull \hbox (16.79852pt too wide) in paragraph at lines 80--81
 []\EU1/TimesNewRoman(1)/m/n/12 Τυποποιημένη μεθοδολογία χρησιμοποιώντας τεχνικέ
 ς μοντελοποίησης όπως UML. 
  []
 
-[10]) (Chapters/game_development.tex [11]
+) (Chapters/game_development.tex [11]
 Κεφάλαιο 2.
 [12
 
@@ -1840,19 +1847,19 @@ Underfull \hbox (badness 5359) in paragraph at lines 307--307
 ] [67
 
 ]
-Overfull \hbox (33.47562pt too wide) in paragraph at lines 100--100
+Overfull \hbox (33.47562pt too wide) in paragraph at lines 99--99
 []\EU1/TimesNewRoman(1)/m/n/12 H Διεπαφή Προγραμματισμού Εφαρμογών (αγγλ. API, 
 από το Application Programming
  []
 
 
-Overfull \hbox (11.24004pt too wide) in paragraph at lines 100--100
+Overfull \hbox (11.24004pt too wide) in paragraph at lines 99--99
 \EU1/TimesNewRoman(1)/m/n/12 imaging device displays consecutive images called 
 frames. The term applies equally
  []
 
 
-Overfull \hbox (1.27135pt too wide) in paragraph at lines 100--100
+Overfull \hbox (1.27135pt too wide) in paragraph at lines 99--99
 \EU1/TimesNewRoman(1)/m/n/12 to film and video cameras, computer graphics, and 
 motion capture systems. Frame
  []
@@ -1860,13 +1867,13 @@ motion capture systems. Frame
 [68
 
 ]
-Overfull \hbox (12.22827pt too wide) in paragraph at lines 100--100
+Overfull \hbox (12.22827pt too wide) in paragraph at lines 99--99
 \EU1/TimesNewRoman(1)/m/n/12 bridge the gap between game design and development
 , game criticism, and technical
  []
 
 
-Overfull \hbox (9.60136pt too wide) in paragraph at lines 100--100
+Overfull \hbox (9.60136pt too wide) in paragraph at lines 99--99
 \EU1/TimesNewRoman(1)/m/n/12 game research. We believe this methodology will cl
 arify and strengthen the iterative
  []
@@ -1909,8 +1916,8 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27931 strings out of 428790
- 513249 string characters out of 3164815
+ 27928 strings out of 428790
+ 513202 string characters out of 3164815
  885445 words of memory out of 3000000
  30813 multiletter control sequences out of 15000+200000
  8769 words of font info for 75 fonts, out of 3000000 for 9000

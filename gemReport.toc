@@ -6,29 +6,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Σύνοψη}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Πρόλογος}{7}
+\contentsline {chapter}{Ευχαριστίες}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Σκοπός}{7}
+\contentsline {chapter}{\numberline {1}Εισαγωγή}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Θεμελίωση}{7}
+\contentsline {paragraph}{Σκοπός}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Ευχαριστίες}{8}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Εισαγωγή}{9}
+\contentsline {paragraph}{Θεμελίωση}{8}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Δομή της εργασίας}{9}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Εργαλεία και Frameworks}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Τεχνικές υλοποίησης}{9}
+\contentsline {section}{\numberline {1.3}Τεχνικές υλοποίησης}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Case Tools}{9}
+\contentsline {section}{\numberline {1.4}Case Tools}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Kοινές λειτουργίες}{9}
+\contentsline {subsection}{\numberline {1.4.1}Kοινές λειτουργίες}{10}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.2}Γιατί;}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}Χρήση}{10}
+\contentsline {subsection}{\numberline {1.4.3}Χρήση}{11}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.4}Χαρακτηριστικά ενός καλού case tool}{11}
 \defcounter {refsection}{0}\relax 
@@ -196,8 +194,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Επίλoγος}{66}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Extensibility}{66}
+\contentsline {section}{\numberline {6.1}Επεκτασιμότητα}{66}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.1}Plugins}{66}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Γιατί;}{66}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Συμπεράματα}{66}
