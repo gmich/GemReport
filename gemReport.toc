@@ -50,17 +50,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Game Design}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}MDA Model}{18}
+\contentsline {subsection}{\numberline {2.2.1}MDA Model}{19}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Δομή μιας τυπικής ομάδας ανάπτυξης παιχνιδιών}{19}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Μηχανικοί}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Artists}{19}
+\contentsline {paragraph}{Artists}{20}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Game Designers}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Producers}{20}
+\contentsline {paragraph}{Producers}{21}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Πως ορίζεται ένα παιχνίδι}{21}
 \defcounter {refsection}{0}\relax 
@@ -104,17 +104,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Physics}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Τα παιχνίδια ως soft real-time simulations}{32}
+\contentsline {subsection}{\numberline {3.4.1}Τα παιχνίδια ως soft real-time simulations}{33}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.2}Βασικές έννοιες φυσικής του συστήματος}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Οντότητες του συστήματος}{34}
+\contentsline {subsection}{\numberline {3.4.3}Οντότητες του συστήματος}{35}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.4}Αρχιτεκτονική}{36}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}UI}{36}
+\contentsline {section}{\numberline {3.5}UI}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}Απαιτήσεις}{36}
+\contentsline {subsection}{\numberline {3.5.1}Απαιτήσεις}{37}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.2}Δομή στη μνήμη}{37}
 \defcounter {refsection}{0}\relax 
@@ -122,21 +122,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.3}Το σύστημα}{38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.4}Τρόπος χρήσης}{39}
+\contentsline {subsection}{\numberline {3.5.4}Τρόπος χρήσης}{40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Resource Management}{39}
+\contentsline {section}{\numberline {3.6}Resource Management}{40}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Σχεδιασμός Resource Pipeline}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Ευθύνες του offline resource manager}{41}
+\contentsline {subsection}{\numberline {3.6.1}Ευθύνες του offline resource manager}{42}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.6.2}Ευθύνες του Runtime- Resource Manager}{42}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Οργάνωση αρχείων και καταλόγων}{42}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Τεχνικές διαχείρισης resources στη μνήμη}{42}
+\contentsline {paragraph}{Τεχνικές διαχείρισης resources στη μνήμη}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Διαχείριση του κύκλου ζωής στη μνήμη}{42}
+\contentsline {paragraph}{Διαχείριση του κύκλου ζωής στη μνήμη}{43}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Τεχνκές διαχείρισης κύκλου ζωής}{43}
 \defcounter {refsection}{0}\relax 
@@ -184,20 +184,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.7}Επεκτασιμότητα}{61}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Diagnostics}{62}
+\contentsline {chapter}{\numberline {5}Διαγνωστικά και Αποσφαλμάτωση}{62}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Time Ruler}{62}
+\contentsline {subsection}{\numberline {5.0.1}Logging and Tracing}{62}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Debug Drawing API}{62}
+\contentsline {section}{\numberline {5.1}Time Benchmarker}{63}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}FPS Counter}{63}
+\contentsline {section}{\numberline {5.2}Debug Drawing API}{63}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Υποσυστήματα αποσφαλμάτωσης}{63}
+\contentsline {section}{\numberline {5.3}Υποσυστήματα αποσφαλμάτωσης}{64}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Επίλoγος}{64}
+\contentsline {chapter}{\numberline {6}Επίλoγος}{66}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Extensibility}{64}
+\contentsline {section}{\numberline {6.1}Extensibility}{66}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Plugins}{64}
+\contentsline {subsection}{\numberline {6.1.1}Plugins}{66}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Συμπεράματα}{64}
+\contentsline {section}{\numberline {6.2}Συμπεράματα}{66}

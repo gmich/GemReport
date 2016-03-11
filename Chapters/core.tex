@@ -155,6 +155,7 @@ screenHost["FirstScreen"]
 	\item Relative Axes: οι αναφορικοί άξονες επιστρέφουν τιμές σε σχέση με το τελευταίο σημείο στο οποίο έγινε κάποια αλλαγή πχ το ποντίκι επιστρέφει τη διαφορά θέσης σε σχέση με το τελευταίο σημείο στο οποίο μετακινήθηκε.
 	\item Accelerators: Ανιχνεύουν τρισδιάστατες επιταχύνσεις.
 	\item Sensor bars: Αισθητήρες όπως οι κάμερες.
+	\item Touch / gestures: Σε οθόνες αφής όπως στις οθόνες στα έξυπνα τηλέφωνα.
 	\end{itemize}
 	
 	\subsection{Απαιτήσεις υποσυστήματος}
@@ -163,7 +164,7 @@ screenHost["FirstScreen"]
 	\subsection{Observers-listeners}
 	Το κάθε υποσύστημα διαχείρισης συσκευών ανθρώπινων διεπαφών αποτελείται από τον διαχειριστή για παράδειγμα τον MouseListener ή Keyboard listener, το οποίο χρησιμοποιεί τις βιβλιοθήκες του τρέχον λειτουργικού για την επιστολή συμβάντων των διεπαφών. Ανάλογα με την πλατφόρμα στην οποία έγινε compile δημιουργούνται οι αντίστοιχοι listeners μέσω του abstract factory.
 	Ο χρήστης μπορεί να προσκολήσει κώδικα ο οποίος να εκτελείται ανά συμβαν π.χ. στη μετακίνηση του ποντικιού.Οι listeners κατά την εισαγωγή τους, επιστρέφουν ένα αντικείμενο το οποίο μπορεί να χρησιμοποιηθεί για την κατάργησή τους. Οι listeners ανάλογα με τις συνθήκες επιστολής, όπως το δέλτα του χρόνου επιστολής συμβάντος διπλού click ειναι 200ms, αποστέλλουν τα συμβάντα στoυς καταχωρημένους εκτελεστές. Το κεντρικό σύστημα διαχείρισης εισόδου ενημερώνει όλες τις συνδεδεμένες συσκευές εισόδου. 
-	Ο εκτελέσιμος κώδικας μπορεί να γραφτεί μια φορά, ανεξαρτήτως συμβάντος, και να προσκοληθεί στο initialization του lifecycle σε υποσυστήματα διεπαφών. 
+	Ο εκτελέσιμος κώδικας μπορεί να γραφτεί μια φορά, ανεξαρτήτως συμβάντος, και να προσκοληθεί στο initialization του lifecycle σε υποσυστήματα διεπαφών. Επίσης με τη χρήση των active binders, μπορεί να γίνει απενεργοποίηση των listeners π.χ. όταν είναι ανοιχτό το menu επιλογών, οι o ActiveBinder του παιχνιδιού είναι απενεργοποιημένος, με αποτέλεσμα τα συμβάτα τα οποία είναι προσκολλημένα στον InputManager να μην εκτελούνται.
 	
 	\begin{figure}[h!]
 		\centering
@@ -178,7 +179,9 @@ screenHost["FirstScreen"]
 		caption={Παράδειγμα listener στο initialization}
 	}
 	\begin{lstlisting}
-inputManager.AddListener(factory => factory.GamepadListener
+inputManager.AddListener(
+ingameBinder,
+factory => factory.GamepadListener
 {
 	Settings = MouseSettings
 		    .DoubleClickDelta(Timespan.FromSeconds(0.2))
@@ -188,7 +191,9 @@ inputManager.AddListener(factory => factory.GamepadListener
 	        .OnLeftDoubleClick(sender,args) => this.Roll())      	
 });
 
-inputManager.AddListener(factory => factory.GamepadListener
+inputManager.AddListener(
+ingameBinder,
+factory => factory.GamepadListener
 {
 	Settings = GamepadSettings.Default,
 	Events   = GamepadEvents
