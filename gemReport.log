@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  9 MAR 2016 18:45
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.12.15)  11 MAR 2016 02:40
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1627,33 +1627,33 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [22
 
-] [23]
-Overfull \hbox (1.25761pt too wide) in paragraph at lines 48--49
+] [23] [24]
+Overfull \hbox (1.25761pt too wide) in paragraph at lines 51--52
 \EU1/TimesNewRoman(1)/m/n/12 τα συστήματα ενημερώνονται όταν εξυπηρετείται το μ
 ήνυμα. Παραμένουν άεργα
  []
 
-[24]
 File: Images/game_coding_complete_chapter7_gameloops.png Graphic file (type QTm
 )
- <use  "Images/game_coding_complete_chapter7_gameloops.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 54--55
+<use  "Images/game_coding_complete_chapter7_gameloops.png" >
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
+[25]
 File: Images/screensystem_sequence.png Graphic file (type QTm)
-<use  "Images/screensystem_sequence.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 67--68
+ <use  "Images/screensystem_sequence.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 70--71
  [][] 
  []
 
-[25] [26] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+[26] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 File: Images/core_screensystem.png Graphic file (type QTm)
 
 <use  "Images/core_screensystem.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 106--107
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
@@ -1668,47 +1668,45 @@ Requested font "cmmi10" at 10.95pt
 Requested font "cmsy10" at 10.95pt
 Requested font "cmex10" at 10.95pt
 Requested font "cmr10" at 10.95pt
-
-Overfull \hbox (5.1307pt too wide) in paragraph at lines 150--151
+ [29]
+Overfull \hbox (5.1307pt too wide) in paragraph at lines 153--154
 []\EU1/TimesNewRoman(1)/m/n/12 Digital Buttons: τα ψηφιακά κουμπιά έχουν δύο κα
 ταστάσεις: pressed / not pressed 
  []
 
-[29]
-Overfull \hbox (12.47958pt too wide) in paragraph at lines 158--159
+
+Overfull \hbox (12.47958pt too wide) in paragraph at lines 161--162
 \EU1/TimesNewRoman(1)/m/n/12 από συσκευή ανθρώπινης διεπαφής. Ο κώδικας αυτός ε
 κτελείται αντίστοιχα για keyboard-
  []
 
+[30]
 File: Images/core_input.png Graphic file (type QTm)
-<use  "Images/core_input.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 167--168
+ <use  "Images/core_input.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 170--171
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[30] [31]
-Overfull \hbox (16.60909pt too wide) in paragraph at lines 201--206
+[31]
+Overfull \hbox (16.60909pt too wide) in paragraph at lines 204--209
 []\EU1/TimesNewRoman(1)/m/n/12 Οι επιστήμονες αποκαλούν τα παιχνίδια soft real-
 time interative agent-based computer
  []
 
 [32]
-Overfull \hbox (6.27525pt too wide) in paragraph at lines 218--219
+Overfull \hbox (6.27525pt too wide) in paragraph at lines 221--222
 []\EU1/TimesNewRoman(1)/m/n/12 Density: The density, or more precisely, the vol
 umetric mass density, of a substance
  []
 
 [33]
-Overfull \hbox (3.30846pt too wide) in paragraph at lines 228--229
+Overfull \hbox (3.30846pt too wide) in paragraph at lines 231--232
 \EU1/TimesNewRoman(1)/m/n/12 of reducing, restricting or preventing its oscilla
 tions. In physical systems, damping
  []
 
 
-Overfull \hbox (11.73027pt too wide) in paragraph at lines 228--229
+Overfull \hbox (11.73027pt too wide) in paragraph at lines 231--232
 \EU1/TimesNewRoman(1)/m/n/12 is produced by processes that dissipate the energy
  stored in the oscillation. Examples
  []
@@ -1716,12 +1714,9 @@ Overfull \hbox (11.73027pt too wide) in paragraph at lines 228--229
 [34]
 File: Images/physics_overview.png Graphic file (type QTm)
  <use  "Images/physics_overview.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 273--274
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 276--277
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [35] [36]
 File: Images/ui_btree.png Graphic file (type QTm)
@@ -1729,14 +1724,16 @@ File: Images/ui_btree.png Graphic file (type QTm)
 File: Images/gui_structure.png Graphic file (type QTm)
 
 <use  "Images/gui_structure.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 306--307
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 309--310
  [][] 
  []
 
-[38]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: Images/gui_system.png Graphic file (type QTm)
- <use  "Images/gui_system.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 322--323
+<use  "Images/gui_system.png" >
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 325--326
  [][] 
  []
 
@@ -1746,15 +1743,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Images/gui_usage.png Graphic file (type QTm)
 <use  "Images/gui_usage.png" >
 
-LaTeX Warning: Float too large for page by 37.48772pt on input line 334.
+LaTeX Warning: Float too large for page by 37.48772pt on input line 337.
 
+[38]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [39] [40] [41] [42]
 File: Images/runtime_resource_manager.png Graphic file (type QTm)
  <use  "Images/runtime_resource_manager.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 393--394
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 396--397
  [][] 
  []
 
@@ -1913,7 +1911,7 @@ Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  27923 strings out of 428790
- 513137 string characters out of 3164815
+ 513137 string characters out of 3164814
  885445 words of memory out of 3000000
  30805 multiletter control sequences out of 15000+200000
  8769 words of font info for 75 fonts, out of 3000000 for 9000
