@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  17 MAR 2016 18:00
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.12.15)  17 MAR 2016 19:14
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1595,7 +1595,13 @@ Overfull \hbox (13.77129pt too wide) in paragraph at lines 29--30
 α το υποσύστημα του rendering. 
  []
 
-[9] [10] [11]
+[9]
+Overfull \hbox (5.1846pt too wide) in paragraph at lines 49--50
+\EU1/TimesNewRoman(1)/m/n/12 declarative, fluent και βασισμένο σε αφαιρέσεις με
+ εύκολα τροποποιήσιμο bootstrapping
+ []
+
+[10] [11]
 Overfull \hbox (16.79852pt too wide) in paragraph at lines 90--91
 []\EU1/TimesNewRoman(1)/m/n/12 Τυποποιημένη μεθοδολογία χρησιμοποιώντας τεχνικέ
 ς μοντελοποίησης όπως UML. 
@@ -1840,7 +1846,7 @@ Underfull \hbox (badness 5359) in paragraph at lines 307--307
 [67
 
 ]
-Overfull \hbox (36.80089pt too wide) in paragraph at lines 20--21
+Overfull \hbox (36.80089pt too wide) in paragraph at lines 21--22
 \EU1/TimesNewRoman(1)/m/n/12 γωγεί τη βιβλιοθήκης σαν Module. Παράδειγμα plugin
  είναι το Gem.IDE.Modules.Spritesheets
  []
@@ -1910,7 +1916,7 @@ Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  27920 strings out of 428790
- 513103 string characters out of 3164815
+ 513103 string characters out of 3164814
  885445 words of memory out of 3000000
  30811 multiletter control sequences out of 15000+200000
  8769 words of font info for 75 fonts, out of 3000000 for 9000

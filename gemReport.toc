@@ -196,9 +196,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Επίλoγος}{67}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Επεκτασιμότητα}{67}
+\contentsline {section}{\numberline {6.1}Επεκτασιμότητα}{68}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Plugins}{67}
+\contentsline {subsection}{\numberline {6.1.1}Plugins}{68}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Γιατί;}{68}
 \defcounter {refsection}{0}\relax 
