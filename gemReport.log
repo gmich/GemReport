@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.12.15)  12 MAR 2016 15:20
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.19)  17 MAR 2016 18:00
 entering extended mode
 **gemReport.tex
 (gemReport.tex
@@ -1567,6 +1567,12 @@ Requested font "cmr6" at 6.0pt
  (Chapters/introduction.tex [7]
 Κεφάλαιο 1.
 
+Overfull \hbox (18.53236pt too wide) in paragraph at lines 7--9
+\EU1/TimesNewRoman(1)/m/n/12 έχουν γραφτεί τα οποία εστιάζουν στο κάθε υποσύστη
+μα ξεχωριστά, όπως π.χ. το rendering.
+ []
+
+
 LaTeX Warning: Citation 'gem' on page 8 undefined on input line 16.
 
 
@@ -1575,21 +1581,27 @@ LaTeX Warning: Citation 'ginet' on page 8 undefined on input line 16.
 
 LaTeX Warning: Citation 'gemDocs' on page 8 undefined on input line 16.
 
+[8
 
+]
 Overfull \hbox (6.23407pt too wide) in paragraph at lines 20--21
 []\EU1/TimesNewRoman(1)/m/n/12 Game Development Επεξήγηση των εννοιών και διαφο
 ρών του game development
  []
 
-[8
 
-] [9] [10]
-Overfull \hbox (16.79852pt too wide) in paragraph at lines 88--89
+Overfull \hbox (13.77129pt too wide) in paragraph at lines 29--30
+\EU1/TimesNewRoman(1)/m/n/12 τα drivers της κάρτας γραφικών. Χρησιμοποιείται γι
+α το υποσύστημα του rendering. 
+ []
+
+[9] [10] [11]
+Overfull \hbox (16.79852pt too wide) in paragraph at lines 90--91
 []\EU1/TimesNewRoman(1)/m/n/12 Τυποποιημένη μεθοδολογία χρησιμοποιώντας τεχνικέ
 ς μοντελοποίησης όπως UML. 
  []
 
-[11]) (Chapters/game_development.tex [12]
+) (Chapters/game_development.tex [12]
 Κεφάλαιο 2.
 [13
 
@@ -1642,7 +1654,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [23
 
 ] [24] [25]
-Overfull \hbox (1.25761pt too wide) in paragraph at lines 51--52
+Overfull \hbox (1.25761pt too wide) in paragraph at lines 47--48
 \EU1/TimesNewRoman(1)/m/n/12 τα συστήματα ενημερώνονται όταν εξυπηρετείται το μ
 ήνυμα. Παραμένουν άεργα
  []
@@ -1650,14 +1662,14 @@ Overfull \hbox (1.25761pt too wide) in paragraph at lines 51--52
 File: Images/game_coding_complete_chapter7_gameloops.png Graphic file (type QTm
 )
 <use  "Images/game_coding_complete_chapter7_gameloops.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 57--58
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
 [26]
 File: Images/screensystem_sequence.png Graphic file (type QTm)
  <use  "Images/screensystem_sequence.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 70--71
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 66--67
  [][] 
  []
 
@@ -1667,7 +1679,7 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 File: Images/core_screensystem.png Graphic file (type QTm)
 
 <use  "Images/core_screensystem.png" >
-Overfull \hbox (42.24408pt too wide) in paragraph at lines 109--110
+Overfull \hbox (42.24408pt too wide) in paragraph at lines 105--106
  [][] 
  []
 
@@ -1683,13 +1695,13 @@ Requested font "cmsy10" at 10.95pt
 Requested font "cmex10" at 10.95pt
 Requested font "cmr10" at 10.95pt
  [30]
-Overfull \hbox (5.1307pt too wide) in paragraph at lines 153--154
+Overfull \hbox (5.1307pt too wide) in paragraph at lines 149--150
 []\EU1/TimesNewRoman(1)/m/n/12 Digital Buttons: τα ψηφιακά κουμπιά έχουν δύο κα
 ταστάσεις: pressed / not pressed 
  []
 
 
-Overfull \hbox (12.47958pt too wide) in paragraph at lines 162--163
+Overfull \hbox (12.47958pt too wide) in paragraph at lines 158--159
 \EU1/TimesNewRoman(1)/m/n/12 από συσκευή ανθρώπινης διεπαφής. Ο κώδικας αυτός ε
 κτελείται αντίστοιχα για keyboard-
  []
@@ -1697,51 +1709,29 @@ Overfull \hbox (12.47958pt too wide) in paragraph at lines 162--163
 [31]
 File: Images/core_input.png Graphic file (type QTm)
  <use  "Images/core_input.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 171--172
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 167--168
  [][] 
  []
 
 [32]
-Overfull \hbox (16.60909pt too wide) in paragraph at lines 209--214
+Overfull \hbox (16.60909pt too wide) in paragraph at lines 205--210
 []\EU1/TimesNewRoman(1)/m/n/12 Οι επιστήμονες αποκαλούν τα παιχνίδια soft real-
 time interative agent-based computer
  []
 
-[33]
-Overfull \hbox (6.27525pt too wide) in paragraph at lines 226--227
-[]\EU1/TimesNewRoman(1)/m/n/12 Density: The density, or more precisely, the vol
-umetric mass density, of a substance
- []
-
-[34]
-Overfull \hbox (3.30846pt too wide) in paragraph at lines 236--237
-\EU1/TimesNewRoman(1)/m/n/12 of reducing, restricting or preventing its oscilla
-tions. In physical systems, damping
- []
-
-
-Overfull \hbox (11.73027pt too wide) in paragraph at lines 236--237
-\EU1/TimesNewRoman(1)/m/n/12 is produced by processes that dissipate the energy
- stored in the oscillation. Examples
- []
-
-[35] [36]
+[33] [34] [35] [36]
 File: Images/physics_overview.png Graphic file (type QTm)
  <use  "Images/physics_overview.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 281--282
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 277--278
  [][] 
  []
 
 [37]
 File: Images/ui_btree.png Graphic file (type QTm)
- <use  "Images/ui_btree.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[38]
+ <use  "Images/ui_btree.png" > [38]
 File: Images/gui_structure.png Graphic file (type QTm)
  <use  "Images/gui_structure.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 314--315
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 310--311
  [][] 
  []
 
@@ -1751,7 +1741,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [39]
 File: Images/gui_system.png Graphic file (type QTm)
  <use  "Images/gui_system.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 330--331
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 326--327
  [][] 
  []
 
@@ -1761,16 +1751,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Images/gui_usage.png Graphic file (type QTm)
 <use  "Images/gui_usage.png" >
 
-LaTeX Warning: Float too large for page by 37.48772pt on input line 342.
+LaTeX Warning: Float too large for page by 37.48772pt on input line 338.
 
-[40]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[41] [42] [43]
+[40] [41] [42] [43]
 File: Images/runtime_resource_manager.png Graphic file (type QTm)
  <use  "Images/runtime_resource_manager.png" >
-Overfull \hbox (56.47046pt too wide) in paragraph at lines 401--402
+Overfull \hbox (56.47046pt too wide) in paragraph at lines 397--398
  [][] 
  []
 
@@ -1848,9 +1837,15 @@ Underfull \hbox (badness 5359) in paragraph at lines 307--307
 
 ] [64] [65]) (Chapters/epilogue.tex [66]
 Κεφάλαιο 6.
-) [67
+[67
 
-] [68
+]
+Overfull \hbox (36.80089pt too wide) in paragraph at lines 20--21
+\EU1/TimesNewRoman(1)/m/n/12 γωγεί τη βιβλιοθήκης σαν Module. Παράδειγμα plugin
+ είναι το Gem.IDE.Modules.Spritesheets
+ []
+
+) [68] [69
 
 ]
 Overfull \hbox (33.47562pt too wide) in paragraph at lines 99--99
@@ -1870,7 +1865,7 @@ Overfull \hbox (1.27135pt too wide) in paragraph at lines 99--99
 motion capture systems. Frame
  []
 
-[69
+[70
 
 ]
 Overfull \hbox (12.22827pt too wide) in paragraph at lines 99--99
@@ -1884,9 +1879,9 @@ Overfull \hbox (9.60136pt too wide) in paragraph at lines 99--99
 arify and strengthen the iterative
  []
 
-[70] (gemReport.lof)
+[71] (gemReport.lof)
 \tf@lof=\write5
- [71
+ [72
 
 ]
 Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
@@ -1902,7 +1897,7 @@ Requested font "Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
 Requested font "Courier New/OT:script=latn;language=DFLT;mapping=tex-text;" at 
 8.0pt
  -> C:/WINDOWS/Fonts/cour.ttf
- [72] (gemReport.aux)
+ [73] (gemReport.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1914,12 +1909,12 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'gemReport.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27922 strings out of 428790
- 513142 string characters out of 3164814
+ 27920 strings out of 428790
+ 513103 string characters out of 3164815
  885445 words of memory out of 3000000
- 30813 multiletter control sequences out of 15000+200000
+ 30811 multiletter control sequences out of 15000+200000
  8769 words of font info for 75 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  60i,11n,95p,10472b,1900s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on gemReport.pdf (72 pages).
+Output written on gemReport.pdf (73 pages).

@@ -2,10 +2,6 @@
 	
 	Ένα framework το οποίο επεκτείνεται και διακλαδώνεται σε πολλές υπο-βιβλιοθήκες, στηρίζεται στη θεμελιώση ενός framework core, του πηρύνα της βιβλιοθήκη. Το \gls{API} του πηρύνα πρέπει να είναι εύκολο στην κατανόηση, να αποτελείται από αυτοεπεξηγούμενες αφαιρέσεις, οι οποίες εκθέτουν μόνο τα απολύτος απαραίτητα, ώστε οι υποβιβλιοθήκες που χρησιμοποιούν τον πηρύνα να μην δεσμεύονται σε υλοποιήσεις, να περιορίζει σε συγκεκριμένο pipeline χρήσης για αποφυγή απρόβλεπτων συμπεριφορών και να προσφέρει δυνατότητες επεκτασιμότητας.  \cite{jaroslav08} Ο πηρύνας περιέχει υποσυστήματα τα οποία μπορούν να χρησιμοποιηθούν τη δημιουργία πολλών είδων παιχνιδιών.
 		
-	\begin{theorem}[First test theorem]
-		This is a test theorem.
-	\end{theorem}
-
 	\section{Κύκλος ζωής πηρύνα}	
 	Κάθε οντότητα από τη στιγμή της δημιουργίας της στο περιβάλλον της μηχανής μέχρι την καταστροφής της και διαγραφή της από την μνήμη, περνά από κάποια προκαθορισμένα στάδια τα οποία εκτελούνται ανάλογα με την κατάσταση του υλικού και του λογισμικού.
 	
@@ -218,22 +214,22 @@ factory => factory.GamepadListener
 Τα μαθηματικά μοντέλα τα οποία απαρτίζουν το σύστημα μπορεί να είναι είτε αριθμητικά είτε αναλυτικά. Τα αριθμητικά μοντέλα μπορούν να αξιολογηθούν για κάθε τιμή της ανεξάρτητης μεταβλητής ενώ οι τιμές του αναλυτικού μοντέλου καθορίζονται διακρίτα κατά τη διάρκεια της προσομείωσης και είναι πιο συχνά γιατί η επόμενη κατάσταση της προσομείωσης καθορίζεται από την εισαγωγή δεδομένων σε πραγματικό χρόνο από το χρήστη.
 
 \subsection{Βασικές έννοιες φυσικής του συστήματος}
-Στο δημόσιο API θα χρησιμοποιηθούν οι παρακάτω έννοιες φυσικής.
+Οι οντότητες της φύσικης έχουν τις παρακάτω ιδιότητες για τη προσομοίωσή τους στο υποσύστημα φυσικής.
 
 \begin{itemize}
-\item Mass: In physics, mass is a property of a physical body which determines the strength of its mutual gravitational attraction to other bodies, its resistance to being accelerated by a force, and in the theory of relativity gives the mass–energy content of a system.
+\item Mass: Η μάζα στη φυσική συνδέεται με δύο έννοιες, την αδράνεια της μεταφορικής κίνησης και τη βαρύτητα. Η μάζα είναι μια ορισμένη ποσότητα η οποία χρησιμοποιείται για την περιγραφή ενός συστήματος.
 
-\item Density: The density, or more precisely, the volumetric mass density, of a substance is its mass per unit volume.
+\item Density:  Η πυκνότητα εκφράζει τη μάζα του υλικου που περιέχεται σε μία μονάδα όγκου. 
 
-\item Force: In physics, a force is any interaction which tends to change the motion of an object. In other words, a force can cause an object with mass to change its velocity (which includes to begin moving from a state of rest), i.e., to accelerate. Force can also be described by intuitive concepts such as a push or a pull. A force has both magnitude and direction, making it a vector quantity. It is measured in the SI unit of newtons and represented by the symbol F.
+\item Force: Σε ότι αφορά τα ελεύθερα σώματα, η δύναμη είναι γενικά η αιτία μεταβολής της κινητικής τους κατάστασης, δηλαδή αυτή που τα επιταχύνει ή τα επιβραδύνει. Αυτό ισχύει και για την περιστροφή τους, που μπορεί να επιταχυνθεί ή να επιβραδυνθεί. Για σώματα που δεν είναι ελεύθερα να κινηθούν με όλους τους τρόπους, αυτά δηλαδή που είτε είναι αναρτημένα κάπου και μπορούν να κινηθούν μόνο γύρω από σημείο ή άξονα ή σε προκαθορισμένη τροχιά, καθώς και σε όσα εφαρμόζονται δυνάμεις τριβής ή γενικά αντιδράσεις στήριξης.
 
-\item Torque: Torque, moment, or moment of force is the tendency of a force to rotate an object about an axis, fulcrum, or pivot. Just as a force is a push or a pull, a torque can be thought of as a twist to an object. Mathematically, torque is defined as the cross product of the lever-arm distance vector and the force vector, which tends to produce rotation.
+\item Torque: Ροπή δυνάμεως ως προς σημείο είναι το διανυσματικό φυσικό μέγεθος που έχει μέτρο ίσο προς το γινόμενο της δύναμης επί την (κάθετη) απόσταση της δύναμης από το σημείο. Κατά όμοιο τρόπο ροπή δυνάμεως ως προς άξονα είναι το διανυσματικό μέγεθος που έχει ως μέτρο το γινόμενο της δύναμης επί την (κάθετη) απόσταση της δύναμης από τον άξονα, και φορέα τον άξονα.
 
-\item Impulse: In classical mechanics, impulse (symbolized by J or Imp) is the integral of a force, F, over the time interval, t, for which it acts. Since force is a vector quantity, impulse is also a vector in the same direction. Impulse applied to an object produces an equivalent vector change in its linear momentum, also in the same direction. The SI unit of impulse is the newton second (N·s), and the dimensionally equivalent unit of momentum is the kilogram meter per second (kg·m/s). The corresponding English engineering units are the pound-second (lbf·s) and the slug-foot per second (slug·ft/s).
+\item Impulse: Η ώθηση είναι φυσικό μέγεθος που ισοδυναμεί με την μεταβολή της ορμής ενός σώματος στο οποίο εφαρμόζεται μία δύναμη για κάποιο χρονικό διάστημα. Ισούται με το γινόμενο της δύναμης που ασκείται στο σώμα επί τον συνολικό χρόνο εφαρμογής της
 
-\item Restitution: The law of restitution is the law of gains-based recovery. It is to be contrasted with the law of compensation, which is the law of loss-based recovery. Obligations to make restitution and obligations to pay compensation are each a type of legal response to events in the real world. When a court orders restitution it orders the defendant to give up his/her gains to the claimant. When a court orders compensation it orders the defendant to pay the claimant for his or her loss.
+\item Restitution: Το law of restitution δηλαδή ανάκτυση με βάση το κέρδος. Η υποχρέωση της οντότητας να αποζημιώσει από τα κέρδη τη για κάποιο γεγονός. 
 
-\item Damping: is an influence within or upon an oscillatory system that has the effect of reducing, restricting or preventing its oscillations. In physical systems, damping is produced by processes that dissipate the energy stored in the oscillation. Examples include viscous drag in mechanical systems, resistance in electronic oscillators, and absorption and scattering of light in optical oscillators. Damping not based on energy loss can be important in other oscillating systems such as those that occur in biological systems.
+\item Damping: Η απόσβεση, η επιρροή εντός η κατά ενός συστήματος ταλάντωσης που έχει ως αποτέλεσμα τη μείωση, τον περιορισμό η την πρόληψη των ταλαντώσεών του. Σε φυσικά συστήματα , απόσβεση παράγεται με διαδικασίες που διαχέουν την ενέργεια που αποθηκεύεται στο ταλάντωση.
 \end{itemize}
 
 \subsection{Οντότητες του συστήματος}
