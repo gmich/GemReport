@@ -1,8 +1,11 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: gemReport.aux
 The style file: plain.bst
 Database file #1: Content/bibliography.bib
-Warning--I didn't find a database entry for "ginet"
-Warning--to sort, need author or key in gem
-Warning--to sort, need author or key in gemDocs
+Warning--entry type for "gem" isn't style-file defined
+--line 140 of file Content/bibliography.bib
+Warning--entry type for "gemDocs" isn't style-file defined
+--line 146 of file Content/bibliography.bib
+Warning--entry type for "ginet" isn't style-file defined
+--line 152 of file Content/bibliography.bib
 Warning--empty booktitle in mda04
 (There were 4 warnings)

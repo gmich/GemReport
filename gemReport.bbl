@@ -1,17 +1,26 @@
 \begin{thebibliography}{1}
 
-\bibitem{gem}
-Gem engine.
-\newblock \url{http://www.github.com/gmich/gem}.
-
-\bibitem{gemDocs}
-Gem engine.
-\newblock \url{http://www.github.com/gmich/gem/wiki}.
+\bibitem{realtime_collision04}
+Christer Ericson.
+\newblock {\em Real-Time Collision Detection}.
+\newblock CRC Press, Inc., Boca Raton, FL, USA, 2004.
 
 \bibitem{koster04}
 Raph Koster.
 \newblock {\em A Theory of Fun for Game Design}.
-\newblock Paraglyph Press, 2004.
+\newblock Paraglyph Press, 2004.
+
+\bibitem{gem}
+George Michaelides.
+\newblock Gem engine.
+
+\bibitem{gemDocs}
+George Michaelides.
+\newblock Gem engine wiki.
+
+\bibitem{ginet}
+George Michaelides.
+\newblock Ginet.
 
 \bibitem{mda04}
 Robert~Zubek Robin~Hunicke, Marc~LeBlanc.
