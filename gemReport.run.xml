@@ -53,9 +53,9 @@
     <requires type="static">
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
-      <file>authoryear.bbx</file>
+      <file>numeric.bbx</file>
       <file>standard.bbx</file>
-      <file>authoryear.cbx</file>
+      <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>greek.lbx</file>
     </requires>
@@ -81,7 +81,7 @@
       <file>gemReport-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>Content/references.bib</file>
+      <file>Content/bibliography.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

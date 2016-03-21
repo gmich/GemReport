@@ -11,6 +11,7 @@
 \usepackage{glossaries}
 \usepackage{xcolor}
 \usepackage{amsmath}
+\usepackage{cite}
 
 %------------------------------------------
 
@@ -71,7 +72,6 @@ postheadhook={%
 
 %content
 
-\addbibresource{Content/references.bib} 
 \input{Content/theorems.tex}	
 \input{Content/glossary.tex}	
 
@@ -95,7 +95,8 @@ postheadhook={%
 	\input{Chapters/diagnostics.tex}
 	\input{Chapters/epilogue.tex}	
 	
-	\printbibliography
+	\bibliography{Content/bibliography} 
+	\bibliographystyle{plain}
 	\printnoidxglossaries
 	
 	\appendix

@@ -1,47 +1,26 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
 \select@language {greek}
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Game Engine Architecture\relax }}{16}
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Game Engine Architecture\relax }}{17}
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Core Lifecycle\relax }}{24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces game loops\relax }}{26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces screensystem sequence\relax }}{27}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces core screensystem\relax }}{29}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces core input architecture\relax }}{32}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Physics Architecture Abstract\relax }}{37}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces UI B-Tree\relax }}{38}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Gui Structure Diagram\relax }}{40}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Gui System Diagram\relax }}{41}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Gui Usage Diagram\relax }}{45}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Runtime Resource Manager\relax }}{46}
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Core Lifecycle\relax }}{25}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces game loops\relax }}{27}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces screensystem sequence\relax }}{28}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces core screensystem\relax }}{30}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces core input architecture\relax }}{33}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Physics Architecture Abstract\relax }}{38}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces UI B-Tree\relax }}{39}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Gui Structure Diagram\relax }}{41}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Gui System Diagram\relax }}{42}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Gui Usage Diagram\relax }}{46}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Runtime Resource Manager\relax }}{47}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Behavior Trees\relax }}{47}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces State Machine UML\relax }}{48}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Behavior Trees\relax }}{48}
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Network Sequence\relax }}{48}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Network Usage Diagram\relax }}{53}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Network Packages Module\relax }}{55}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Networking Module\relax }}{56}
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Network Sequence\relax }}{50}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Network Usage Diagram\relax }}{55}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Network Packages Module\relax }}{57}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Networking Module\relax }}{58}
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

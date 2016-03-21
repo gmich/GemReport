@@ -1,43 +1,28 @@
-% $ biblatex auxiliary file $
-% $ biblatex version 2.4 $
-% Do not modify the above lines!
-%
-% This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated as
-% required.
-%
-\begingroup
-\makeatletter
-\@ifundefined{ver@biblatex.sty}
-  {\@latex@error
-     {Missing 'biblatex' package}
-     {The bibliography requires the 'biblatex' package.}
-      \aftergroup\endinput}
-  {}
-\endgroup
+\begin{thebibliography}{1}
 
-\entry{jaroslav08}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Tulach}{T.}%
-     {Jaroslav}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Apress}%
-  }
-  \strng{namehash}{TJ1}
-  \strng{fullhash}{TJ1}
-  \field{labelyear}{2008}
-  \field{sortinit}{T}
-  \field{title}{Practical API Design: Confessions of a Java Framework
-  Architect}
-  \field{langid}{english}
-  \field{year}{2008}
-\endentry
+\bibitem{gem}
+Gem engine.
+\newblock \url{http://www.github.com/gmich/gem}.
 
-\lossort
-\endlossort
+\bibitem{gemDocs}
+Gem engine.
+\newblock \url{http://www.github.com/gmich/gem/wiki}.
 
-\endinput
+\bibitem{koster04}
+Raph Koster.
+\newblock {\em A Theory of Fun for Game Design}.
+\newblock Paraglyph Press, 2004.
+
+\bibitem{mda04}
+Robert~Zubek Robin~Hunicke, Marc~LeBlanc.
+\newblock Mda: A formal approach to game design and game research.
+\newblock Game Design and Tuning Workshop at the Game Developers Conference,
+  2004.
+
+\bibitem{jaroslav08}
+Jaroslav Tulach.
+\newblock {\em Practical API Design: Confessions of a Java Framework
+  Architect}.
+\newblock Apress, 2008.
+
+\end{thebibliography}
