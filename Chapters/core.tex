@@ -95,8 +95,9 @@
 delegate void TransitionRenderAction(ScreenState state, float progress, RenderTarget2D renderTarget, SpriteBatch batch);
 	\end{lstlisting}
 	
-	
+	\newpage
 	\subsection{Αρχιτεκτονική}
+Η αρχιτεκτονική του υποσυστήματος παρουσιάζεται στο UML διάγραμμα \ref{fig:core_screensystem}.
 	\begin{figure}[h!]	
 		\centering
 		\includegraphics[width=160mm]{Images/core_screensystem}
@@ -132,6 +133,7 @@ screenHost["FirstScreen"]
 screenHost["FirstScreen"]
 .Hide();   
 	\end{lstlisting}
+	
 	\section{Input System}
 	\subsection{Human Interface devices}
 	Η μηχανή πρέπει να είναι σε θέση να διαβάζει, να επεξεργάζεται και να χρησιμοποιεί συσκευές ανθρώπινης διεπαφής. Η διαδικασία ανάγνωσης χωρίζεται στις παρακάτω κατηγορίες:
@@ -153,11 +155,12 @@ screenHost["FirstScreen"]
 	
 	\subsection{Απαιτήσεις υποσυστήματος}
 	Η οντότητα θέλει να εκτελέσει κώδικα προσανατολισμένο κατά συμβάν εισόδου από συσκευή ανθρώπινης διεπαφής. Ο κώδικας αυτός εκτελείται αντίστοιχα για keyboard-mouse και για gamepad. O χρήστης μπορεί να αλλάξει συσκευή διεπαφής ενώ βρίσκεται σε τρέχον παιχνίδι. Η βιβλιοθήκη δεν πρέπει να στηρίζεται σε κανένα υλικό ή συσκευή. Επίσης θέλει τη δυνατότητα να ακυρώνει συμβάντα.
-	
+		
 	\subsection{Observers-listeners}
 	Το κάθε υποσύστημα διαχείρισης συσκευών ανθρώπινων διεπαφών αποτελείται από τον διαχειριστή για παράδειγμα τον MouseListener ή Keyboard listener, το οποίο χρησιμοποιεί τις βιβλιοθήκες του τρέχον λειτουργικού για την επιστολή συμβάντων των διεπαφών. Ανάλογα με την πλατφόρμα στην οποία έγινε compile δημιουργούνται οι αντίστοιχοι listeners μέσω του abstract factory.
 	Ο χρήστης μπορεί να προσκολήσει κώδικα ο οποίος να εκτελείται ανά συμβαν π.χ. στη μετακίνηση του ποντικιού.Οι listeners κατά την εισαγωγή τους, επιστρέφουν ένα αντικείμενο το οποίο μπορεί να χρησιμοποιηθεί για την κατάργησή τους. Οι listeners ανάλογα με τις συνθήκες επιστολής, όπως το δέλτα του χρόνου επιστολής συμβάντος διπλού click ειναι 200ms, αποστέλλουν τα συμβάντα στoυς καταχωρημένους εκτελεστές. Το κεντρικό σύστημα διαχείρισης εισόδου ενημερώνει όλες τις συνδεδεμένες συσκευές εισόδου. 
 	Ο εκτελέσιμος κώδικας μπορεί να γραφτεί μια φορά, ανεξαρτήτως συμβάντος, και να προσκοληθεί στο initialization του lifecycle σε υποσυστήματα διεπαφών. Επίσης με τη χρήση των active binders, μπορεί να γίνει απενεργοποίηση των listeners π.χ. όταν είναι ανοιχτό το menu επιλογών, οι o ActiveBinder του παιχνιδιού είναι απενεργοποιημένος, με αποτέλεσμα τα συμβάτα τα οποία είναι προσκολλημένα στον InputManager να μην εκτελούνται. Στο uml διάγραμμα \ref{fig:core_input} παρουσιάζεται η αρχιτεκτονική του συστήματος τον listeners.
+	
 	
 	\begin{figure}[h!]
 		\centering
@@ -166,11 +169,15 @@ screenHost["FirstScreen"]
 		\label{fig:core_input}
 	\end{figure}
 		
+	\newpage
+	\paragraph{API}
+	Στο παράδειγμα \ref{cs:listeners} παρουσιάζεται η δημιουργία και καταχώρηση των listeners. 
 	\lstset
-	{
+	{		
 		style=sharpc, 
-		caption={Παράδειγμα listener στο initialization}
+		caption={Παράδειγμα καταχώρησης listeners}
 	}
+	\label{cs:listeners}
 	\begin{lstlisting}
 inputManager.AddListener(
 ingameBinder,
@@ -329,17 +336,18 @@ To body περιέχει της πληροφορίες ένος αντικειμ
 		\caption{UI System UML}
 		\label{fig:ui_system}
 	\end{figure}	
-
+	
+\newpage
 \subsection{Τρόπος χρήσης}
 Η σειρά προετοιμασίας διαμόρφωσης και παρουσίασης του UI φαίνεται στο διάγραμμα \ref{fig:ui_usage}.
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=80mm]{Images/gui_usage}
+	\includegraphics[width=130mm]{Images/gui_usage}
 	\caption{UI Usage Diagram}
 	\label{fig:ui_usage}
 \end{figure}
-
+\newpage
 \section{Resource Management}
 Τα παιχνίδια απαρτίζονται από πολλα είδη δεδομένων, είτε αυτά είναι τρισδιάστατα μοντελα, είτε είναι textures είτε αρχεία ήχου κλπ. Η μηχανή πρέπει να είναι σε θέση να φορτώνει στη μνήμη και να αφαιρεί αυτά τα δεδομένα δυναμικά. Χρειάζεται λοιπόν κάποιου είδους asset / resource manager, ο οποίος χειρίζεται το σύστημα αρχείων του λειτουργικού. Ο asset manager πρέπει να προσαρμόζεται ανάλογα με το λειτουργικό στο οποίο τρέχει και να λαμβάνει υπόψη τις ιδιαιτερότητες των διάφορων συστημάτων αρχείων. Πρέπει να υποστηρίζεται το ασύγχρονο φόρτωμα δεδομένων, για να μην μπλοκάρεται η ροή του παιχνιδιού.
 
@@ -404,7 +412,6 @@ To body περιέχει της πληροφορίες ένος αντικειμ
 	\label{fig:runtime_resource_uml}
 \end{figure}
 
-
 \section{ΑΙ}
 Η τεχνητή νοημοσύνη χρησιμοποιείται για να παράγει ευφυείς συμπεριφορές κυρίως χαρακτήρες εκτός του παίχτη (NPCS). Οι αλγόριθμοι της τεχνικής νοημοσύνης προσπαθούν να προσομοιώσουν την ανθρώπινη συμπεριφορά και βασίζονται σσε τεχνικές από θεωρία ελέγχου, ρομποτική και γενικά της πληροφορικής. Στα ηλεκτρονικά παιχνίδια η νοημοσύνη συμβάλει στο πιο ρεαλιστικό gameplay μέσα στους περιορισμούς του περιβάλλοντος. Η προσέγγιση είναι εντελός διαφορετική από την τεχνητή νοημοσύνη σε άλλα πεδία, γιατί οι ικανότητες του υπολογιστή πρέπει να είναι ήπιες ώσστε να δώσει σε ανθρώπινους παίκτες μια αίσθηση δικαιοσύνης και ικανοποίησης.
  
@@ -443,7 +450,7 @@ H συμπεριφορά και αξιολόγηση των κόμβων μπο�
 	\item Συμπεριφορά. Προχώρα μπροστά.
 \end{itemize}
 
-Στο mind map \ref{behavior_trees_mind_map} παρουσιάζονται οι σχέσεις και οι τύποι των κόμβων.
+Στο mind map \ref{fig:behavior_trees_mind_map} παρουσιάζονται οι σχέσεις και οι τύποι των κόμβων.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=165mm]{Images/behavior_trees}
@@ -478,15 +485,6 @@ H συμπεριφορά και αξιολόγηση των κόμβων μπο�
  .Tree;
 	\end{lstlisting}
 
-Ένα παράδειγμα της οπτικοποίησης του δέντρου πραγματικού χρόνου βρίσκεται στην εικόνα \ref{fig:visualized_behavior_tree}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=165mm]{Images/visualized_behavior_tree}
-	\caption{Οπτικοποίηση Behavior Tree}
-	\label{fig:visualized_behavior_tree}
-\end{figure}
-	
 
 \subsection{Finite State Machines}	
  Finite state machine είναι μια αφηρημένη μηχανή η οποία μπορεί να βρίσκεται σε μία από ένα πεπερασμένο αριθμό καταστάσεων και με την επέλευση κάποιου γεγονότος μπορεί να αλλάξει από μια κατάσταση σε άλλη. 
@@ -504,16 +502,18 @@ H συμπεριφορά και αξιολόγηση των κόμβων μπο�
 Στο παράδειγμα \ref{fig:state_machine_example} μοντελοποιούνται οι καταστάσεις και τα γεγονότα τα οποία οδηγούν σε αλλαγή κατάστασης ενός χαρακτήρα με νοημοσύνη. Ο χαρακτήρας αυτός περιπλανιέται τυχαία, όταν συναντήσει αντικείμενο το μαζεύει και όταν συναντήσει εχθρό τον πολεμά. Αν ο εχθρός είναι πιο δυνατός, τότε αποφεύγει την μάχη φεύγοντας.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=165mm]{Images/ingame_fsm_example}
+	\includegraphics[width=100mm]{Images/ingame_fsm_example}
 	\caption{State Machine Example}
 	\label{fig:state_machine_example}
 \end{figure}
 
 H σύνδεση του finite state machine γίνεται μέσω του builder. Στον builder γίνεται καταχώρηση τον καταστάσεων μέσω μιας μεθόδου-factory και δημιουργία αυτοενεργοποιημένων συμβάντων ή συμβάντων τα οποία ενεργοποιούνται από τον χρήστη τα οποία οδηγούν σε αλλαγή κατάστασης. Μετά γίνεται το χτίσημο του FSM και η ενημέρωση του με βάση το γενικότερο πλαίσιο.
+
+\newpage
 \lstset
 {
 	style=sharpc, 
-	caption={Behavior Tree Builder}
+	caption={State machine}
 }
 \begin{lstlisting}	
 fsmBuilder

@@ -125,12 +125,16 @@
 				\caption{Networking Module}
 				\label{networking_module}
 			\end{figure}		
-
+	\newpage
 	\subsection{API}
 	Συντομη επισκόπηση του API.
 	\begin{itemize}
 		\item Κλάσεις που προορίζονται για ανταλλαγή μηνυμάτων
-		\lstset{style=sharpc}
+	\lstset
+	{
+		style=sharpc, 
+		caption={Package Attribute}
+	}
 		\begin{lstlisting}
 [GinetPackage]
  //optional
@@ -141,7 +145,11 @@ public class MyPackage
 }          
 		\end{lstlisting}
 		\item Ρύθμιση server
-		\lstset{style=sharpc}
+	\lstset
+	{
+		style=sharpc, 
+		caption={Ρύθμιση server}
+	}
 		\begin{lstlisting}     
 var server = new NetworkServer("MyServer",
 builder =>
@@ -163,12 +171,20 @@ cfg =>
 out: new ActionAppender(Console.WriteLine) 
 		\end{lstlisting}
 		\item Καταγραφή κινήσεων		
-		\lstset{style=sharpc}
+	\lstset
+	{
+		style=sharpc, 
+		caption={Καταγραφή κινήσεων}
+	}
 		\begin{lstlisting}
 server.IncomingMessageHandler.LogTraffic();
 		\end{lstlisting}		
 		\item Απάντηση κατά την παραλαβή μηνύματος
-		\lstset{style=sharpc}
+	\lstset
+	{
+		style=sharpc, 
+		caption={Απάντηση κατά την παραλαβή μηνύματος}
+	}
 		\begin{lstlisting}
 server.Broadcast<ChatMessage>((msg, im, om) =>
 {
@@ -186,7 +202,11 @@ server.BroadcastExceptSender<ChatMessage>((sender, msg) =>
 		\end{lstlisting} 		
 
 		\item Κώδικας ο οποίος εκτελείται κατά την παραλαβή συγκεκριμένου τύπου μηνύματος
-		\lstset{style=sharpc}
+	\lstset
+	{
+		style=sharpc, 
+		caption={Incoming type handler}
+	}
 		\begin{lstlisting}
 server.IncomingMessageHandler.OnMessage(
 	NetIncomingMessageType.ConnectionApproval, 
@@ -209,7 +229,11 @@ server.IncomingMessageHandler.OnMessage(
 });
 		\end{lstlisting}
 		\item Εκτελέσιμος κώδικας κατά την παραλαβή συγκεκριμένου μηνύματος-κλάσης
-		\lstset{style=sharpc}
+	\lstset
+	{
+		style=sharpc, 
+		caption={Incoming message handler}
+	}
 		\begin{lstlisting}
 server.IncomingMessageHandler
 .OnPackage<MyPackage>((msg, sender) => 
@@ -226,7 +250,11 @@ server.Send(
 		NetDeliveryMethod.ReliableOrdered);
 		\end{lstlisting}		
 		\item Lift αποστολής μηνύματος
-		\lstset{style=sharpc}
+	\lstset
+	{
+		style=sharpc, 
+		caption={Message sender lift}
+	}
 		\begin{lstlisting}
 var packageSender = client.LiftSender((msg, peer) =>
 	peer.SendMessage(msg, 
@@ -235,7 +263,11 @@ var packageSender = client.LiftSender((msg, peer) =>
 packageSender.Send(new MyPackage { Message = "Hello" });	
 		\end{lstlisting}	
 		\item Διαγραφή handler
-		\lstset{style=sharpc}
+	\lstset
+	{
+		style=sharpc, 
+		caption={Διαγραφή handler}
+	}
 		\begin{lstlisting}	
 var handlerDisposable = server.IncomingMessageHandler
 	.OnPackage<MyPackage>((msg, sender) => {}));
