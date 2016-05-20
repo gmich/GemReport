@@ -1,16 +1,60 @@
+%------------------------------
+%Setup
+
 \documentclass{beamer}
-\newcommand{\testtext}{
- καμ οβερ α πριιι
- }
-\usepackage{fontspec}
-%setting a font
-\setsansfont{TeX Gyre Adventor}
+
+\makeatletter
+\def\beamer@calltheme#1#2#3{%
+	\def\beamer@themelist{#2}
+	\@for\beamer@themename:=\beamer@themelist\do
+	{\usepackage[{#1}]{\beamer@themelocation/#3\beamer@themename}}}
+
+\def\usefolder#1{
+	\def\beamer@themelocation{#1}
+}
+\def\beamer@themelocation{}
+
+
+\usefolder{Theme}
+\usetheme{metropolis}
+\usepackage{fontspec}      
+
+
+%------------------------------
+
+
+%------------------------------
+%Cover
+
+\title{Ανάπτυξη εργαλείου για την σχεδίαση παιχνιδιών με την βοήθεια υπολογιστή}
+\date{Μάιος, 2016}
+\author{Γιώργος Μιχαηλίδης}
+\institute{ΤΕΧΝΟΛΟΓΙΚΟ ΕΚΠΑΙΔΕΥΤΙΚΟ ΙΔΡΥΜΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ
+	ΣΧΟΛΗ ΤΕΧΝΟΛΟΓΙΚΩΝ ΕΦΑΡΜΟΓΩΝ
+	ΤΜΗΜΑ ΜΗΧΑΝΙΚΩΝ ΠΛΗΡΟΦΟΡΙΚΗΣ ΤΕ}
+
+%------------------------------
+
+
+%------------------------------
+%Slides
+
 \begin{document}
- \begin{frame}{A sample frame}
-  \testtext
- \end{frame}
- \setsansfont{Linux Biolinum O}
- \begin{frame}{Τεστ για φρειμ}
-  \testtext
- \end{frame}
+	\maketitle
+	
+	\section{Εισαγωγή}
+	\begin{frame}{Πρώτο}
+		Σύντομη επισκόπηση
+	\end{frame}
+	\begin{frame}{Δεύτερο}
+		Σύντομη επισκόπηση
+	\end{frame}	
+		
+	\section{Mηχανή}
+	\begin{frame}{Πηρύνας}
+		Σύντομη επισκόπηση
+	\end{frame}
+	
+	
 \end{document}
+
