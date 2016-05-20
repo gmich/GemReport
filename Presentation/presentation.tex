@@ -16,7 +16,7 @@
 
 
 \usefolder{Theme}
-\usetheme{metropolis}
+\usetheme[progressbar=frametitle]{metropolis}
 \usepackage{fontspec}      
 
 
@@ -27,11 +27,13 @@
 %Cover
 
 \title{Ανάπτυξη εργαλείου για την σχεδίαση παιχνιδιών με την βοήθεια υπολογιστή}
+\subtitle{Παρουσίαση πτυχιακής εργασίας}
 \date{Μάιος, 2016}
 \author{Γιώργος Μιχαηλίδης}
-\institute{ΤΕΧΝΟΛΟΓΙΚΟ ΕΚΠΑΙΔΕΥΤΙΚΟ ΙΔΡΥΜΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ
-	ΣΧΟΛΗ ΤΕΧΝΟΛΟΓΙΚΩΝ ΕΦΑΡΜΟΓΩΝ
+\institute{ΤΕΧΝΟΛΟΓΙΚΟ ΕΚΠΑΙΔΕΥΤΙΚΟ ΙΔΡΥΜΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ\\
+	ΣΧΟΛΗ ΤΕΧΝΟΛΟΓΙΚΩΝ ΕΦΑΡΜΟΓΩΝ\\
 	ΤΜΗΜΑ ΜΗΧΑΝΙΚΩΝ ΠΛΗΡΟΦΟΡΙΚΗΣ ΤΕ}
+\titlegraphic{\hfill\includegraphics[height=1.5cm]{Images/logo_teiser}}
 
 %------------------------------
 
@@ -41,20 +43,31 @@
 
 \begin{document}
 	\maketitle
+	\begin{frame}{Περιεχόμενα}
+		\setbeamertemplate{section in toc}[sections numbered]
+		\tableofcontents%[hideallsubsections]
+	\end{frame}
 	
 	\section{Εισαγωγή}
 	\begin{frame}{Πρώτο}
-		Σύντομη επισκόπηση
+		Δοκιμή βιβλιογραφίας \cite{gregory2009game}
 	\end{frame}
 	\begin{frame}{Δεύτερο}
 		Σύντομη επισκόπηση
 	\end{frame}	
 		
 	\section{Mηχανή}
-	\begin{frame}{Πηρύνας}
+	\begin{frame}{Πυρήνας}
 		Σύντομη επισκόπηση
 	\end{frame}
 	
+	\section{Συμπεράσματα}
+	\begin{frame}[allowframebreaks]{Βιβλιογραφία}
+		
+		\bibliography{../Content/bibliography} 
+		\bibliographystyle{abbrv}
+		
+	\end{frame}
 	
 \end{document}
 
