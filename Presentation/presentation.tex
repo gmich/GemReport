@@ -2,6 +2,8 @@
 %Setup
 
 \documentclass{beamer}
+   
+\usepackage{graphics}
 
 \makeatletter
 \def\beamer@calltheme#1#2#3{%
@@ -17,7 +19,6 @@
 
 \usefolder{Theme}
 \usetheme[progressbar=frametitle]{metropolis}
-\usepackage{fontspec}      
 
 %------------------------------
 
@@ -106,15 +107,15 @@
 	\begin{frame}{Κύκλος ζωής του πυρήνα}
 		\begin{figure}
 			\centering
-			\includegraphics[width=53mm]{Images/core_lifecycle}
+			\resizebox{5.5cm}{!}{\input{Images/Lifecycle/lifecycle.pdf_tex}}
 		\end{figure}	
 	\end{frame}
 
 	\begin{frame}{Φυσική και εντοπισμός συγκρούσεων}
-		\begin{figure}			
+		\begin{figure}
 			\centering
-			\includegraphics[width=110mm]{Images/physics_engine}
-		\end{figure}	
+			\resizebox{10.5cm}{!}{\input{Images/PhysicsEngine/physics_engine.pdf_tex}}
+		\end{figure}
 	\end{frame}
 			
 	\section{Συμπεράσματα}

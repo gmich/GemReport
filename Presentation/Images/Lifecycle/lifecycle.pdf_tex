@@ -1,0 +1,90 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Images/Lifecycle/lifecycle.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{288.99500658bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.32666653)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.30376096,1.26705577){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{On Enable}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.31684077,1.06463013){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Initialize}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.29884738,0.65977884){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Game loop}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.305107,0.05250192){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Disposing}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.3095396,0.4573532){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{On Pause}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.2934113,0.25492756){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{On Destroy}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.29237668,0.85355382){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{On Initialize}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.33106247,1.16584295){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{create}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.33583764,0.95909197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ready}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.33386529,0.55856602){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{pause}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.34983096,0.35461785){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{exit}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.31943251,0.15371474){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{destroy}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.43795013,0.76877727){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{update}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.09448399,0.55856602){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{return}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(-0.00000207,0.66130137){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{reload}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.57482447,1.15027175){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Creation logic}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.63422342,0.48849561){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Subsystem update}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{Images/Lifecycle/lifecycle.pdf}}%
+    \put(0.58491461,0.15371474){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Release logic}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{Images/Lifecycle/lifecycle.pdf}}%
+  \end{picture}%
+\endgroup%
