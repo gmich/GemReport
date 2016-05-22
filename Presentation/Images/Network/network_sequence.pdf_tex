@@ -1,0 +1,91 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Images/Network/network_sequence.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{619.01000977bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.50584806)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Images/Network/network_sequence.pdf}}%
+    \put(0.44533319,0.40827291){\color[rgb]{0.0627451,0.17254902,0.18431373}\makebox(0,0)[lb]{\smash{\textbf{Simulation Solver}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Images/Network/network_sequence.pdf}}%
+    \put(0.84933311,0.40827291){\color[rgb]{0.0627451,0.17254902,0.18431373}\makebox(0,0)[lb]{\smash{\textbf{Renderer}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Images/Network/network_sequence.pdf}}%
+    \put(0.00726967,0.23902689){\color[rgb]{0.10196078,0.22352941,0.19215686}\makebox(0,0)[lb]{\smash{game loop}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Images/Network/network_sequence.pdf}}%
+    \put(0.27068334,0.33169898){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{world properties  }}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Images/Network/network_sequence.pdf}}%
+    \put(0.08800455,0.41408864){\color[rgb]{0.0627451,0.17254902,0.18431373}\makebox(0,0)[lb]{\smash{\textbf{Player}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Images/Network/network_sequence.pdf}}%
+    \put(0.29832425,0.24446291){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{action}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Images/Network/network_sequence.pdf}}%
+    \put(0.59547615,0.19212129){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{solve}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Images/Network/network_sequence.pdf}}%
+    \put(0.92425921,0.07217174){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{render}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Images/Network/network_sequence.pdf}}%
+    \put(0.65726837,0.12814816){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{simulation result}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Images/Network/network_sequence.pdf}}%
+    \put(0.2934455,0.2735416){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{location}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{Images/Network/network_sequence.pdf}}%
+    \put(0.28887369,0.20666062){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{action}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{Images/Network/network_sequence.pdf}}%
+    \put(0.57802894,0.12285747){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{solve}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{Images/Network/network_sequence.pdf}}%
+    \put(0.57948287,0.0545904){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{solve}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{Images/Network/network_sequence.pdf}}%
+    \put(0.26863169,0.16449652){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{collisions / actions}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{Images/Network/network_sequence.pdf}}%
+    \put(0.28544885,0.07580651){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{location}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{Images/Network/network_sequence.pdf}}%
+    \put(0.29832425,0.04146297){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{action}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{Images/Network/network_sequence.pdf}}%
+    \put(0.27401609,0.09523269){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{collisions / actions}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{Images/Network/network_sequence.pdf}}%
+    \put(0.02227056,0.05695868){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{update according to simulation result}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{Images/Network/network_sequence.pdf}}%
+    \put(0.01500089,0.13396389){\color[rgb]{0.38039216,0.04705882,0.04313725}\makebox(0,0)[lb]{\smash{update according to simulation result}}}%
+  \end{picture}%
+\endgroup%

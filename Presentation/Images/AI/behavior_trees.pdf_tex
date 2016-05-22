@@ -1,0 +1,96 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Images/AI/behavior_trees.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{746.23116134bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.58457652)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Images/AI/behavior_trees.pdf}}%
+    \put(0.43473098,0.24940355){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Composite}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Images/AI/behavior_trees.pdf}}%
+    \put(0.58196261,0.17372603){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Sequence}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Images/AI/behavior_trees.pdf}}%
+    \put(0.27928341,0.12570753){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Selector}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Images/AI/behavior_trees.pdf}}%
+    \put(0.55319141,0.1205791){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Random Selector}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Images/AI/behavior_trees.pdf}}%
+    \put(0.24837882,0.06360086){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Random Sequence}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Images/AI/behavior_trees.pdf}}%
+    \put(0.5795371,0.06360086){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Parallel}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Images/AI/behavior_trees.pdf}}%
+    \put(0.20847436,0.25149271){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Decorator}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Images/AI/behavior_trees.pdf}}%
+    \put(0.70367672,0.24940355){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Leaf}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Images/AI/behavior_trees.pdf}}%
+    \put(0.03848667,0.51762972){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Inverter}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Images/AI/behavior_trees.pdf}}%
+    \put(0.03217497,0.43320561){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Succeeder}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{Images/AI/behavior_trees.pdf}}%
+    \put(0.03535092,0.3487815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Repeater}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{Images/AI/behavior_trees.pdf}}%
+    \put(0.00629831,0.26435739){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Repeat Until Failure}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{Images/AI/behavior_trees.pdf}}%
+    \put(0.03346143,0.17993327){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Max Time}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{Images/AI/behavior_trees.pdf}}%
+    \put(0.04114001,0.09550916){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Limiter  }}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{Images/AI/behavior_trees.pdf}}%
+    \put(0.0040068,0.01108464){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Repeat Until Success}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{Images/AI/behavior_trees.pdf}}%
+    \put(0.89044162,0.26226822){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Question}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{Images/AI/behavior_trees.pdf}}%
+    \put(0.79356294,0.08359325){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Action}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{Images/AI/behavior_trees.pdf}}%
+    \put(0.92442032,0.01108464){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Initial}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{Images/AI/behavior_trees.pdf}}%
+    \put(0.69701928,0.01276549){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Process}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{Images/AI/behavior_trees.pdf}}%
+    \put(0.45417533,0.38539337){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Nodes}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{Images/AI/behavior_trees.pdf}}%
+    \put(0.42035208,0.52888622){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Behavior Tree}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{Images/AI/behavior_trees.pdf}}%
+  \end{picture}%
+\endgroup%

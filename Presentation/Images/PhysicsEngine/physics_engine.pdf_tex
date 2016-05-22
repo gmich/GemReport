@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{506.91368713bp}%
+    \setlength{\unitlength}{564.60059911bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,51 +48,51 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.52384688)%
+  \begin{picture}(1,0.4703239)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.41065796,0.33310269){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{shape}}}%
+    \put(0.43145737,0.2990686){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{shape}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.4152544,0.15751488){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{body}}}%
+    \put(0.43558417,0.14142112){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{body}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.63131847,0.24083466){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{fixture}}}%
+    \put(0.62957234,0.21622787){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{fixture}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.44739592,0.23922092){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{merges}}}%
+    \put(0.4644417,0.21477901){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{merges}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.42706507,0.0423199){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{constraint}}}%
+    \put(0.44618811,0.03799595){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{constraint}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.46048294,0.10031394){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{has}}}%
+    \put(0.47619158,0.09006457){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{has}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.24413677,0.22405865){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{joint}}}%
+    \put(0.28195014,0.20116592){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{joint}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.26873461,0.11250139){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{connects}}}%
+    \put(0.30403475,0.10100679){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{connects}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.02685573,0.22405865){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{jointlimit}}}%
+    \put(0.08686935,0.20116592){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{jointlimit}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.11358812,0.31073402){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{joint motor}}}%
+    \put(0.16474003,0.27898541){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{joint motor}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.15045825,0.25040624){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{uses}}}%
+    \put(0.19784302,0.2248215){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{uses}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.63520473,0.3666547){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{world}}}%
+    \put(0.63306152,0.32919251){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{world}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.64920511,0.30494407){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{has}}}%
+    \put(0.64563145,0.27378704){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{has}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.82153202,0.41698272){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{solver}}}%
+    \put(0.80035121,0.37437836){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{solver}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=15]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.77317475,0.36784221){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{uses}}}%
+    \put(0.75693474,0.33025869){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{uses}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.53092678,0.26971131){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{has}}}%
+    \put(0.53943796,0.24215411){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{has}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.33481874,0.42995136){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{circle, polygon, etc}}}%
+    \put(0.35867329,0.38602196){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{circle, polygon, etc}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=18]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.65778053,0.14672014){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{puts a shape into the collision system}}}%
+    \put(0.64188899,0.13800453){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{puts a shape into the collision system}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=19]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.60952781,0.0175445){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{removes degrees of freedom}}}%
+    \put(0.61000809,0.01575193){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{removes degrees of freedom}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=20]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.01590714,0.12658854){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{restricts range of motion}}}%
+    \put(0.00753374,0.11992984){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{restricts range of motion}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=21]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.0834067,0.41177867){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{drives the motion}}}%
+    \put(0.09539448,0.36970602){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{drives the motion}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=22]{Images/PhysicsEngine/physics_engine.pdf}}%
-    \put(0.71377814,0.49565672){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{resolves contact and joint constraints}}}%
+    \put(0.62255854,0.44501401){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{resolves contact and joint constraints}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=23]{Images/PhysicsEngine/physics_engine.pdf}}%
   \end{picture}%
 \endgroup%
